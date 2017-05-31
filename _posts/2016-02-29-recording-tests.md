@@ -8,6 +8,8 @@ author: Andy Robinson
 We did our first tests of the standalone OpenTrack system at the Thames
 <a href="http://www.dashforthesplash.com">Dash for the Splash</a>.
 
+<img src="openath.github.io/img/2017/n_dash-of-the-splash.jpg"/>
+
 We'd previously tried out our back end API at the last Surrey League race on 14th February, and learned a lot of lessons.  The changes this time were...
 
  - a custom HTML keypad with bigger buttons than the normal iPhone dialogs
