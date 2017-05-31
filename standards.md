@@ -5,7 +5,9 @@ permalink: /standards/
 tags: standards
 ---
 
-# The importance of open standards
+# STANDARDS
+
+## The importance of open standards
 
 Lots of people are building systems to manage parts of the sport.  No one system will ever do it all.  It would be a huge step forward if we could agree common interchange formats.    
 
@@ -22,12 +24,12 @@ The process will likely work at two levels
  - example documents to represent things like athletes, start lists, fixtures and results
  
 
-# Codes and representation
+## Codes and representation
 
 We want to set unambiguous codes for the "things" use to build databases and systems.  It is useful if these codes are safe for use in URL parameters (avoiding '?' and '/'), markup ('<, & and &'), and in filenames.  It is also useful if they are not case-sensitive.  There are workarounds for all of these things, but let's just avoid as many as we can.  
 
 
-## Gender ##
+### Gender 
 
 Let's warm up with something simple:
 
@@ -44,7 +46,7 @@ Thus, if exchanging athlete data, we might have a JSON document like this...
 
 Unfortunately nothing is so simple.  There is an issue with using F=Female in that usually the age categories are derived from the gender e.g. M40.  Masters athletics from the world level downwards has however adopted age categories of W35, W40 etc. On the other hand W=Women would not work very well for the young athletes. We will have to take this into account when linking gender and age category. 
 
-## Countries
+### Countries
 
 Three letter ISO codes are preferred:
 
@@ -62,7 +64,7 @@ Great Britain has some "history" here to make life more complex, so we allow for
 
 
 
-## Dates
+### Dates
 
 We aim to be guided by <a href="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</a>
 
@@ -73,12 +75,12 @@ Databases have rich ways to store dates, date-times and times, complete with tim
 
 When describing programmes or sets of results, we recommend separating the dates and times. 
 
-### Dates in Excel and user interfaces
+#### Dates in Excel and user interfaces
 Pasting or importing of dates and times from Excel is risky.  Spreadsheets understand dates, but if you go via a clipboard or to CSV/text, there is the risk of muddling days and months.   Within a spreadsheet, dates should be proper dates.
 
 User input is however best done in the format that users are familiar with, even though the date is stored internally in a proper, unambiguous format. Thus UK users would prefer 25/12/2014.  This could be made configurable by taking the date format from their international settings.  System output is also prescribed sometimes e.g. consistency with external sources. In this case the date format should be configurable according to the purpose of the output.  
 
-## Performances, time and distance
+### Performances, time and distance
 
 In results, we need to record the time or distance.  This is different from recording the start time of an event.  
 
@@ -98,7 +100,7 @@ There are some standard suffixes which are commonly used in results and rankings
 
 
 
-## Event Codes
+### Event Codes
 If we are exporting the data from an online entry system, or the results of a meeting, we want to use common codes, so that the 400m is always represented the same way.
 
 A wise computer scientist once said "There are only two hard problems in computer science - cache invalidation and naming things".  Never mind the first one - it's really hard to pick names. Especially, it's hard to pin down the word "Event".  BY popular consensus we are calling these things "event codes".  
@@ -159,7 +161,7 @@ The <a href="http://www.iaaf.org/records/toplists/">IAAF web site</a> uses 'slug
 
 The short codes will be OK for results but not for instance in competition programmes.  There it might be better to have standard short descriptions e.g. Shot Put, 100m Hurdles 
 
-### Ordering of disciplines ###
+#### Ordering of disciplines ###
 
 There is a "natural order", at least in UK athletics, which people expect to see on entry forms or in dropdowns.  For a track meeting, it is as follows:
 
@@ -171,7 +173,7 @@ There is a "natural order", at least in UK athletics, which people expect to see
 
 Therefore we could benefit from some open source code to sort events in this order, and should use this in any statistical reports.
 
-## Age Groups ##
+### Age Groups ##
 
 UKA has well defined age group codes:  U13, U15, U17, U20, U23 (rarely used), SEN.  The definition depends on the type of competition (Road, XC, Track and Field), the date of birth of the athlete and the start date of the competition.
 
@@ -191,12 +193,12 @@ IAAF age groups - apparently different, need to check rules
 
 
 
-## Disability Categories ##
+### Disability Categories ##
 
 We need a list and a link to a good explanation
 
 
-# Common reference data
+## Common reference data
 
 It would be really, really useful if everyone could agree unambiguously on how to refer to clubs and associations, and to venues.   Our plan for this is as follows:
 
@@ -206,7 +208,7 @@ It would be really, really useful if everyone could agree unambiguously on how t
  * We will let people "claim their club" and add extra open information - logos, flags, nicknames, training venues, contact details
  * These codes and IDs will be OPEN DATA, and anyone is free to use them - downloaded in bulk, or via web forms and APIs
 
-## Clubs: an example
+### Clubs: an example
 Taking clubs as an example:  each club in England has a unique 8-digit code assigned by England Athletics, in the "Trinity" database.  These have now been made available as Open Data - many thanks to Engladnd Athletics for this.    This is very helpful indeed, but sometimes we need to compete against a non-English club or athlete, so a potentially global standard is needed.
 
 We have taken a database created jointly by Simon Fennel, Peter Kennedy and ourselves with over 3000 athletics organisations, and given each of them a Universally Unique ID (UUID).  These are a computing standard.  For example, I hereby decree that my club Thames Hare and Hounds may hereafter be referred to by all and sundry as....drum roll....
@@ -232,7 +234,7 @@ At a technical level, we feel we could allow codes of up to 5 characters.  (3 is
     /rankings_search?club=TH&H   - BAD, needs escaping, & would mean a new parameter
 
 
-## Other organisations
+### Other organisations
 
 We are working on a global database of organisations - meaning anyone who can put on a competition.  Most organisations in athletics have a pretty clear acronym - WADA, IAAF, IOC, WMA, and within the UK EA, SEAA, BMAF etc.  These will be stored alongside clubs and given Opentrack IDs and Codes.  It will then be possible to build up a map of which organisations are affiliated to which governing bodies.
 
@@ -241,11 +243,11 @@ England Athletics and European Athletics can fight it out for who gets EA.
 Peter Kennedy has bravely volunteered to maintain this data!
 
 
-# Vocabulary
+## Vocabulary
 
 Here's our first start at a recommended vocabulary of field names.  In JSON, we have been recommended to use `camelCase` conventions, and - where it makes sense - to pick field names from <a href="http://schema.org/">schema.org</a>.
 
-## General personal information
+### General personal information
 
     givenName:    first name for western languages
     familyName:   last name for western languages
@@ -256,12 +258,12 @@ Here's our first start at a recommended vocabulary of field names.  In JSON, we 
     weight:       weight in kg
     birthPlace:   text, town and country (e.g. "Tallinn, Estonia")
 
-## Within an athlete biography or summary
+### Within an athlete biography or summary
     
     personalBests:  list of performances by discipline
     seasonsBests:   list of performances by discipline
 
-## Within a results or entries system
+### Within a results or entries system
 
     bib:          the 'number' they wear (string to allow for letters and numbers)
     ageGroup:     group for this competition (e.g. U14, SEN, V45)
