@@ -9,8 +9,7 @@ tags: volunteer
 ## Call for volunteers
 We have taken on a lot, and are looking for help at all levels.  If you love athletics, and have some relevant skills and spare time, we welcome offers of help.
 
-### Appeal for photos
-Go to link <a name="photo_appeal">Appeal for photos</a>
+### <a name="photo_appeal">Appeal for photos</a>
 
 We urgently need some good royalty-free photos to build an attractive site.   To get the next slice of funding, it's really important that we can explain to non-athletes that this is a big, happy sport - and in some cases, to explain quickly in a picture what a road relay or a funnel actually is.
 
