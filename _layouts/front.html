@@ -1,4 +1,4 @@
-
+﻿
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
   <head>
@@ -31,6 +31,9 @@
 
 	<link rel="stylesheet" type="text/css" href="css/slick.css">
 	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+
+    <!--jQuery-->
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -90,63 +93,32 @@
 
   <body>
 
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '524122494416994',
-      xfbml      : true,
-      version    : 'v2.5'
-    });
-  };
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '524122494416994',
+          xfbml      : true,
+          version    : 'v2.5'
+        });
+      };
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>     
+   <script>
+       $(function () {       
+           $('#menu_nav').load('/partial/menu');
+       })
+   </script>
+   <div id="menu_nav"></div>             
 
-
-
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/"><img src="/img/logo.svg" height="45" alt="opentrack logo"></a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li {% if page.tags contains 'news' %}class="active"{% endif %}><a href="/news/">News</a></li>
-            
-            <li {% if page.tags contains 'about' %}class="active"{% endif %}><a href="/about/">About</a></li>
-
-            <li {% if page.tags contains 'volunteer' %}class="active"{% endif %}><a href="/volunteer/">Volunteer</a></li>
-
-            <li {% if page.tags contains 'plan' %}class="active"{% endif %}><a href="/plan/">Plan</a></li>
-            <li {% if page.tags contains 'standards' %}class="active"{% endif %}><a href="/standards/">Standards</a></li>
-            <li ><a href="http://forum.opentrack.run/">Forum</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-
-
-      </div>
-    </nav>
-
-
-
-      
-        {{ content }}
-      
-
-
-
+          {{ content }}
+ 
 	<footer class="footer">
 		<div class="container">
 			<div class="row">

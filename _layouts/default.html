@@ -1,4 +1,4 @@
-
+﻿
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,7 +16,10 @@
 	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-  <!-- Optional theme -->
+    <!--jQuery-->
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+    <!-- Optional theme -->
     {% if page.css %}
 	<link rel="stylesheet" href="{{ page.css }}">
 	{% endif %}
@@ -35,60 +38,33 @@
   </head>
 
   <body>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '524122494416994',
-      xfbml      : true,
-      version    : 'v2.5'
-    });
-  };
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '524122494416994',
+          xfbml      : true,
+          version    : 'v2.5'
+        });
+      };
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
 
-
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/"><img src="/img/logo.svg" height="45" alt="opentrack logo"/> 
-			  <span class="visible-xs hidden-sm visible-md visible-lg">OPEN<span style="color:#f26522">TRACK</span></span></a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-        <li {% if page.tags contains 'news' %}class="active"{% endif %}><a href="/news/">News</a></li>
-
-        <li {% if page.tags contains 'about' %}class="active"{% endif %}><a href="/about/">About</a></li>
-
-        <li {% if page.tags contains 'volunteer' %}class="active"{% endif %}><a href="/volunteer/">Volunteer</a></li>
-
-        <li {% if page.tags contains 'plan' %}class="active"{% endif %}><a href="/plan/">Plan</a></li>
-	<li {% if page.tags contains 'standards' %}class="active"{% endif %}><a href="/standards/">Standards</a></li>
-        <li ><a href="http://forum.opentrack.run/">Forum</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+    <script>
+        $(function () {
+            $('#menu_nav_default').load('/partial/menu/');
+        })
+    </script>
+    <div id="menu_nav_default"></div> 
 
 <div class="container">
-
-
-  
     {{ content }}
-  
-
 </div><!-- /.container -->
 	<footer class="footer">
 		<div class="container">
