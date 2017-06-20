@@ -2,13 +2,21 @@
 layout: default
 tags: news
 ---
-<div class="post col-md-8">
+<div class="post col-md-12">
 
   <header class="post-header">
+    <h2><a href="/news">NEWS</a></h2>
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %}<span class="post-author"> • {{ page.author }}</span>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    </header>
+  <br>
 
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="Mobile England Athletics licence checker!" data-via="open_trak" data-hashtags="opentrack">Tweet</a>
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+  <br/>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-text="Mobile England Athletics licence checker!" data-via="open_trak" data-hashtags="opentrack">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
     <div
@@ -17,11 +25,5 @@ tags: news
       data-width="450"
       data-show-faces="true">
     </div>
-  </header>
-  <br>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
 
 </div>

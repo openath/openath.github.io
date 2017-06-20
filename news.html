@@ -7,8 +7,11 @@ tags: news
 
 <h1>NEWS</h1>
 {% for post in site.posts %}
-    <h2><a href="{{ post.url }}">{{ post.title }} - {{ post.date | date_to_string }}</a></h2>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <div class="post_date">{{ post.date | date_to_string }}</div>
     {{ post.excerpt }}
-    <a href="{{ post.url }}">Read all</a>
+    <a href="{{ post.url }}" class="post_read_more">Read more</a>
+    <br/>
+    <br/>
     <hr/>
 {% endfor %}
