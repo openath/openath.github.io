@@ -112,6 +112,42 @@
 	$(document).ready(function(){
 		$('#toc').toc();
 	});
+
+window.onload = choose_images_by_screen_width;
+window.onresize = choose_images_by_screen_width;
+
+/* 
+This function will automatically choose a banner or square image format when the window 
+loads or resizes, for any images with names ending with '_banner' or '_square', using a 
+breakpoint of 800 pixels.
+*/
+function choose_images_by_screen_width() {
+  
+  var image_format;
+  var breakpoint = 800;
+  if (window.innerWidth >= breakpoint) {
+    image_format = 'banner';
+  } else {
+    image_format = 'square';
+  }
+  
+  var images = document.getElementsByClassName('ot_banner');
+  
+  for (i = 0; i < images.length; i++) {
+    // starting with an image e.g. '/path/to/surrey_league_banner.jpg'
+    var image_name = images[i].src.split('_');  
+    // ['/path/to/surrey', 'league', 'banner.jpg']
+    var end_of_name = image_name[image_name.length-1].split('.');  // ['banner', 'jpg']
+    if (end_of_name[0] == 'banner' || end_of_name[0] == 'square') {
+      end_of_name[0] = image_format;
+      end_of_name = end_of_name.join('.');  // 'square.jpg'
+      image_name[image_name.length-1] = end_of_name;
+      // '/path/to/surrey_league_square.jpg'
+      images[i].src = image_name.join('_');
+    }
+  }
+}
+
     </script>
 	{% if page.js %}
 	<script src="{{ page.js }}"></script>

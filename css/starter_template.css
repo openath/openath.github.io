@@ -234,7 +234,7 @@ p {
 	 width: 100%;
 }
 
-.default-layout img:nth-child(1) {
+.default-layout img:first-of-type {
  margin-top: -20px;
  width: 100vw;
   position: relative;
@@ -246,5 +246,87 @@ p {
 
 .default-layout p {
   padding-bottom: 12px;
+}
+
+.post-content img {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* testing inserting classes using jekyll {:.myClass} syntax */
+.test_markdown {
+  color: red;
+}
+
+.test_nested_class {
+  border: 2px solid blue;
+}
+
+.test_nested_2 {
+  background-color: yellow;
+}
+
+.ot_50_50 {
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  width:100%;
+}
+
+.ot_half_width_image {
+  width: 50%;
+  border: 1px solid blue;
+}
+
+.ot_half_width_text {
+  width: 46%;
+  margin: 2%;
+  border: 1px solid red;
+}
+
+.full_width {
+  margin-top: -20px;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  height: 50px;
+}
+
+@media (max-width: 568px) {
+
+  .flex_50_50 {
+    flex-direction: column;
+  }
+
+  .flex_half_width_text {
+    width: 90%;
+    margin: 3%;
+  }
+
+  .flex_half_width_image {
+    width: 95%;
+  }
+  
+}
+
+@media (min-width: 568px) and (max-width: 768px) {
+
+  .flex_50_50 {
+    flex-direction: column;
+  }
+
+  .flex_half_width_text {
+    width: 90%;
+  }
+
+  .flex_half_width_image {
+    width: 90%;
+  }
+
 }
 

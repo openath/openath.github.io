@@ -5,7 +5,7 @@ permalink: /products/compmanagement
 tags: Competition Management
 ---
 
-![Oxford-Cambridge 2](/img/gallery/oxfordvcambridge2_crop.jpg)
+![Oxford-Cambridge 2](/img/gallery/oxfordvcambridge2_crop.jpg){:.ot_banner}
 
 # Competition Management
 
