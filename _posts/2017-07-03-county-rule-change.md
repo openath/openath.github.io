@@ -8,7 +8,7 @@ We've been asked to publicise a proposed rule change for county eligibility.  Th
 
 Leighton Buzzard AC and Bedfordshire AAA have suggested that one be allowed to compete for a county by belonging to a club registered in that county, in addition to qualification by birth or residence. The reasons are set out in this short document:
 
-[Document](http://file.opentrack.run/docs/2017/rule21change.pdf)
+<a href="http://file.opentrack.run/docs/2017/rule21change.pdf">Proposed Rule Change</a>
 
 We're in support of this for two reasons.  First of all, it can only increase participation, encouraging clubs on county boundaries to turn out in force.  Secondly, it will reduce the administration burden, because it's easy to check.   
 
