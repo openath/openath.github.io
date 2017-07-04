@@ -8,11 +8,12 @@ tags: news
 <h1>NEWS</h1>
 {% for post in site.posts %}
     <div class="post_date">{{ post.date | date_to_string }}</div>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+
     {% if post.cover_image %}
       <img src="{{ post.cover_image }}" width="100%">
     {% endif %}
     
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     {{ post.excerpt }}
     <a href="{{ post.url }}" class="post_read_more">Read more</a>
     <br/>
