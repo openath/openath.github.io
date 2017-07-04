@@ -2,8 +2,10 @@
 layout: post
 title: County rule change
 author: Andy Robinson
-cover_image: http://file.opentrack.run/img/2017/phonerecording2_banner.png
+cover_image: http://file.opentrack.run/img/2017/bedfordshire_region_banner.jpg
 ---
+
+![Bedfordshire region](http://file.opentrack.run/img/2017/bedfordshire_region_banner.jpg)
 
 We've been asked to publicise a proposed rule change for county eligibility.  The deadline for comments is July 20th.  
 
