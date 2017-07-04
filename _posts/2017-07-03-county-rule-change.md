@@ -2,7 +2,7 @@
 layout: post
 title: County rule change
 author: Andy Robinson
-cover_image: http://file.opentrack.run/img/2017/phonerecording2_banner.jpg
+cover_image: http://file.opentrack.run/img/2017/phonerecording2_banner.png
 ---
 
 We've been asked to publicise a proposed rule change for county eligibility.  The deadline for comments is July 20th.  
