@@ -5,7 +5,7 @@ author: Andy Robinson
 cover_image: http://file.opentrack.run/img/2017/bedfordshire_region_banner.jpg
 ---
 
-![Bedfordshire region](http://file.opentrack.run/img/2017/bedfordshire_region_banner.jpg)
+![Bedfordshire region](http://file.opentrack.run/img/2017/bedfordshire_region_banner.jpg){:.ot_banner}
 
 We've been asked to publicise a proposed rule change for county eligibility.  The deadline for comments is July 20th.  
 
@@ -19,7 +19,7 @@ We've helped six counties manage their entries and prepare for their championshi
 
 Club membership is generally well known.  We're working to get it accepted that this is actually Open Data; we think everyone should be able to see who's registered with which club, not just the membership secretary, because this (in addition to your age group) is the basic data which the sport needs to function.  In many countries, like Spain, or Estonia ([which we manage](https://estonia.opentrack.run/)), the federation web site shows who all the members of all the clubs are in a given season.
 
-![OpenTrack recording data](http://file.opentrack.run/img/2017/phonerecording2_banner.png)
+![OpenTrack recording data](http://file.opentrack.run/img/2017/phonerecording2_banner.png){:.ot_banner}
 
 So, if this rule was adopted, we could quickly assemble an open public registry of which clubs were afiliated with which counties; and we'd be able to "clear" the vast majority of athletes as eligible AS THEY ENTERED.  
 
