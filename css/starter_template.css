@@ -230,12 +230,15 @@ p {
 
 /* default.html layouts styling */
 
+.default-layout {
+  margin-top: -20px;
+}
+
 .default-layout img {
-	 width: 100%;
+  width: 100%;
 }
 
 .default-layout img:first-of-type {
- margin-top: -20px;
  width: 100vw;
   position: relative;
   left: 50%;
