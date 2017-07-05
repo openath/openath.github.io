@@ -2,16 +2,16 @@
 layout: post
 title: County rule change
 author: Andy Robinson
-cover_image: http://file.opentrack.run/img/2017/bedfordshire_region_banner.jpg
+cover_image: http://file.opentrack.run/img/otwebsite/bedfordshire_portrait.png
 ---
 
 We've been asked to publicise a proposed rule change for county eligibility.  The deadline for comments is July 20th.  
 
 Leighton Buzzard AC and Bedfordshire AAA have suggested that one be allowed to compete for a county by belonging to a club registered in that county, in addition to qualification by birth or residence. The reasons are set out in this short document:
 
-<a href="http://file.opentrack.run/docs/2017/rule21change.pdf">Proposed Rule Change</a>
+[Proposed Rule Change](http://file.opentrack.run/docs/2017/rule21change.pdf)
 
-![Bedfordshire region](http://file.opentrack.run/img/2017/bedfordshire_region_banner.jpg){:.ot_banner}
+![Bedfordshire region](http://file.opentrack.run/img/otwebsite/bedfordshire_portrait.png)
 
 We're in support of this for two reasons.  First of all, it can only increase participation, encouraging clubs on county boundaries to turn out in force.  Secondly, it will reduce the administration burden, because it's easy to check.   
 
@@ -19,7 +19,7 @@ We've helped six counties manage their entries and prepare for their championshi
 
 Club membership is generally well known.  We're working to get it accepted that this is actually Open Data; we think everyone should be able to see who's registered with which club, not just the membership secretary, because this (in addition to your age group) is the basic data which the sport needs to function.  In many countries, like Spain, or Estonia ([which we manage](https://estonia.opentrack.run/)), the federation web site shows who all the members of all the clubs are in a given season.
 
-![OpenTrack recording data](http://file.opentrack.run/img/2017/phonerecording2_banner.png){:.ot_banner}
+![OpenTrack recording data](http://file.opentrack.run/img/2017/phonerecording2_banner.png)
 
 So, if this rule was adopted, we could quickly assemble an open public registry of which clubs were afiliated with which counties; and we'd be able to "clear" the vast majority of athletes as eligible AS THEY ENTERED.  
 
