@@ -12,6 +12,8 @@ Leighton Buzzard AC and Bedfordshire AAA have suggested that one be allowed to c
 [Proposed Rule Change](http://file.opentrack.run/docs/2017/rule21change.pdf)
 
 ![Bedfordshire region](http://file.opentrack.run/img/otwebsite/bedfordshire_portrait.png)
+{:.caption}
+Seven of the nine Bedfordshire clubs are near a county boundary
 
 We're in support of this for two reasons.  First of all, it can only increase participation, encouraging clubs on county boundaries to turn out in force.  Secondly, it will reduce the administration burden, because it's easy to check.   
 
