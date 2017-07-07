@@ -2,6 +2,7 @@
 layout: post
 title: OpenTrack Goes Dutch
 author: Andy Robinson
+cover_image: /img/asterix/results_box.jpg
 ---
 
 OpenTrack is just back from a busy trip to the Netherlands
@@ -16,7 +17,7 @@ Hopefully we'll be able to collaborate on getting the basic reference data for t
 
 ## Asterix track race, Eindhoven
 
-<img src="/img/asterix/asterix.jpg" style="float:right; width:33%">
+[![asterix](/img/asterix/asterix.jpg)](/img/asterix/asterix.jpg)
 
 Friday night saw the big open meeting organised by ESAV Asterix, the student athletics club at the University of Eindhoven.    
 
