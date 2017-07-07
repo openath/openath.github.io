@@ -74,15 +74,15 @@ h2 {
     <span style="color: #888">{{ post.author }}</span> &bull; <a href="{{ post.url }}">Read more</a>
     </div>
 
+    {% if post.cover_image %}
     <div class="col-sm-6 news_list_image_box" style="border-left: 1px solid #bbb;">
-
-       {% if post.cover_image %}
-         <a href="{{ post.url }}"><img src="{{ post.cover_image }}" class="news_list_image" width="100%"></a>
-       {% else %}
-         <a href="{{ post.url }}"><img src="/img/news_placeholder.jpg" class="news_list_image" width="100%"></a>
-       {% endif %}
-         
-      </div>
+        <a href="{{ post.url }}"><img src="{{ post.cover_image }}" class="news_list_image" width="100%"></a>
+    {% else %}
+    <div class="col-sm-6 hidden-xs news_list_image_box" style="border-left: 1px solid #bbb;">
+        <a href="{{ post.url }}"><img src="/img/news_placeholder.jpg" class="news_list_image" width="100%"></a>
+    {% endif %}
+    </div>
+      
 </div>
     
 {% endfor %}
