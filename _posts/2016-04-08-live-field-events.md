@@ -2,10 +2,12 @@
 layout: post
 title: Live field events display
 author: Andy Robinson
+cover_image: http://file.opentrack.run/img/2017/shot_demo1.jpg
 ---
 
 A big thanks to Chris Dack for our first major open-source contribution.  <a href="/shotdemo/">Click here</a>, or the picture below, to check out how he presents the Shot Put results from last year's UK finals!
 
+[![Shot demo](http://file.opentrack.run/img/2017/shot_demo1.jpg)](http://file.opentrack.run/img/2017/shot_demo1.jpg)
 
 <div class="row">
     <div class="col-md-12">
