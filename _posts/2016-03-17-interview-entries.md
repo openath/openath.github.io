@@ -2,6 +2,7 @@
 layout: post
 title: Interview with OpenTrack's founder
 author: Gus Upton
+cover_image: /img/2017/andy_r_profile.jpg
 ---
 
 <em>Since the team is so busy right now, we thought an interview would be a quick way to explain what the project is about.  Gus Upton (Belgrave Harriers) interviews Andy Robinson, OpenTrack's founder</em>
