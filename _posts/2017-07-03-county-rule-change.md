@@ -7,7 +7,7 @@ cover_image: http://file.opentrack.run/img/otwebsite/bedfordshire_portrait.png
 
 We've been asked to publicise a proposed rule change for county eligibility.  The deadline for comments is July 20th.  Please pass this on, and let Bedfordshire AAA know what you think by emailing <a href="mailto:enquiries@leightonbuzzardac.co.uk">enquiries@leightonbuzzardac.co.uk</a>.
 
-Leighton Buzzard AC and Bedfordshire AAA have suggested that one be allowed to compete for a county by belonging to a club registered in that county, in addition to qualification by birth or residence. To actually proposa a rule change, they need messages of support from as many clubs and county associations as possible.
+Leighton Buzzard AC and Bedfordshire AAA have suggested that one be allowed to compete _having first claim membership of a club affiliated to that county_, in addition to the current qualification by birth or residence. To actually proposa a rule change, they need messages of support from as many clubs and county associations as possible.
 
 Please read their [letter on the proposed Rule Change](http://file.opentrack.run/docs/2017/rule21change.pdf)
 
