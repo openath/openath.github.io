@@ -5,25 +5,118 @@ permalink: /
 tags: home
 ---
 
-<div class="jumbotron" id="mybox">
+<!--div class="jumbotron" id="mybox">
 	<h1 class="page-header">OPEN<span style="color:#f26522">TRACK</span></h1>
 	<p>Making athletics go faster..<br><br></p>
-</div>
+</div-->
+
+<link href="https://fonts.googleapis.com/css?family=Mitr:500" rel="stylesheet">  
 
 <style>
     html, body {
         max-width: 100%;
         overflow-x: hidden;
     }
+
+#cover_caption {
+  position: absolute;
+  z-index: 2;
+  left: 0px; 
+  top: 120px;
+  height: 70px;
+  border-left: 0px;
+  font-size: 30px;
+  padding: 5px 25px 0px 25px;
+  font-family: 'Mitr';
+  color: black;
+}
+
+#cover_image {
+    z-index: 1;
+    border-bottom: 6px solid #ede8e5;
+    margin-bottom: 0px;
+}
+
+.small_flex_image_container {
+    max-width: 250px;
+    padding: 2px;
+}
+
+.headline_text {
+    text-align: center;
+    padding: 50px 30px 50px 30px;
+    background-color: white;
+    margin-top: 0px;
+}
+
+.half_width_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 30px 0 30px;
+    max-width: 550px;
+}
+
+.left_column_text {
+    text-align: right;
+}
+
+.row.equal {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+.small_image_flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+
+    .left_column_text {
+        text-align: left;
+    }
+}
+
+@media (min-width: 1200px) {
+
+  .row.equal {
+    margin-top: 0;
+  }
+}
+
+blockquote {
+    font-family: serif;
+    max-width: 550px;
+}
+
+.blockquote_row {
+    margin-top: 30px;
+    padding-top: 30px;
+    color: #dfe9f5;
+    background-color: #2764ae;
+}
+
+.blockquote_footer {
+    color: #dfe9f5;
+}
+
+.triad_image {
+    max-width: 300px;
+}
+
 </style>
-<div class="container-fluid">
+<!--div class="container-fluid">
     <div id="slides">
-        <!--
+        <
         ben_lyon_650.jpg		geordies_in_brazil.jpg
         dfts_mud.jpg			pippa_earley_es_champ.jpg
         dfts_splash.jpg			pippa_earley_hurdling.jpg
         dfts_start.jpg			thames_ladies.jpg
-        -->
+        >
 
         <div>
             <img src="/img/gallery/coombe_hill_sports.jpg" alt="thh">
@@ -53,75 +146,162 @@ tags: home
          data-width="450"
          data-show-faces="true">
     </div>
+</div-->
+
+<div class="container-fluid" style="margin-left: -15px; margin-right: -15px;">
+
+  <div id="cover_caption"></div>
+
+  <img id="cover_image" src="/img/gallery/track_test12.png" width="100%">
+
 </div>
 
-<div class="container" style="padding-top: 0">
-	<div class="row feature">
+<div class="container-fluid">
+
+  <div class="row" style="background-color: white">
+
+    <h3 class="headline_text">OpenTrack is a modern hosted service for athletics organisers<br/><br/>We can save time and effort &ndash; and make it fun for athletes</h3>
+
+  </div>
+
+  <div class="row" style="background-color: #ede8e5; padding: 3px 0 3px 0; margin-bottom: 20px;">
+
+    <div class="small_image_flexbox">
+
+    
+        <div class="small_flex_image_container">
+          <img src="img/gallery/front_athlete_square4.jpg" class="img img-rounded" height="220">
+        </div>
+
+        <div class="small_flex_image_container">
+          <img src="img/gallery/front_athlete_square3.jpg" class="img img-rounded" height="220">
+        </div>
+
+        <div class="small_flex_image_container">
+          <img src="img/gallery/front_athlete_square2.jpg" class="img img-rounded" height="220">
+        </div>
+
+        <div class="small_flex_image_container">
+          <img src="img/gallery/front_athlete_square5.jpg" class="img img-rounded" height="220">
+        </div>
+
+        <div class="small_flex_image_container">
+          <img src="img/gallery/front_athlete_square6.jpg" class="img img-rounded" height="220">
+        </div>
+
+        <div class="small_flex_image_container">
+          <img src="img/gallery/front_athlete_square1.jpg" class="img img-rounded" height="220">
+        </div>
+
+    </div>
+
+  </div>
+
+  <div class="row equal">
+
+    <div class="col-sm-6">
+        <img src="img/gallery/clipboard_and_papers3.jpg" width="100%">
+    </div>
+    <div class="col-sm-6">
+        <div class="half_width_text">
+            <h2>Athletes want to run, jump and throw</h2>
+            <p>But the sport has always relied on the efforts of volunteers doing manual work to make events happen.</p>
+            <p>From membership records and competition entries, to start lists and results, these unsung sporting heroes spend a vast amount of time moving data around and checking facts &ndash; often using pen and paper and other basic methods.</p>
+        </div>
+    </div>
+
+  </div>
+
+  <div class="row equal">
+
+    <div class="col-sm-6">
+        <div class="half_width_text left_column_text">
+            <h2>Let&rsquo;s make it easier</h2>
+            <p>OpenTrack is the first modern, fully hosted multi-user service designed to help athletics events organizers save time and effort.
+            If you are an organizer, we can reduce the administrative burden and let you quickly and efficiently manage the entire life cycle of any athletics competition, from your school sports day to a nation wide event.</p>
+            <p>Our software broadens the field, allowing anybody to run events professionally. </p>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <img src="img/gallery/tablet_and_iphone_screens.png" width="100%">
+    </div>
+
+  </div>
+
+  <div class="row blockquote_row">
+    <div class="col-sm-6 col-sm-offset-3">
+        <blockquote>
+          <p>For every single fixture, the admin time has been cut from two hours to five minutes.</p>
+          <footer class="blockquote_footer">Matthew Kiernan</footer>
+        </blockquote>
+    </div>
+  </div>
+
+	<div class="row" style="text-align: center; margin-top: 30px;">
 		<div class="col-sm-4">
-            <h2><a href="/features/#entries">Entries</a></h2>                
             <a href="/features/#entries">
-                <span class="hugeicon glyphicon glyphicon-log-in"></span>
+                <img src="/img/gallery/surreynumber.jpg" class="img img-rounded triad_image">
             </a>
-            <br />
-            <br />
+            <h2><a href="/features/#entries">Entries</a></h2>                
             <p>
                 Entries for track and field, cross country, road and relays.  By individuals or teams.
             </p>
         </div>
+        <div class="col-sm-4">
+          <a href="/results/">
+            <img src="/img/gallery/phoneresults_small.jpg" class="img img-rounded triad_image">
+          </a>
+          <h2><a href="/results/">Results</a></h2>        
+          <p>Publish your results.   Validated. Real time.  Syndicated.  Searchable.  All formats and devices.</p>
+        </div>
 		<div class="col-sm-4">
-            <h2><a href="/features/#timing">Timing/Recording</a></h2>
             <a href="/features/#timing/">
-                <span class="hugeicon glyphicon glyphicon-dashboard"></span>
+                <img src="/img/gallery/race_lineup_small.jpg" class="img img-rounded triad_image">
             </a>
-            <br />
-            <br />
+            <h2><a href="/features/#timing">Timing &amp; Recording</a></h2>
             <p>Manage races the same way as top officials, using a handful of mobile devices.</p>                
         </div>
-		<div class="col-sm-4">
-		  <h2><a href="/results/">Results</a></h2>
-          <a href="/results/"><span class="hugeicon glyphicon glyphicon-list"></span></a>
-          <br />
-          <br />		  
-		  <p>Publish your results.   Validated. Real time.  Syndicated.  Searchable.  All formats and devices.</p>
-		</div>
 	</div>
-</div>
 
-<div class="container">
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h2>A COMPLETE ATHLETICS COMPETITION MANAGEMENT SUITE</h2>
-        </div>
-        <div class="panel-body">
-            <p><span style="font-size:30px;">A</span>thletes want to run, jump and throw. Yet the sport is limited by a number of volunteers doing a lot of manual work. They spend far too much time moving around facts and checking them - entries, start lists, membership info. Let's reduce this burden and bring athletics into the 21st century, using our easy-to-implement and easy-to-use race management system.</p>
-            <p><span style="font-size:30px;">F</span>rom the school sports day to international competitions, OpenTrack makes everything go faster!</p>
-            <p><span style="font-size:30px;">A</span>thletes will enjoy the benefits of our service with easier entries into races, secure online payments and instant results on their mobile devices.</p>
+    <div class="row blockquote_row">
+    <div class="col-sm-6 col-sm-offset-3">
+        <blockquote>
+          <p>My paperwork has been cut by ninety percent &ndash; and I can do it all on holiday.</p>
+          <footer class="blockquote_footer">Nicola Fleet, Croydon Harriers</footer>
+        </blockquote>
+    </div>
+  </div>
+
+    <div class="row">
+        <div class="col-sm-6 col-sm-offset-3" style="max-width: 550px;">
+
+            <h2 style="text-align: center;"><a href="/open_systems">Open Systems</a></h2>
+
+            <h3 class="headline_text">Together we can create an open data standard for all athletics competitions, from fun runs to international events</h3>
+
         </div>
     </div>
-</div>
 
-<div class="container">
-    <div class="row feature">
+    <div class="row" style="text-align: center;">
         <div class="col-sm-4">
-            <h2>Open Data</h2>
-            <img src="/img/open_data.png" alt="open data">
+            <img src="/img/gallery/trackfinder_small.jpg" class="img img-rounded triad_image">
+            <h3>Open Data</h3>
             <p>
-                Building the open reference data to get everyone talking:  organisations, clubs, venues, courses
+                Building the reference data to get everyone talking, from clubs and organisations to venues and courses
             </p>
         </div>
 
         <div class="col-sm-4">
-            <h2>Open Standards</h2>
-            <img src="/img/open_standards.png" alt="open standards">
-            <p>Defining standard formas for interchange of entries, start lists, results and rankings</p>
+            <img src="/img/gallery/bmaf_club_small.jpg" class="img img-rounded triad_image">
+            <h3>Open Standards</h3>
+            <p>Defining standard formats for interchange of entries, start lists, results and rankings</p>
         </div>
+
         <div class="col-sm-4">
-            <h2>Open Source</h2>
-            <img src="/img/open_source.png" alt="open source">
+            <img src="/img/gallery/shot_data_small.jpg" class="img img-rounded triad_image">
+            <h3>Open Source</h3>
             <p>If we start to publish data and standards, other people can build on it</p>
         </div>
     </div>
-</div>
-<br>
 
 
