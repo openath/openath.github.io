@@ -19,6 +19,7 @@ Each athlete should expect to do 2-3 events on the day, in the course of the pro
 
  - Men’s Javelin and Womens’ High and Long Jump, in an innovative knockout format.  
  - Relays and paarlaufs
+ - 100 / 110 hurdles (lower heights to encourage participation)
  - a “Mini-athlon” - a multi-events fitness challenge in 5 minutes
  - A handicapped distance medley relay to finish, so the first runner home wins the match
 
