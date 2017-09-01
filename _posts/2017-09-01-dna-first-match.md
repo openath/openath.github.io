@@ -6,7 +6,7 @@ cover_image: http://file.opentrack.run/img/2017/ladders.jpg
 ---
 This weekend sees the first ever <i>**Dynamic New Athletics**</i> matches hosted by European Athletics at Wimbledon Park.
 
-**Saturday 2nd September**: 14:30 - 17:30
+**Saturday 2nd September**: 14:30 - 17:30  
 **Sunday 3rd September**: 13:30 - 16:30
 
 <a href="https://goo.gl/forms/obPi04eIVZRZfXjJ2">Click here to sign up</a>  
