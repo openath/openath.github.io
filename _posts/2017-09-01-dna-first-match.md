@@ -4,14 +4,13 @@ title: DNA - the first match
 author: Andy Robinson
 cover_image: http://file.opentrack.run/img/2017/logo-eaa.png
 ---
-
-![European Athletics logo](http://file.opentrack.run/img/2017/logo-eaa.png)
-
 This weekend -2nd/3rd September, 2pm-5pm each day - sees the first ever <i>Dynamic New Athletics</i> matches hosted by European Athletics at Wimbledon Park.
 
 <a href="http://file.opentrack.run/docs/2017/dna/dna_guide_v3.pdf">More info here...</a> - <a href="https://goo.gl/forms/obPi04eIVZRZfXjJ2">Sign up here...</a>
 
 This is a new format for athletics designed to be exciting and innovative to both attract new athletes into the sport, and give additional opportunities to high performing athletes to win titles, this time as a team.
+
+![European Athletics logo](http://file.opentrack.run/img/2017/logo-eaa.png)
 
 <a href="http://file.opentrack.run/docs/2017/dna/dna_guide_v3.pdf">Click here</a> for all the details of the meeting as a whole and the individual events within the program.  These are designed both to be fun and rewarding for the athletes, and also a great watch for spectators.  The event is going to be filmed, and the edited version shown at the European Athletics Conference next month, as they develop this new format for the sport. 
 
