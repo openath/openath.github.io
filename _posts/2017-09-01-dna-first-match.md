@@ -14,9 +14,9 @@ This is a new format for athletics designed to be exciting and innovative to bot
 
 <a href="http://file.opentrack.run/docs/2017/dna/dna_guide_v3.pdf">Click here</a> for all the details of the meeting as a whole and the individual events within the program.  These are designed both to be fun and rewarding for the athletes, and also a great watch for spectators.  The event is going to be filmed, and the edited version shown at the European Athletics Conference next month, as they develop this new format for the sport. 
 
-We have a number of athletes taking part, but due to fixture congestion, could do with a few more on Sunday.  We are looking to create 6 club / composite teams on the day - each of which require between 4 and 6 athletes of each gender.  As such we are pleased to say offer £20 expenses to the first 40 athletes who sign up at the following link and take part in the event.  <a href="https://goo.gl/forms/obPi04eIVZRZfXjJ2">Sign up here...</a>
+We have a number of athletes taking part, but due to fixture congestion, could do with a few more on Sunday.  We are looking to create 6 club / composite teams on the day - each of which require between 4 and 6 athletes of each gender.  As such we are pleased to say offer £20 expenses to the first 40 athletes who sign up on Saturday, and £20 on Sunday.   <a href="https://goo.gl/forms/obPi04eIVZRZfXjJ2">Sign up here...</a>
 
-Each athlete should expect to do 2-3 events on the day, in the course of the program (although if you want a great session, you can do more!).  The programme includes
+Each athlete should expect to do 2-3 events on the day, in the course of the program (although if you want a great session, you can do more!).  There is no need to go all-out. The programme includes
 
  - Men’s Javelin and Womens’ High and Long Jump, in an innovative knockout format.  
  - Relays and paarlaufs
