@@ -2,8 +2,10 @@
 layout: post
 title: DNA - the first match
 author: Andy Robinson
+cover_image: /img/gallery/logo-eaa.png
 ---
 
+![European Athletics logo](/img/gallery/logo-eaa.png)
 
 This weekend -2nd/3rd September, 2pm-5pm each day - sees the first ever <i>Dynamic New Athletics</i> matches hosted by European Athletics at Wimbledon Park.
 
