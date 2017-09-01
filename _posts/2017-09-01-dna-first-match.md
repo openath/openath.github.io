@@ -6,8 +6,8 @@ cover_image: http://file.opentrack.run/img/2017/ladders.jpg
 ---
 This weekend sees the first ever <i>**Dynamic New Athletics**</i> matches hosted by European Athletics at Wimbledon Park.
 
-**Saturday 2nd September**: 2:00pm - 5:00pm  
-**Sunday 3rd September**: 2:00pm - 5:00pm
+**Saturday 2nd September**: 14:30 - 17:30
+**Sunday 3rd September**: 13:30 - 16:30
 
 <a href="https://goo.gl/forms/obPi04eIVZRZfXjJ2">Click here to sign up</a>  
 <a href="http://file.opentrack.run/docs/2017/dna/dna_guide_v3.pdf">Download full event guide</a>
@@ -20,7 +20,7 @@ This is a new format for athletics designed to be exciting and innovative to bot
 
 ![European Athletics logo](http://file.opentrack.run/img/2017/logo-eaa.png)
 
-We have a number of athletes taking part, but due to fixture congestion, could do with a few more on Sunday.  We are looking to create 6 club / composite teams on the day - each of which require between 4 and 6 athletes of each gender.  As such we are pleased to say offer £10 expenses to the first 40 athletes who sign up on Saturday, and £20 on Sunday.   <a href="https://goo.gl/forms/obPi04eIVZRZfXjJ2">Sign up here...</a>
+We have a number of athletes taking part, but due to fixture congestion, could do with a few more both days.  We are looking to create 6 club / composite teams on the day - each of which require between 4 and 6 athletes of each gender.  As such we are pleased to say offer £10 expenses to the first 40 athletes who sign up on Saturday, and £20 on Sunday.   <a href="https://goo.gl/forms/obPi04eIVZRZfXjJ2">Sign up here...</a>
 
 Each athlete should expect to do 2-3 events on the day, in the course of the program (although if you want a great session, you can do more!).  There is no need to go all-out. The programme includes
 
