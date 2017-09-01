@@ -9,11 +9,13 @@ Dynamic New Athletics is a new and exciting athletics team competition format pr
 <a href="http://file.opentrack.run/docs/2017/dna/dna_guide_v3.pdf">More info here...</a> - <a href="https://goo.gl/forms/obPi04eIVZRZfXjJ2">Sign up here...</a>
 
 
-We're helping organise the first ever competition THIS WEEKEND in Wimbledon, between local clubs and athletes, at Wimbledon Park.  The goals of the event are
+We're helping organise the first ever competition THIS WEEKEND - 2/3 Sep 2017 between local clubs and athletes, at Wimbledon Park.  The goals of the event are
  - try out the new events and see how well they work
  - get film footage to explain it to the world
+ - see how spectators and athletes react
  - for officials to learn how to organise and manage the competition 
 
+Spectators, helpers and officials are all welcome, on both days.  You might get interviewed for your reactions!
 
 We're looking for some more athletes (U15 and above) to take part.  You'll do a few events over 2-3 hours.  We'll do a dress rehearsal on Saturday, and aim for a full "match" on Sunday in 2 hours.  Full details are in <a href="http://file.opentrack.run/docs/2017/dna/dna_guide_v3.pdf">the guide</a>
 
