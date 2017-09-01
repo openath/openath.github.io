@@ -2,17 +2,23 @@
 layout: post
 title: DNA - the first match
 author: Andy Robinson
-cover_image: http://file.opentrack.run/img/2017/logo-eaa.png
+cover_image: http://file.opentrack.run/img/2017/ladders.jpg
 ---
-This weekend -2nd/3rd September, 2pm-5pm each day - sees the first ever <i>Dynamic New Athletics</i> matches hosted by European Athletics at Wimbledon Park.
+This weekend sees the first ever <i>**Dynamic New Athletics**</i> matches hosted by European Athletics at Wimbledon Park.
 
-<a href="http://file.opentrack.run/docs/2017/dna/dna_guide_v3.pdf">More info here...</a> - <a href="https://goo.gl/forms/obPi04eIVZRZfXjJ2">Sign up here...</a>
+**Saturday 2nd September**: 2:00pm - 5:00pm  
+**Sunday 3rd September**: 2:00pm - 5:00pm
+
+<a href="https://goo.gl/forms/obPi04eIVZRZfXjJ2">Click here to sign up</a>  
+<a href="http://file.opentrack.run/docs/2017/dna/dna_guide_v3.pdf">Download full event guide</a>
 
 This is a new format for athletics designed to be exciting and innovative to both attract new athletes into the sport, and give additional opportunities to high performing athletes to win titles, this time as a team.
 
-![European Athletics logo](http://file.opentrack.run/img/2017/logo-eaa.png)
+![image here](http://file.opentrack.run/img/2017/ladders.jpg)
 
 <a href="http://file.opentrack.run/docs/2017/dna/dna_guide_v3.pdf">Click here</a> for all the details of the meeting as a whole and the individual events within the program.  These are designed both to be fun and rewarding for the athletes, and also a great watch for spectators.  The event is going to be filmed, and the edited version shown at the European Athletics Conference next month, as they develop this new format for the sport. 
+
+![European Athletics logo](http://file.opentrack.run/img/2017/logo-eaa.png)
 
 We have a number of athletes taking part, but due to fixture congestion, could do with a few more on Sunday.  We are looking to create 6 club / composite teams on the day - each of which require between 4 and 6 athletes of each gender.  As such we are pleased to say offer £10 expenses to the first 40 athletes who sign up on Saturday, and £20 on Sunday.   <a href="https://goo.gl/forms/obPi04eIVZRZfXjJ2">Sign up here...</a>
 
