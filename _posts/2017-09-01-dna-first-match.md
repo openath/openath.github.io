@@ -6,13 +6,14 @@ cover_image: http://file.opentrack.run/img/2017/ladders.jpg
 ---
 This weekend sees the first ever <i>**Dynamic New Athletics**</i> matches hosted by European Athletics at Wimbledon Park.
 
-**Saturday 2nd September**: 14:30 - 17:30  
-**Sunday 3rd September**: 13:30 - 16:30
+**Saturday 2nd September**: 14:30 - 17:30  *(completed)*
 
-<a href="https://goo.gl/forms/obPi04eIVZRZfXjJ2">Click here to sign up</a>  
-<a href="http://file.opentrack.run/docs/2017/dna/dna_guide_v3.pdf">Download full event guide</a>
+**Sunday 3rd September**: 13:30 - 16:30 - sign in by 14:00
 
-This is a new format for athletics designed to be exciting and innovative to both attract new athletes into the sport, and give additional opportunities to high performing athletes to win titles, this time as a team.
+<p><a href="https://goo.gl/forms/obPi04eIVZRZfXjJ2">Click here to sign up</a>-&nbsp;&nbsp;-
+<a href="http://file.opentrack.run/docs/2017/dna/dna_guide_v3.pdf">Download full event guide</a></p>
+
+This is a new format for team athletics competitions, being launched internationally next year. It includes many innovations to make an exciting and fun team competition, with many new wrinkles, and can be adapted to youth, club and university level easily.
 
 ![image here](http://file.opentrack.run/img/2017/ladders.jpg)
 
@@ -20,9 +21,9 @@ This is a new format for athletics designed to be exciting and innovative to bot
 
 ![European Athletics logo](http://file.opentrack.run/img/2017/logo-eaa.png)
 
-We have a number of athletes taking part, but due to fixture congestion, could do with a few more both days.  We are looking to create 6 club / composite teams on the day - each of which require between 4 and 6 athletes of each gender.  As such we are pleased to say offer £10 expenses to the first 40 athletes who sign up on Saturday, and £20 on Sunday.   <a href="https://goo.gl/forms/obPi04eIVZRZfXjJ2">Sign up here...</a>
+We're looking for more athletes to come down on Sunday and do a fun session.   We need to create 6 club / composite teams on the day - each of which require between 4 and 6 athletes of each gender.  We're offering £20 to the first 50 athletes to sign up (and come down).   <a href="https://goo.gl/forms/obPi04eIVZRZfXjJ2">Sign up here...</a>
 
-Each athlete should expect to do 2-3 events on the day, in the course of the program (although if you want a great session, you can do more!).  There is no need to go all-out. The programme includes
+Each athlete should expect to do 2-3 events on the day, in the course of the program (although if you want a great session, you can do more!).  There is no need to go all-out and you can treat it as a fun group session, or a social "sports day". The programme includes
 
  - Men’s Javelin and Womens’ High and Long Jump, in an innovative knockout format.  
  - Relays and paarlaufs
@@ -30,13 +31,12 @@ Each athlete should expect to do 2-3 events on the day, in the course of the pro
  - a “Mini-athlon” - a multi-events fitness challenge in 5 minutes
  - A handicapped distance medley relay to finish, so the first runner home wins the match
 
+Overall, this is a fun and exciting new development for the sport with support from the very highest level.  It will be on the international stage in 2019 at the European Games.  England Athletics is following with interest too.  This gives you an opportunity to experience it and your feedback may influence how the sport develops.
 
-Overall, this is a fun and exciting new development for the sport with support from the very highest level.  It will be on the international stage in 2018 at the European Games.  This gives you an opportunity to experience it and your feedback may even see you influence how the sport develops.
+We also welcome spectators, officials, coaches and helpers.  Your feedback will help to shape the final events, at which GBR and others will compete in future.  
 
+Please do sign up, or (if you can bring some athletes or friends on the day) email Andy Robinson (andy@reportlab.com) or ben@bennoadcoaching.com.  Or give us a call in the morning on 07725 056175
 
-We also welcome spectators, officials and helpers.  If you’re curious and want to help shape a major new competition format, 
-
-
-For any queries, please email andy@reportlab.com or ben@bennoadcoaching.com.
-
+<p><a href="https://goo.gl/forms/obPi04eIVZRZfXjJ2">Click here to sign up</a>  &nbsp;&nbsp;&nbsp;
+<a href="http://file.opentrack.run/docs/2017/dna/dna_guide_v3.pdf">Download full event guide</a></p>
 
