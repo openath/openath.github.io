@@ -11,7 +11,7 @@ Inside the convention centre we spoke in a 3 hour session on data with Nicolas, 
 
 [![Vilnius Session](http://file.opentrack.run/img/2017/dobromir.jpg)](http://file.opentrack.run/img/2017/dobromir.jpg)
 {:.caption}
-GDobromir opening the Data session in Vilnius
+Dobromir opening the Data session in Vilnius
 
 
 After the presentation we had several one to one meetings with the federations and attended the Congress Dinner with the stars of European and International Athletics from Lord Coe down.
