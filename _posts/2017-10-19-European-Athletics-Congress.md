@@ -14,7 +14,7 @@ Inside the convention centre we spoke in a 3 hour session on data with Nicolas, 
 Vilnius Data Session
 
 
-![Vilnius Session](http://file.opentrack.run/img/2017/dobromir.png)
+[![Vilnius Session](http://file.opentrack.run/img/2017/dobromir.png)]
 {:.caption}
 European Athletics Federation Congress
 
