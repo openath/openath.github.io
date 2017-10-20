@@ -13,5 +13,12 @@ Inside the convention centre we spoke in a 3 hour session on data with Nicolas, 
 {:.caption}
 Vilnius Data Session
 
+
+![Vilnius Session](http://file.opentrack.run/img/2017/dobromir.png)
+{:.caption}
+European Athletics Federation Congress
+
+
+
 After the presentation we had several one to one meetings with the federations and attended the Congress Dinner with the stars of European and International Athletics from Lord Coe down.
 
