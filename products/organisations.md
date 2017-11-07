@@ -7,7 +7,7 @@ tags: National Federations
 
 ![Surrey Relays 2015](/img/gallery/surrey_relays_2015.jpg)
 
-# Organisations
+# Federations
 
 At OpenTrack, we have experience of working directly with athletics organisations in most aspects of management and administration. Our main clients so far are the Estonian Athletics Federation and the British Masters’ Athletics Federation, which is the umbrella organization for masters’ athletics here in the UK. Working with European Athletics we are keen to offer federation management across the 51 member states.
 
