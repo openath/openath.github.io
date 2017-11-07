@@ -41,4 +41,4 @@ The final strand is results management and data-capture. We can uniquely identif
 
 We would love to work with Federations across Europe, if you would like any more information please contact us at OpenTrack or feel free to browse our manuals.
 
-opentrack@reportlab.com
+[opentrack@reportlab.com]
