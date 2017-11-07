@@ -40,3 +40,5 @@ Any relevant data such as gender and age group is checked and updated automatica
 The final strand is results management and data-capture. We can uniquely identify each athlete so it is far simpler to update statistics databases and allow fans and athletes alike to see the results.
 
 We would love to work with Federations across Europe, if you would like any more information please contact us at OpenTrack or feel free to browse our manuals.
+
+opentrack@reportlab.com
