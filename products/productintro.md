@@ -6,7 +6,7 @@ tags: Product Intro
 ---
 
 
-# Competition Management
+# Product Summary
 
 Please feel free to browse a [summary of our products](/docs/OpenTrackProductList01.pdf).
 
