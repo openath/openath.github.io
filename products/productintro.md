@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Product Intro
-permalink: /products/productintor
+permalink: /products/productintro
 tags: Product Intro
 ---
 
 
 # Competition Management
 
-Please feel free to browse a [summary of our products](file:/docs/OpenTrackProductList01.pdf).
+Please feel free to browse a [summary of our products](/docs/OpenTrackProductList01.pdf).
 
