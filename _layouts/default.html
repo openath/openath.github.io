@@ -1,155 +1,22 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="/img/favicon.png">
-
-	<title>{% if page.title %} {{ page.title }} {% else %} OpenTrack {% endif %}</title>
-
-    <!-- Bootstrap core CSS -->
-	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-      <!--jQuery-->
-      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-    <!-- Optional theme -->
-    {% if page.css %}
-	<link rel="stylesheet" href="{{ page.css }}">
-	{% endif %}
-	
-    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"-->
-
-    <!-- Custom styles for this template -->
-    <link href="/css/starter_template.css" rel="stylesheet">
-    <link href="/css/syntax.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    {% include header.html %}
   </head>
-
   <body>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '524122494416994',
-          xfbml      : true,
-          version    : 'v2.5'
-        });
-      };
+    {% include skippy.html %}
 
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
-    </script>
-
-    <script>
-        $(function () {
-            $('#menu_nav_default').load('/partial/menu');
-        })
-    </script>
-    <div id="menu_nav_default"></div> 
-
-<div class="container">
-  <div class="row">
-    <div class="default-layout col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-      {{ content }}
-    </div>
-  </div><!-- /.container -->
-</div>
-	<footer class="footer">
-		<div class="container">
-
-			<div class="row">
-        <div class="col-sm-4">
-          <div id="sponsors_text">
-          OpenTrack is supported by:
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-				<div class="vcenter col-xs-5 col-sm-2">
-         <a target="_blank" href="http://www.european-athletics.org/"><img src="http://file.opentrack.run/img/otwebsite/eu_flag_150px.png" alt="European Union" width="90" /></a>
-        </div>
-        <div class="vcenter col-xs-5 col-sm-3">
-         <a target="_blank" href="http://www.finodex-project.eu/"><img src="/img/finodex-logo.png" alt="Finodex"/></a>
-        </div>
-        <div class="vcenter col-xs-5 col-sm-3">
-         <a target="_blank" href="http://www.european-athletics.org/"><img src="http://file.opentrack.run/img/otwebsite/european_athletics_300px.png" alt="European Athletics" width="200"/></a>
-        </div>
-        <div class="vcenter col-xs-5 col-sm-3">
-         <a target="_blank" href="http://www.reportlab.com"><img src="/img/rl_logo_bg.gif" alt="ReportLab"/></a>
-        </div>
-			</div>
-		</div>
-	</footer>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script src="/js/toc.min.js"></script>
-	<script>
-	$(document).ready(function(){
-		$('#toc').toc();
-	});
-
-window.onload = choose_images_by_screen_width;
-window.onresize = choose_images_by_screen_width;
-
-/* 
-This function will automatically choose a banner or square image format when the window 
-loads or resizes, for any images with names ending with '_banner' or '_square', using a 
-breakpoint of 800 pixels.
-*/
-function choose_images_by_screen_width() {
-  
-  var image_format;
-  var breakpoint = 800;
-  if (window.innerWidth >= breakpoint) {
-    image_format = 'banner';
-  } else {
-    image_format = 'square';
-  }
-  
-  var images = document.getElementsByClassName('ot_banner');
-  
-  for (i = 0; i < images.length; i++) {
-    // starting with an image e.g. '/path/to/surrey_league_banner.jpg'
-    var image_name = images[i].src.split('_');  
-    // ['/path/to/surrey', 'league', 'banner.jpg']
-    var end_of_name = image_name[image_name.length-1].split('.');  // ['banner', 'jpg']
-    if (end_of_name[0] == 'banner' || end_of_name[0] == 'square') {
-      end_of_name[0] = image_format;
-      end_of_name = end_of_name.join('.');  // 'square.jpg'
-      image_name[image_name.length-1] = end_of_name;
-      // '/path/to/surrey_league_square.jpg'
-      images[i].src = image_name.join('_');
-    }
-  }
-}
-
-    </script>
-	{% if page.js %}
-	<script src="{{ page.js }}"></script>
-	{% endif %}
+    {% include navbar.html %}
+	<div class="container">
+	    {% if page.layout == "simple" or page.layout == "examples" %}
+	      {{ content }}
+	    {% else %}
+	      <main id="content" role="main">
+	        {{ content }}
+	      </main>
+	    {% endif %}
+	</div>
+    {% include footer.html %}
+    {% include scripts.html %}
   </body>
 </html>
-

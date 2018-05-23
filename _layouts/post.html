@@ -1,69 +1,27 @@
 ---
 layout: default
-tags: news
 ---
-
-<style>
-
-.default-layout img:first-of-type {
-  position: relative;
-  left: 0;
-  right: 0;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-img {
-  max-width: 100%;
-}
-
-p.caption + p {
-  color: #888;
-  font-style: italic;
-  font-size: 100%;
-  position: relative;
-  top: -30px;
-  margin-bottom: -10px;
-}
-
-.post-content ul {
-    font-size: 1.3em
-  }
-
-</style>
-
-<div class="post col-md-12">
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h2><a href="/news">NEWS</a></h2>
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %}<span class="post-author"> • {{ page.author }}</span>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-    </header>
-  <br>
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}</p>
+  </header>
 
-  <article class="post-content">
+  <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
-  </article>
+  </div>
 
-  <br/>
-  <a href="https://twitter.com/share" class="twitter-share-button" data-text="Mobile England Athletics licence checker!" data-via="open_trak" data-hashtags="opentrack">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
 
-$(document).ready(function() {
-  $('.post-content img').each(function() {
-    if ($(this).height() > $(this).width()) {
-      $(this).width('75%');
-    }
-  })
-});
-
-</script>
-
-    <div
-      class="fb-like row"
-      data-share="true"
-      data-width="450"
-      data-show-faces="true">
-    </div>
-
-</div>
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

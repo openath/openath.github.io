@@ -1,1 +1,57 @@
+<div class="ot-footer">
+  <div class="container">
+    <footer class="site-footer text-muted">
+        <div class="row">
+          <div class="col-lg pr-md-5">
+            <div class="row align-items-start">
+              <div class="col-auto col-sm-4 mb-3">
+                <a href="{{ "/" | relative_url }}" aria-label="OpenTrack">
+                    {%- include icons/opentrack-logo.svg width="138" height="46" class="d-block" -%}
+                </a>
+              </div>
+              <div class="col-5 col-sm-5 mb-3">
+                <h6>The complete competition management suite for athletics organisers</h6>
+              </div>
+              <div class="col-12 col-sm-3 text-center text-md-left mb-3">
+                <a href="#" class="btn btn-primary" role="button">Register your interest</a>
+              </div>
+            </div>
+            <h4>Supported by</h4>
+            <div class="row align-items-center opentrack-backers">
+              <div class="col-6 col-sm-3 backer">
+                   <a target="_blank" href="http://www.european-athletics.org/"><img src="{{ site.baseurl }}/assets/img/EU-logo-white.svg" alt="European Union" width="90" height="61" class="img-fluid"></a>
+                  </div>
+                  <div class="col-6 col-sm-3 backer">
+                   <a target="_blank" href="http://www.finodex-project.eu/"><img src="{{ site.baseurl }}/assets/img/Finodex-logo-white.svg" alt="Finodex" width="100" height="73" class="img-fluid"></a>
+                  </div>
+                  <div class="col-6 col-sm-3 backer">
+                   <a target="_blank" href="http://www.european-athletics.org/"><img src="{{ site.baseurl }}/assets/img/Euro-Ath-Logo-white.svg" alt="European Athletics" width="124" height="50" class="img-fluid"></a>
+                  </div>
+                  <div class="col-6 col-sm-3 backer">
+                   <a target="_blank" href="http://www.reportlab.com"><img src="{{ site.baseurl }}/assets/img/ReportLab-logo-white.svg" alt="ReportLab" width="107" height="67" class="img-fluid"></a>
+                  </div>
+            </div>
 
+          </div>
+          <div class="col-lg">
+            <div class="row align-items-start">
+
+              {% for item in site.data.footer-nav %}
+              <div class="col-sm">
+                  <h4>{{ item.title }}</h4>
+                    <ul class="footer-navigation" role="navigation">
+                      {% for entry in item.pages %}
+                        <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+                      {% endfor %}
+                    </ul>
+              </div>
+              {% endfor %}
+
+
+            </div>
+          </div>
+        	</div>
+        <p class="housekeeping">© OpenTrack 2018</p>
+    </footer>
+  </div>
+</div>

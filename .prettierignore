@@ -1,0 +1,4 @@
+_site/**
+webpack.config.js
+package.json
+_assets/img/favicons/manifest.json

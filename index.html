@@ -1,154 +1,36 @@
 ---
-title:  OpenTrack
-layout: front
-permalink: /
-tags: home
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
 ---
-
-<link href="https://fonts.googleapis.com/css?family=Mitr:500" rel="stylesheet">  
-
-<style>
-    html, body {
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-
-#cover_caption {
-  position: absolute;
-  z-index: 2;
-  left: 0px; 
-  top: 120px;
-  height: 70px;
-  border-left: 0px;
-  font-size: 30px;
-  padding: 5px 25px 0px 25px;
-  font-family: 'Mitr';
-  color: black;
-}
-
-#cover_image {
-    z-index: 1;
-    border-bottom: 6px solid #ede8e5;
-    margin-bottom: 0px;
-}
-
-.small_flex_image_container {
-    max-width: 250px;
-    padding: 2px;
-}
-
-.headline_text {
-    text-align: center;
-    padding: 50px 30px 50px 30px;
-    background-color: white;
-    margin-top: 0px;
-}
-
-.half_width_text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    padding: 0 30px 0 30px;
-    max-width: 550px;
-}
-
-.left_column_text {
-    text-align: right;
-}
-
-.row.equal {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 30px;
-  }
-
-.small_image_flexbox {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-@media (max-width: 768px) {
-
-    .left_column_text {
-        text-align: left;
-    }
-}
-
-@media (min-width: 1200px) {
-
-  .row.equal {
-    margin-top: 0;
-  }
-}
-
-blockquote {
-    font-family: serif;
-    max-width: 550px;
-}
-
-.blockquote_row {
-    margin-top: 30px;
-    padding-top: 30px;
-    color: #dfe9f5;
-    background-color: #2764ae;
-}
-
-.blockquote_footer {
-    color: #dfe9f5;
-}
-
-.triad_image {
-    max-width: 300px;
-    height: 220px;
-}
-
-</style>
-
-<div class="container-fluid" style="margin-left: -15px; margin-right: -15px;">
-
-  <div id="cover_caption"></div>
-
-  <img id="cover_image" src="http://file.opentrack.run/img/otwebsite/cover_image_1900px.jpg" width="100%">
-
-</div>
-
-<div class="container-fluid">
-
-  <div class="row" style="background-color: white">
-
-    <h3 class="headline_text">OpenTrack is a modern hosted service for athletics organisers<br/><br/>We can save time and effort &ndash; and make it fun for athletes</h3>
-
-  </div>
-
   <div class="row" style="background-color: #ede8e5; padding: 3px 0 3px 0; margin-bottom: 20px;">
 
     <div class="small_image_flexbox">
 
-    
+
         <div class="small_flex_image_container">
-          <img src="img/gallery/front_athlete_square4.jpg" class="img img-rounded" height="220">
+          <img src="{{ site.baseurl }}/assets/img/gallery/front_athlete_square4.jpg" class="img img-rounded" height="220">
         </div>
 
         <div class="small_flex_image_container">
-          <img src="img/gallery/front_athlete_square3.jpg" class="img img-rounded" height="220">
+          <img src="{{ site.baseurl }}/assets/img/gallery/front_athlete_square3.jpg" class="img img-rounded" height="220">
         </div>
 
         <div class="small_flex_image_container">
-          <img src="img/gallery/front_athlete_square2.jpg" class="img img-rounded" height="220">
+          <img src="{{ site.baseurl }}/assets/img/gallery/front_athlete_square2.jpg" class="img img-rounded" height="220">
         </div>
 
         <div class="small_flex_image_container">
-          <img src="img/gallery/front_athlete_square5.jpg" class="img img-rounded" height="220">
+          <img src="{{ site.baseurl }}/assets/img/gallery/front_athlete_square5.jpg" class="img img-rounded" height="220">
         </div>
 
         <div class="small_flex_image_container">
-          <img src="img/gallery/front_athlete_square6.jpg" class="img img-rounded" height="220">
+          <img src="{{ site.baseurl }}/assets/img/gallery/front_athlete_square6.jpg" class="img img-rounded" height="220">
         </div>
 
         <div class="small_flex_image_container">
-          <img src="img/gallery/front_athlete_square1.jpg" class="img img-rounded" height="220">
+          <img src="{{ site.baseurl }}/assets/img/gallery/front_athlete_square1.jpg" class="img img-rounded" height="220">
         </div>
 
     </div>
@@ -158,7 +40,7 @@ blockquote {
   <div class="row equal">
 
     <div class="col-sm-6">
-        <img src="img/gallery/clipboard_and_papers3.jpg" width="100%">
+        <img src="{{ site.baseurl }}/assets/img/gallery/clipboard_and_papers3.jpg" width="100%">
     </div>
     <div class="col-sm-6">
         <div class="half_width_text">
@@ -181,7 +63,7 @@ blockquote {
         </div>
     </div>
     <div class="col-sm-6">
-        <img src="img/gallery/tablet_and_iphone_screens.png" width="100%">
+        <img src="{{ site.baseurl }}/assets/img/gallery/tablet_and_iphone_screens.png" width="100%">
     </div>
 
   </div>
@@ -194,33 +76,31 @@ blockquote {
         </blockquote>
     </div>
   </div>
-
-	<div class="row" style="text-align: center; margin-top: 30px;">
+  <div class="row">
 		<div class="col-sm-4">
             <a href="/features/#entries">
-                <img src="/img/gallery/surreynumber.jpg" class="img img-rounded triad_image" height="220">
+                <img src="{{ site.baseurl }}/assets/img/gallery/surreynumber.jpg" class="img img-rounded triad_image" height="220">
             </a>
-            <h2><a href="/features/#entries">Entries</a></h2>                
+            <h2><a href="/features/#entries">Entries</a></h2>
             <p>
                 Entries for track and field, cross country, road and relays.  By individuals or teams.
             </p>
         </div>
         <div class="col-sm-4">
           <a href="/results/">
-            <img src="/img/gallery/phoneresults_small.jpg" class="img img-rounded triad_image" height="220">
+            <img src="{{ site.baseurl }}/assets/img/gallery/phoneresults_small.jpg" class="img img-rounded triad_image" height="220">
           </a>
-          <h2><a href="/results/">Results</a></h2>        
+          <h2><a href="/results/">Results</a></h2>
           <p>Publish your results.   Validated. Real time.  Syndicated.  Searchable.  All formats and devices.</p>
         </div>
 		<div class="col-sm-4">
             <a href="/features/#timing/">
-                <img src="/img/gallery/race_lineup_small.jpg" class="img img-rounded triad_image" height="220">
+                <img src="{{ site.baseurl }}/assets/img/gallery/race_lineup_small.jpg" class="img img-rounded triad_image" height="220">
             </a>
             <h2><a href="/features/#timing">Timing &amp; Recording</a></h2>
-            <p>Manage races the same way as top officials, using a handful of mobile devices.</p>                
+            <p>Manage races the same way as top officials, using a handful of mobile devices.</p>
         </div>
 	</div>
-
     <div class="row blockquote_row">
     <div class="col-sm-6 col-sm-offset-3">
         <blockquote>
@@ -231,7 +111,7 @@ blockquote {
   </div>
 
     <div class="row">
-        <div class="col-sm-6 col-sm-offset-3" style="max-width: 600px;">
+        <div class="col-sm-6 col-sm-offset-3">
 
             <h2 style="text-align: center; margin-top: 50px;"><a href="/open_systems">Open Systems</a></h2>
 
@@ -242,7 +122,7 @@ blockquote {
 
     <div class="row" style="text-align: center;">
         <div class="col-sm-4">
-            <img src="/img/gallery/trackfinder_small.jpg" class="img img-rounded triad_image">
+            <img src="{{ site.baseurl }}/assets/img/gallery/trackfinder_small.jpg" class="img img-rounded triad_image">
             <h3>Open Data</h3>
             <p>
                 Building the reference data to get everyone talking, from clubs and organisations to venues and courses
@@ -250,16 +130,15 @@ blockquote {
         </div>
 
         <div class="col-sm-4">
-            <img src="/img/gallery/bmaf_club_small.jpg" class="img img-rounded triad_image">
+            <img src="{{ site.baseurl }}/assets/img/gallery/bmaf_club_small.jpg" class="img img-rounded triad_image">
             <h3>Open Standards</h3>
             <p>Defining standard formats for interchange of entries, start lists, results and rankings</p>
         </div>
 
         <div class="col-sm-4">
-            <img src="/img/gallery/shot_data_small.jpg" class="img img-rounded triad_image">
+            <img src="{{ site.baseurl }}/assets/img/gallery/shot_data_small.jpg" class="img img-rounded triad_image">
             <h3>Open Source</h3>
             <p>If we start to publish data and standards, other people can build on it</p>
         </div>
     </div>
-
 

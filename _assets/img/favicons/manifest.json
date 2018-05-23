@@ -1,0 +1,22 @@
+---
+---
+{
+    "name": "OpenTrack",
+    "short_name": "OpenTrack",
+    "icons": [
+        {
+            "src": "{{ site.baseurl }}/assets/img/favicons/favicon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "{{ site.baseurl }}/assets/img/favicons/favicon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "theme_color": "#C63527",
+    "background_color": "#C63527",
+    "display": "standalone"
+}

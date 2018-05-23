@@ -1,0 +1,87 @@
+@import "bootstrap/scss/functions";
+@import "variables";
+@import "bootstrap/scss/bootstrap";
+.navbar {
+  @extend .navbar-light;
+  @include media-breakpoint-up(md) {
+    .navbar-brand {
+      margin-left: -64px;
+    }
+  }
+}
+.mast-wrap {
+  background-color: $track-red;
+  color: $white;
+  background-image: url(/assets/img/track-header.svg);
+  background-size: cover;
+  background-position: center top;
+  @include media-breakpoint-up(md) {
+    .ot-demo {
+      margin-bottom: -64px;
+    }
+    margin-bottom: 64px;
+  }
+  .navbar {
+    @extend .navbar-dark;
+
+  }
+}
+.ot-footer {
+  background-color: $gray-600;
+  color: $white;
+  padding: 54px 0;
+  margin-top: 64px;
+  .text-muted {
+    color: $gray-300 !important;
+    color: rgba($white, 0.5) !important;
+    h6 {
+      color: $white;
+    }
+  }
+  .btn {
+    white-space:normal;
+  }
+  a {
+    color: rgba($white,0.9);
+    &:hover {
+      color: $white;
+    }
+  }
+}
+.footer-navigation {
+  @extend .list-unstyled;
+  font-size: 0.875rem; //14px
+  line-height: 1.1;
+  letter-spacing: 0.025rem;
+  li {
+    padding: 0.175rem 0;
+  }
+}
+.opentrack-backers .backer {
+  margin-bottom:16px;
+  margin-top: 16px;
+  //text-align: center;
+}
+
+.housekeeping {
+  margin-top: 32px;
+  font-size:13px;
+}
+h4 {
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+h6 {
+  font-weight: 500;
+}
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  line-height: 1.2;
+  border: $btn-border-width solid $track-black;
+  font-size: 0.875rem;
+  &:hover {
+    border: $btn-border-width+2 solid $black;
+    margin: -2px;
+  }
+}
