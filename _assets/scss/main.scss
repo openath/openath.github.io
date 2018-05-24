@@ -101,3 +101,58 @@ h6 {
     margin: -2px;
   }
 }
+
+
+
+.navbar-toggler {
+	padding:  0.625rem;
+	border: none;
+	.burger-bar {
+	  transition: transform 0.2s, opacity 0.2s;
+	& + .burger-bar {
+	  margin-top: 0.625rem;
+    }
+    }
+  &[aria-expanded=true] {
+
+	.burger-bar {
+		transform-origin: center center;
+		//background-color: #000;
+		&:nth-child(1) {
+			transform: translate(0, 0.9375rem) rotate(45deg);
+		}
+		&:nth-child(3) {
+			transform: translate(0, -0.9375rem) rotate(-45deg);
+		}
+		&:nth-child(2) {
+			opacity: 0;
+		}
+	  }
+  }
+}
+.burger-icon {
+    float: left;
+    width: 2.875rem;
+    height: 2.1875rem;
+    &:before {
+      background: transparent;
+      width: 2.875rem;
+      height: 0.875em;
+      display: block;
+      content: "";
+      position: absolute;
+    }
+}
+.burger-bar {
+    display: block;
+    width: 2.875rem;
+    height: 0.3125rem;
+    border-radius: 1px;
+    //box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    background-color: $track-black;
+    background-color: rgba($track-black,0.9);
+}
+.mast-wrap .burger-bar {
+	background-color: $white;
+	 background-color: rgba($white,0.9);
+}
