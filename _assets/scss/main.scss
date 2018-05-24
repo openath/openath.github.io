@@ -13,6 +13,7 @@
 	  }
 
 }
+
 .navbar-nav {
 	font-weight: 600;
 	text-transform: uppercase;
@@ -36,10 +37,6 @@
   }
   .navbar {
     @extend .navbar-dark;
-	  .menu-icon path {
-		  fill:$white;
-	  }
-
   }
 }
 .ot-footer {
@@ -63,18 +60,44 @@
       color: $white;
     }
   }
+  h4 {
+		  font-size: 1.25rem;
+	}
+	@include media-breakpoint-up(sm) {
+		h4 {
+		  font-size: 1rem;
+		}
+	}
 }
 .footer-navigation {
   @extend .list-unstyled;
-  font-size: 0.875rem; //14px
+  font-size: 1.125rem; //14px
+  letter-spacing: 0.033rem;
   line-height: 1.1;
-  letter-spacing: 0.025rem;
   li {
-    padding: 0.175rem 0;
+    padding: 0.2rem 0;
+    a {
+	    padding: 0.2rem 0;
+	    display: block;
+    }
+  }
+
+
+  @include media-breakpoint-up(sm) {
+
+	  font-size: 0.875rem; //14px
+	  letter-spacing: 0.025rem;
+	  li {
+	    padding: 0.175rem 0;
+	    a {
+		    padding: 0;
+		    display: inline;
+	    }
+	  }
   }
 }
 .opentrack-backers .backer {
-  margin-bottom:16px;
+  margin-bottom:32px;
   margin-top: 16px;
   //text-align: center;
 }
@@ -93,7 +116,7 @@ h6 {
 .btn {
   text-transform: uppercase;
   letter-spacing: 0.05rem;
-  line-height: 1.2;
+  //line-height: 1.2;
   border: $btn-border-width solid $track-black;
   font-size: 0.875rem;
   &:hover {
@@ -102,19 +125,24 @@ h6 {
   }
 }
 
+button.navbar-toggler:focus {
+    outline: 1px dotted rgba($track-black,0.1);
+    .mast-wrap & {
+    outline: 1px dotted rgba($white,0.1);
 
+    }
+}
 
 .navbar-toggler {
-	padding:  0.625rem;
+
 	border: none;
 	.burger-bar {
 	  transition: transform 0.2s, opacity 0.2s;
-	& + .burger-bar {
-	  margin-top: 0.625rem;
-    }
-    }
-  &[aria-expanded=true] {
-
+	  & + .burger-bar {
+	    margin-top: 0.625rem;
+      }
+  	}
+  	&[aria-expanded=true] {
 	.burger-bar {
 		transform-origin: center center;
 		//background-color: #000;
@@ -155,4 +183,12 @@ h6 {
 .mast-wrap .burger-bar {
 	background-color: $white;
 	 background-color: rgba($white,0.9);
+}
+.navbar-collapse {
+	background-color: $gray-600;
+	background-color: rgba($gray-600,0.95);
+	padding: 0.8rem 1rem;
+	.navbar-nav {
+		font-size: 1.25rem
+	}
 }
