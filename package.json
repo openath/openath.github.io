@@ -27,7 +27,7 @@
     "scaffold": "npm run clean && shx mkdir -p _site/assets && shx cp -r _assets/img/. _site/assets/img && shx cp -r _assets/fonts/. _site/assets/fonts",
     "build": "npm run scaffold && cross-env NODE_ENV=production webpack -p --progress && bundle exec jekyll build",
     "build:debug": "npm run scaffold && webpack --progress -d --verbose && bundle exec jekyll build -t",
-    "start": "npm run scaffold && concurrently -k -n \"WEBPACK,JEKYLL,BROWSER-SYNC\" -c \"bgBlue.bold,bgRed.bold,bgCyan.bold\" \"webpack -w\" \"bundle exec jekyll build --watch\" \"browser-sync start -s _site -f _site --extensions html\""
+    "start": "npm run scaffold && concurrently -k -n \"WEBPACK,JEKYLL,BROWSER-SYNC\" -c \"bgBlue.bold,bgRed.bold,bgCyan.bold\" \"webpack -w --mode=development\" \"bundle exec jekyll build --watch\" \"browser-sync start -s _site -f _site --extensions html\""
   },
   "repository": "https://github.com/twobyte/openath.github.io",
   "author": "Toby Trembath",

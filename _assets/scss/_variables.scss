@@ -4,9 +4,8 @@
 	Regular	"proxima-soft"	400	normal
 	Italic	"proxima-soft"	400	italic
 	Medium	"proxima-soft"	500	normal
-	Medium Italic	"proxima-soft"	500	italic
+	Semibold	"proxima-soft"	600
 	Bold	"proxima-soft"	700	normal
-	Bold Italic	"proxima-soft"	700	italic
 
 */
 // stylelint-disable value-keyword-case
@@ -25,6 +24,11 @@ $gray-600: #707479; // 60% track black
 $headings-font-weight: 700;
 $btn-font-weight: 700;
 $input-btn-border-width:2px;
+
+$navbar-padding-y: 0.8rem;
+$navbar-nav-link-padding-x: 1.75rem;
+$navbar-toggler-padding-y: .75rem;
+$navbar-toggler-padding-x: 1rem;
 
 
 $grid-columns:      12;
@@ -46,8 +50,8 @@ $grid-breakpoints: (
 $grid-breakpoints: (
   xs: 0,
   sm: 600px,
-  md: 792px,
-  lg: 1016px,
+  md: 816px,
+  lg: 1060px,
   xl: 1224px
 );
 $container-max-widths: (

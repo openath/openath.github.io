@@ -8,14 +8,27 @@
       margin-left: -64px;
     }
   }
+  	  .menu-icon path {
+		  fill:$track-black;
+	  }
+
+}
+.navbar-nav {
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.047rem;
+	font-size: 1rem;
 }
 .mast-wrap {
-  background-color: $track-red;
-  color: $white;
-  background-image: url(/assets/img/track-header.svg);
-  background-size: cover;
-  background-position: center top;
-  @include media-breakpoint-up(md) {
+	background-color: $track-red;
+	background-image: url('/assets/img/track-header.svg'); /* fallback */
+	background-image: url('/assets/img/track-header.svg'), linear-gradient(#c63a2c, #c6372a); /* W3C */
+	background-size: 2680px 528px, cover;
+	color: $white;
+	//background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	@include media-breakpoint-up(md) {
     .ot-demo {
       margin-bottom: -64px;
     }
@@ -23,6 +36,9 @@
   }
   .navbar {
     @extend .navbar-dark;
+	  .menu-icon path {
+		  fill:$white;
+	  }
 
   }
 }
