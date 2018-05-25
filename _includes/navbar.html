@@ -1,5 +1,5 @@
 <div class="ot-navbar">
-  <header class="container navbar navbar-toggleable-md navbar-expand-md justify-content-between site-nav">
+  <header class="container-fluid navbar navbar-toggleable-md navbar-expand-md justify-content-between site-nav">
     <a class="navbar-brand" href="{{ "/" | relative_url }}" aria-label="OpenTrack">
 
       {% if page.layout == "home" %}
@@ -39,7 +39,7 @@
   </header>
   {%- if page_paths -%}
    <nav class="collapse navbar-collapse navbar-dark" id="OpentrackNavbar">
-         <ul class="navbar-nav container">
+         <ul class="navbar-nav container-fluid">
         {%- for path in page_paths -%}
           {%- assign my_page = site.pages | where: "path", path | first -%}
           {%- if my_page.title -%}

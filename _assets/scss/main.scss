@@ -1,11 +1,23 @@
 @import "bootstrap/scss/functions";
 @import "variables";
 @import "bootstrap/scss/bootstrap";
+
+
+
+.container-fluid {
+	max-width: map-get($grid-breakpoints, xl)-108px;
+	padding-left:1rem;
+	padding-right:1rem;
+}
 .navbar {
   @extend .navbar-light;
-  @include media-breakpoint-up(md) {
+  .navbar-brand {
+	  transition: transform ease 0.3s;
+	}
+  @include media-breakpoint-up(xl) {
     .navbar-brand {
-      margin-left: -64px;
+      //margin-left: -64px;
+      transform: translateX(-54px);
     }
   }
   	  .menu-icon path {
@@ -19,6 +31,10 @@
 	text-transform: uppercase;
 	letter-spacing: 0.047rem;
 	font-size: 1rem;
+}
+.ot-navbar {
+	border-bottom: 0.3125rem solid $gray-100;
+	margin-bottom: 1rem;
 }
 .mast-wrap {
 	background-color: $track-red;
@@ -35,6 +51,11 @@
     }
     margin-bottom: 64px;
   }
+
+	.ot-navbar {
+		border-bottom: none;
+		margin-bottom: 1.3125rem;
+	}
   .navbar {
     @extend .navbar-dark;
   }
@@ -190,5 +211,50 @@ button.navbar-toggler:focus {
 	padding: 0.8rem 1rem;
 	.navbar-nav {
 		font-size: 1.25rem
+	}
+}
+.bg-gray-100 {
+	background-color: $gray-100;
+}
+.bg-blue {
+	background-color: $blue;
+	color: $white;
+}
+.row-eq-height .card,
+.card.mh {
+	height:100%;
+
+}
+@include media-breakpoint-up(sm) {
+	card.mh-sm {
+		height:100%;
+
+	}
+}
+@include media-breakpoint-up(md) {
+	card.mh-md {
+		height:100%;
+
+	}
+}
+.icon-flow {
+	width:60px;
+	text-align: center;
+}
+.card {
+	box-shadow: 0 0 .375em $gray-100;
+	box-shadow: 0 0 .375em rgba($track-black,0.1);
+}
+svg.mid-right {
+	display: none;
+	@include media-breakpoint-up(md) {
+		display: block;
+		position: absolute;
+		top:50%;
+		transform: translateY(-1rem);
+		right:-1rem;
+		path {
+			fill: $gray-500;
+		}
 	}
 }

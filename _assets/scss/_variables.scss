@@ -21,7 +21,11 @@ $track-black: #101820;
 $primary:  $track-red;
 
 $white:    #fff;
+$gray-100: #E7E8E9; // 10% track black
 $gray-600: #707479; // 60% track black
+$blue: #0274BD;
+
+
 $headings-font-weight: 700;
 $btn-font-weight: 700;
 $input-btn-border-width:1px;
@@ -29,6 +33,12 @@ $input-btn-border-width:1px;
 $btn-padding-y: .75rem;
 $btn-padding-x: 1.3rem;
 $btn-line-height: 1.2;
+
+$card-border-width:1px;
+$card-border-color: #CBCBCB;
+$card-border-radius: 0.5625rem;
+
+
 
 $navbar-padding-y: 0.8rem;
 $navbar-nav-link-padding-x: 1.75rem;
@@ -58,15 +68,17 @@ $grid-breakpoints: (
   // Large screen / desktop
   lg: 992px,
   // Extra large screen / wide desktop
-  xl: 1200px
+  xl: 1240px
 );
+/*
 $grid-breakpoints: (
   xs: 0,
   sm: 600px,
   md: 816px,
-  lg: 1060px,
-  xl: 1224px
+  lg: 1052px,
+  xl: 1248px
 );
+*/
 $container-max-widths: (
   sm: 540px,
   md: 720px,
