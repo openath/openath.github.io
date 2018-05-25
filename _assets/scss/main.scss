@@ -220,19 +220,13 @@ button.navbar-toggler:focus {
 	background-color: $blue;
 	color: $white;
 }
-.row-eq-height .card,
-.card.mh {
+.row-eq-height .card {
 	height:100%;
 
 }
-@include media-breakpoint-up(sm) {
-	card.mh-sm {
-		height:100%;
 
-	}
-}
 @include media-breakpoint-up(md) {
-	card.mh-md {
+	.card.mh {
 		height:100%;
 
 	}
