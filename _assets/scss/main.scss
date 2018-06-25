@@ -25,7 +25,25 @@
     }
 
 }
+.nav-item.active {
+	.octicon {
+      fill: $navbar-light-active-color;
+      }
+}
+.nav-link {
+	&:hover, &:focus {
+	.octicon {
+      fill: $navbar-light-active-color;
+      }
+    }
 
+	.octicon {
+		display: inline;
+		margin-left:0.5rem;
+		fill: $navbar-light-color;
+		margin-bottom: -2px;
+	}
+}
 .navbar-nav {
   font-weight: 600;
   text-transform: uppercase;
@@ -59,6 +77,25 @@
   .navbar {
     @extend .navbar-dark;
   }
+
+
+	.nav-item.active {
+		.octicon {
+	      fill: $navbar-dark-active-color;
+	      }
+	}
+	.nav-link {
+		&:hover, &:focus {
+		.octicon {
+	      fill: $navbar-dark-active-color;
+	      }
+	    }
+
+		.octicon {
+			fill: $navbar-dark-color;
+		}
+	}
+
 }
 .ot-footer {
   background-color: $gray-600;
@@ -321,6 +358,7 @@ p.lead a {
   }
   .d-inline-block {
     @extend .px-1;
+    margin-bottom: 1rem;
   }
 /*
   p {
@@ -370,4 +408,45 @@ blockquote {
   .col-auto {
     margin-bottom: 1rem;
   }
+}
+@keyframes slideInFromRight {
+    0% {
+        transform: rotate(0) translateX(500%);
+		//opacity :0;
+    }
+    100% {
+        transform: rotate(2deg) translateX(0);
+		//opacity:1;
+    }
+}
+.ot-demo {
+	perspective: 40px;
+}
+.phone-demo {
+
+	width:225px;
+	box-shadow: 0 8px 16px rgba($black, 0.66);
+	border-radius: 32px;
+	@extend .mx-auto;
+	position: relative;
+	//transition: transform ease 1s, opacity ease 1s;
+	margin-top:-24px;
+	transform: rotate(2deg) translateX(0);
+	transition: transform 0.5s;
+	backface-visibility: visible;
+	img.screen {
+		position: absolute;
+		top:58px;
+		left:15px;
+	}
+	&.loaded {
+		//transform: rotate(5deg) translateX(0);
+
+		animation-duration: 1s; /* the duration of the animation */
+		animation-timing-function: ease-out; /* how the animation will behave */
+		animation-delay: 0s; /* how long to delay the animation from starting */
+		animation-iteration-count: 1; /* how many times the animation will play */
+		animation-name: slideInFromRight; /* the name of the animation we defined above */
+
+	}
 }

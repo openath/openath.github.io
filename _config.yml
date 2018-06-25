@@ -27,6 +27,12 @@ github_username:  jekyll
 date_format: "%b %-d, %Y"
 google_analytics: 'UA-XXXXXXXX-X'
 
+header_pages: 
+  - product.md
+  - results.md 
+  - about.md 
+  - register.md 
+ 
 # Build settings
 markdown: kramdown
 # theme: minima
