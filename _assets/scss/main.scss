@@ -239,6 +239,14 @@ button.navbar-toggler:focus {
     background-color: $track-black;
     background-color: rgba($track-black,0.9);
 }
+article.post {
+	// max-width: 820px; //(9 cols)
+	max-width: 728px; // (8 cols)
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 48px;
+}
 .mast-wrap .burger-bar {
   background-color: $white;
    background-color: rgba($white,0.9);

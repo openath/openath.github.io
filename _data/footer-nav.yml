@@ -1,15 +1,15 @@
 - title: Company
   pages:
     - title: Contact Us
-      url: contact.html
+      url: about/contact.html
     - title: The Team
-      url: team.html
+      url: about/team.html
     - title: Sitemap
-      url: sitemap.html
+      url: about/sitemap.html
     - title: Privacy Notice
-      url: privacy.html
+      url: about/privacy.html
     - title: Terms of Use
-      url: terms.html
+      url: about/terms.html
 
 - title: Philosophy
   pages:
