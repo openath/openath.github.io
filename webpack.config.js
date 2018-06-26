@@ -30,7 +30,9 @@ var config = {
     path: path.resolve(__dirname, '_site/assets'),
     filename: '[name].js?[hash]'
   },
-
+  optimization: {
+    minimize: true
+  },
   module: {
     rules: [{
       test: /\.jsx?$/,
@@ -131,12 +133,14 @@ var config = {
       filename: '[name].css?[hash]',
       allChunks: true,
     }),
+/*
 
     ...(isDebug ? [] : [
       // Minimize all JavaScript output of chunks
       // https://webpack.js.org/plugins/uglifyjs-webpack-plugin/
       new webpack.optimize.UglifyJsPlugin(),
     ]),
+*/
 
     // Adds a banner to the top of each generated chunk
     // https://webpack.js.org/plugins/banner-plugin/
