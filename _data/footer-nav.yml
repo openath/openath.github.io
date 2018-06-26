@@ -1,26 +1,26 @@
 - title: Company
   pages:
     - title: Contact Us
-      url: about/contact.html
+      url: /about/contact.html
     - title: The Team
-      url: about/team.html
+      url: /about/team.html
     - title: Sitemap
-      url: about/sitemap.html
+      url: /about/sitemap.html
     - title: Privacy Notice
-      url: about/privacy.html
+      url: /about/privacy.html
     - title: Terms of Use
-      url: about/terms.html
+      url: /about/terms.html
 
 - title: Philosophy
   pages:
     - title: Grassroots Sport
-      url: philosophy/grassroots.html
+      url: /philosophy/grassroots.html
     - title: Open Data
-      url: philosophy/opendata.html
+      url: /philosophy/opendata.html
     - title: Open Standards
-      url: philosophy/openstandards.html
+      url: /philosophy/openstandards.html
     - title: Open Source
-      url: philosophy/opensource.html
+      url: /philosophy/opensource.html
 
 - title: Federation sites
   pages:
