@@ -2,7 +2,7 @@
 layout: post
 title: OpenTrack Goes Dutch
 author: Andy Robinson
-cover_image: /img/asterix/results_box.jpg
+cover_image: /assets/img/asterix/results_box.jpg
 ---
 
 OpenTrack is just back from a busy trip to the Netherlands
@@ -17,20 +17,19 @@ Hopefully we'll be able to collaborate on getting the basic reference data for t
 
 ## Asterix track race, Eindhoven
 
-[![asterix](/img/asterix/asterix.jpg)](/img/asterix/asterix.jpg)
+[<img src="/assets/img/asterix/asterix.jpg" class="img-fluid rounded" alt="Asterix">](/assets/img/asterix/asterix.jpg)
 
 Friday night saw the big open meeting organised by ESAV Asterix, the student athletics club at the University of Eindhoven.    
 
 We tried out the latest generation of our live field event results, covering several throwing events.  We also got to see Atletiek.nu in action, and could easily download start lists.  Looking ahead, a couple of webhooks would make it easy to jump instantly from a system like that into live recording.
 
 <div class="row">
-    <div class="col-md-4">
-        <img src="/img/asterix/input.png" class="img-responsive img-rounded"
-            alt="Recording screens in use"/>
-    </div>
-    <div class="col-md-8">
-        <img src="/img/asterix/womens_javelin.png" class="img-responsive img-rounded">
-    </div>
+  <div class="col-md-4">
+    <img src="/assets/img/asterix/input.png" class="img-fluid rounded" alt="Recording screens in use"/>
+  </div>
+  <div class="col-md-8">
+    <img src="/assets/img/asterix/womens_javelin.png" class="img-fluid rounded">
+  </div>
 </div>
 
 
@@ -40,15 +39,15 @@ We tried out the latest generation of our live field event results, covering sev
 These people really know how to put on a good meeting.  It was a perfect warm night in a beautiful stadium, with great music, fantastic officials and commentary, and great performances.  Things finished off with beer relays in fancy dress and a party in the stands.  Your correspondent retreated before the disco got going.
 
 <div class="row">
-    <div class="col-md-4">
-        <img src="/img/asterix/3000m.jpg" class="img-responsive" alt="Mens 3000">
-    </div>
-    <div class="col-md-4">
-        <img src="/img/asterix/results_box.jpg" class="img-responsive" alt="Hard at work">
-    </div>
-    <div class="col-md-4">
-        <img src="/img/asterix/gauls.jpg" class="img-responsive" alt="Gauls on podium">
-    </div>
+  <div class="col-md-4">
+    <img src="/assets/img/asterix/3000m.jpg" class="img-fluid" alt="Mens 3000">
+  </div>
+  <div class="col-md-4">
+    <img src="/assets/img/asterix/results_box.jpg" class="img-fluid" alt="Hard at work">
+  </div>
+  <div class="col-md-4">
+    <img src="/assets/img/asterix/gauls.jpg" class="img-fluid" alt="Gauls on podium">
+  </div>
 </div>
 
 
