@@ -8,8 +8,8 @@ header:
   - url: /team
     title: The Team
     identifier: about
-  - url: /register
-    title: Register
+  - url: /contact
+    title: Contact us
     identifier: contact
 
 

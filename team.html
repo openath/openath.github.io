@@ -10,7 +10,9 @@ tags: team
 {% assign sorted-team = site.team | sort: 'rank' | where: "profile","professional" %}
 
   {% for player in sorted-team %}
-  <div class="col-6 col-sm-4 col-lg-2">
+
+  {% assign delay = forloop.index | times: 100 %}
+  <div class="col-6 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="{{ delay }}">
     <article class="team mb-3">
       <a class="player" href="#{{ player.title | slugify }}" data-toggle="modal" data-target="#{{ player.title | slugify }}">
 

@@ -1,3 +1,4 @@
+{% if page.title != 'Contact us' %}
 {% if page.layout != 'home' %}
 <div class="tinted">
 {% endif %}
@@ -11,10 +12,7 @@
     <div class="col-lg-auto text-center text-lg-right">
 	    <div class="row justify-content-center justify-content-lg-end">
 		    <div class="col-auto">
-      <a href="#" class="btn btn-secondary" role="button">Contact us</a>
-		    </div>
-		    <div class="col-auto">
-      <a href="#" class="btn btn-primary" role="button">Register your interest</a>
+      <a href="/contact/" class="btn btn-primary" role="button">Register your interest</a>
 		    </div>
 	    </div>
     </div>
@@ -22,6 +20,7 @@
 </div>
 {% if page.layout != 'home' %}
 </div>
+{% endif %}
 {% endif %}
 
 <div class="ot-footer">
