@@ -50,7 +50,13 @@
   text-transform: uppercase;
   letter-spacing: 0.047rem;
   font-size: 1rem;
+
+}/*
+
+#OpentrackNavbar .navbar-nav {
+	@extend .container-fluid;
 }
+*/
 .ot-navbar {
   border-bottom: 0.3125rem solid $gray-100;
   margin-bottom: 1rem;
