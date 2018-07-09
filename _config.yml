@@ -30,7 +30,7 @@ google_analytics: 'UA-XXXXXXXX-X'
 header_pages: 
   - product.md
   - results.md 
-  - about.md 
+  - team.html
   - register.md 
  
 # Build settings
@@ -40,7 +40,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-octicons
-  
+  - jekyll-menus
 # Webpack handling sass
 # sass:
 #  load_paths:
@@ -50,6 +50,9 @@ plugins:
 # Make sure the `_site/assets/` is not trashed (webpack output)
 keep_files:
   - assets
+
+collections:
+  - team
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

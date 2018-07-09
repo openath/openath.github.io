@@ -1,0 +1,97 @@
+---
+layout: simple
+title: The Team
+permalink: /team/
+description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+tags: team
+---
+
+<div class="row align-items-start justify-content-center py-5 ot-team">
+{% assign sorted-team = site.team | sort: 'rank' | where: "profile","professional" %}
+
+  {% for player in sorted-team %}
+  <div class="col-6 col-sm-4 col-lg-2">
+    <article class="team mb-3">
+      <a class="player" href="#{{ player.title | slugify }}" data-toggle="modal" data-target="#{{ player.title | slugify }}">
+
+          <div class="team-image-box mb-3">
+            <div class="image-wrapper">
+            {% if player.image %}
+                <img src="{{ player.image }}" class="img-fluid" width="184" height="184">
+            {% endif %}
+
+            {% if player.athlete_pic %}
+                <img src="{{ player.athlete_pic }}" class="img-fluid" width="184" height="184">
+            {% endif %}
+            </div>
+        </div>
+
+        <h3 class="team-member-name mb-0"><span>{{ player.title }}</span></h3>
+        <p class="team-member-position"><span>{{ player.position }}</span></p>
+
+        </a>
+    </article>
+  </div>
+  {% endfor %}
+
+</div>
+
+{% for player in sorted-team %}
+
+  <div class="modal fade" id="{{ player.title | slugify }}" tabindex="-1" role="dialog" aria-labelledby="{{ player.title | slugify }}-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="{{ player.title | slugify }}-label">{{ player.title }} <small>{{ player.position }}</small></h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+      {% if player.athlete_bio %}
+
+      {% if player.image %}
+    <ul class="nav nav-pills my-5 justify-content-center team-tabs player-pic" id="{{ player.title | slugify }}-pills-tab" role="tablist">
+    {% else %}
+    <ul class="nav nav-pills my-5 justify-content-center team-tabs" id="{{ player.title | slugify }}-pills-tab" role="tablist">
+    {% endif %}
+
+      <li class="nav-item">
+        <a class="nav-link active" id="{{ player.title | slugify }}-pro-tab" data-toggle="pill" href="#{{ player.title | slugify }}-pro" role="tab" aria-controls="{{ player.title | slugify }}-pro" aria-selected="true">Business</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="{{ player.title | slugify }}-ath-tab" data-toggle="pill" href="#{{ player.title | slugify }}-ath" role="tab" aria-controls="{{ player.title | slugify }}-ath" aria-selected="false">Athletics</a>
+      </li>
+    </ul>
+      {% endif %}
+
+    <div class="tab-content team-content">
+      <div class="tab-pane fade show active" id="{{ player.title | slugify }}-pro" role="tabpanel" aria-labelledby="{{ player.title | slugify }}-pro-tab">
+
+         {% if player.image %}
+            <img src="{{ player.image }}" class="img-fluid rounded-circle mx-auto d-block" id="{{ player.title | slugify }}-pro-pic" width="184" height="184">
+        {% endif %}
+        {{ player.content }}</div>
+
+    {% if player.athlete_bio %}
+      {% capture athlete_inc %}_team/{{ player.athlete_bio }}{% endcapture %}
+      {% capture sporty_bio %}{% include_relative {{ athlete_inc }} %}{% endcapture %}
+      <div class="tab-pane fade" id="{{ player.title | slugify }}-ath" role="tabpanel" aria-labelledby="{{ player.title | slugify }}-ath-tab">
+
+        {% if player.athlete_pic %}
+            <img src="{{ player.athlete_pic }}" class="img-fluid rounded-circle mx-auto d-block" id="{{ player.title | slugify }}-ath-pic" width="184" height="184">
+      {% endif %}
+      {{ sporty_bio | markdownify }}</div>
+    {% endif %}
+    </div>
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>-->
+      </div>
+    </div>
+  </div>
+
+
+{% endfor %}

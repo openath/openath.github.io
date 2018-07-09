@@ -2,6 +2,7 @@
 @import "variables";
 @import "bootstrap/scss/bootstrap";
 
+@import "aos/dist/aos.css";
 
 
 .container-fluid {
@@ -101,7 +102,7 @@
   background-color: $gray-600;
   color: $white;
   padding: 54px 0;
-  margin-top: 64px;
+  //margin-top: 64px;
   .text-muted {
     color: $gray-300 !important;
     color: rgba($white, 0.5) !important;
@@ -350,6 +351,9 @@ p.lead a {
 }
 .icon-story {
   min-height: 129px;
+  max-width: 208px;
+	margin-left: auto;
+	margin-right: auto;
   .feature-icon {
     @extend .mt-2;
     height:74px;
@@ -449,11 +453,124 @@ blockquote {
 	&.loaded {
 		//transform: rotate(5deg) translateX(0);
 
-		animation-duration: 1s; /* the duration of the animation */
-		animation-timing-function: ease-out; /* how the animation will behave */
-		animation-delay: 0s; /* how long to delay the animation from starting */
-		animation-iteration-count: 1; /* how many times the animation will play */
-		animation-name: slideInFromRight; /* the name of the animation we defined above */
+		//animation-duration: 1s; /* the duration of the animation */
+		//animation-timing-function: ease-out; /* how the animation will behave */
+		//animation-delay: 0s; /* how long to delay the animation from starting */
+		//animation-iteration-count: 1; /* how many times the animation will play */
+		//animation-name: slideInFromRight; /* the name of the animation we defined above */
 
+	}
+}
+
+a.player{
+	display: block;
+
+	.team-image-box {
+		border-radius: 50%;
+		width: 100%;
+		height: 0;
+		overflow: hidden;
+		padding-top: 100%;
+		position: relative;
+		background-color: $soft-blue;
+		.image-wrapper {
+			position: absolute;
+			top:0;
+			transition: top ease-in-out 0.2s;
+			img {
+				display: block;
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
+	&:hover {
+		color: $track-red;
+		text-decoration: underline;
+		.team-image-box .image-wrapper {
+			top:-100%;
+		}
+		.team-member-name,
+		.team-member-position {
+			span {
+				//border-bottom: 1px solid $track-red;
+				color: $track-black;
+			}
+
+		}
+	}
+	&:focus {
+		outline: none;
+	}
+}
+
+.ot-title {
+	@extend .mx-auto;
+	text-align: center;
+	text-transform: uppercase;
+	max-width: 720px;
+	line-height: 1;
+	margin-bottom: 2.5rem;
+	span {
+		border-bottom: 4px solid $track-red;
+		display: inline-block;
+	}
+}
+.ot-lead {
+	@extend .lead;
+	@extend .mx-auto;
+	text-align: center;
+	max-width: 720px;
+	font-size: 1.3125rem;
+}
+
+.modal-content {
+	color: $white;
+	color: rgba($white,0.8);
+}
+.modal-header {
+
+  .close {
+    padding: 1rem;
+    // auto on the left force icon to the right even when there is no .modal-title
+    margin: -1rem -1rem -1rem auto;
+    color: $white;
+    font-size: 2.5rem;
+	font-weight: 300;
+	line-height: 2rem;
+  }
+}
+// Footer (for actions)
+.modal-footer {
+  padding: $modal-header-padding;
+  justify-content: center;
+}
+.team-tabs {
+	&.player-pic {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 218px;
+
+	}
+	.nav-link {
+		min-width: 120px;
+		text-align: center;
+		&:hover {
+			color: $white;
+		}
+	}
+}
+.team-content img {
+	margin-bottom:6rem;
+}
+h3.team-member-name {
+	font-size: 1rem;
+}
+@include media-breakpoint-up(md) {
+//@include media-breakpoint-only(md) {
+	.ot-team .col-6.col-sm-4.col-lg-2 {
+		flex: 0 0 20%;
+		max-width: 20%;
 	}
 }

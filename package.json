@@ -33,6 +33,7 @@
   "author": "Toby Trembath",
   "license": "MIT",
   "dependencies": {
+    "aos": "^2.3.2",
     "bootstrap": "^4.1.1",
     "jquery": "^3.3.1",
     "octicons": "^7.3.0",

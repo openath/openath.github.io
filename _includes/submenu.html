@@ -1,0 +1,9 @@
+{% if submenu %}
+<div class="dropdown-menu" aria-labelledby="menu-item-{{ forloop.index }}">
+{% for subitem in submenu %}
+  {%- if subitem.title -%}
+  <a class="dropdown-item{% if page.title == subitem.title %} active{% endif %}" href="{{ subitem.url }}">{{ subitem.title }}{% if page.title == subitem.title %}<span class="sr-only">(current)</span>{% endif %} </a>
+  {%- endif -%}
+{% endfor %}
+</div>
+{% endif %}

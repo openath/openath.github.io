@@ -6,9 +6,13 @@
 // img.width = 64
 // document.body.appendChild(img)
 
-/* this checks if we can add monochrome effect to photos */
+import AOS from 'AOS';
+
 import './components/homemast';
 
+AOS.init();
+
+/* this checks if we can add monochrome effect to photos */
 const supportsMixBlendMode = window.getComputedStyle(document.body)
   .mixBlendMode;
 if (supportsMixBlendMode) {

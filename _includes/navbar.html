@@ -24,16 +24,8 @@
         </span>
       </button>
 <nav class="ml-auto d-none d-md-block">
-      <ul class="navbar-nav">
-        {%- for path in page_paths -%}
-          {%- assign my_page = site.pages | where: "path", path | first -%}
-          {%- if my_page.title -%}
-          <li class="nav-item{% if page.title == my_page.title %} active{% endif %}">
-          	<a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}{% if my_page.title == 'Results' %}{% octicon bell %}{% endif %} {% if page.title == my_page.title %}<span class="sr-only">(current)</span>{% endif %} </a>
-          </li>
-          {%- endif -%}
-        {%- endfor -%}
-      </ul>
+    {% assign menu = site.menus.header %}
+    {% include menus.html %}
 </nav>
       {%- endif -%}
   </header>
@@ -53,3 +45,4 @@
       </nav>
       {%- endif -%}
 </div>
+

@@ -1,9 +1,25 @@
+header:
+  - url: /product/
+    title: Product
+    identifier: product
+  - url: /results
+    title: Results
+    identifier: results
+  - url: /team
+    title: The Team
+    identifier: about
+  - url: /register
+    title: Register
+    identifier: contact
+
+
+footer:
 - title: Company
   pages:
     - title: Contact Us
       url: /about/contact.html
     - title: The Team
-      url: /about/team.html
+      url: /team/
     - title: News
       url: /news/
     - title: Sitemap

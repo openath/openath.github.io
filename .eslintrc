@@ -12,6 +12,8 @@
     "prettier/react"            // https://github.com/prettier/eslint-config-prettier
   ],
   rules: {
-    "no-unused-expressions": 0
+    "no-unused-expressions": 0,
+    "import/no-extraneous-dependencies":0,
+    "import/no-unresolved":0
   }
 }

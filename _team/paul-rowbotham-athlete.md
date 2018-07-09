@@ -1,0 +1,3 @@
+I was an international 800m runner with a best time of 1.47; and a decathlon PB of 5700. My proudest achievements were beating Steve Ovett to win the UK Southern Champs whilst President at Cambridge University Athletics Club, and beating Peter Rono to win the Penn Relays whilst on a track and field scholarship at Villanova University. I competed for Cambridge Harriers from age 11 but now, occasionally, run for Serpentine Running Club and help with coaching young athletes at Highgate Harriers and Thames Valley Harriers.
+ 
+I am excited to join the OpenTrack Board - it seems to leverage my various experiences to offer the opportunity to contribute to a worthwhile project in my first passion – track and field athletics.

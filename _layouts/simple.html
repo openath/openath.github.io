@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<div class="container my-5">
+<div class="my-5">
   <main class="ot-content" role="main">
-    <h1 class="ot-title" id="content">{{ page.title | smartify }}</h1>
+    <h1 class="ot-title"><span>{{ page.title | smartify }}</span></h1>
     <p class="ot-lead">{{ page.description | smartify }}</p>
     {{ content }}
   </main>
