@@ -26,12 +26,12 @@ twitter_username: jekyllrb
 github_username:  jekyll
 date_format: "%b %-d, %Y"
 google_analytics: 'UA-XXXXXXXX-X'
-
-header_pages: 
-  - product.md
-  - results.md 
-  - team.html
-  - register.md 
+# 
+# header_pages: 
+#   - product.md
+#   - results.md 
+#   - team.html
+#   - register.md 
  
 # Build settings
 markdown: kramdown
