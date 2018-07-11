@@ -3,6 +3,7 @@ layout: simple
 title: Contact us
 permalink: /contact/
 ---
+Wimbletech Zone 2, 35 Wimbledon Hill Road, London SW19 7NB
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
