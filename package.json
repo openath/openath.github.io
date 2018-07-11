@@ -24,7 +24,7 @@
     "lint": "eslint",
     "lint:staged": "lint-staged",
     "clean": "shx rm -rf _site/",
-    "scaffold": "npm run clean && shx mkdir -p _site/assets && shx cp -r _assets/img/. _site/assets/img && shx cp -r _assets/fonts/. _site/assets/fonts",
+    "scaffold": "npm run clean && shx mkdir -p assets && shx cp -r _assets/img/. assets/img && shx cp -r _assets/fonts/. assets/fonts",
     "build": "npm run scaffold && cross-env NODE_ENV=production webpack -p --progress && bundle exec jekyll build",
     "build:debug": "npm run scaffold && webpack --progress -d --verbose && bundle exec jekyll build -t",
     "start": "npm run scaffold && concurrently -k -n \"WEBPACK,JEKYLL,BROWSER-SYNC\" -c \"bgBlue.bold,bgRed.bold,bgCyan.bold\" \"webpack -w --mode=development\" \"bundle exec jekyll build --watch\" \"browser-sync start -s _site -f _site --extensions html\""

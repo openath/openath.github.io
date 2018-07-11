@@ -27,7 +27,7 @@ var config = {
   // How and where it should output our bundles
   // https://webpack.js.org/configuration/output/
   output: {
-    path: path.resolve(__dirname, '_site/assets'),
+    path: path.resolve(__dirname, 'assets'),
     filename: '[name].js?[hash]'
   },
   optimization: {

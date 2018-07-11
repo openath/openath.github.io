@@ -48,8 +48,8 @@ plugins:
 #    - node_modules
 
 # Make sure the `_site/assets/` is not trashed (webpack output)
-keep_files:
-  - assets
+# keep_files:
+# - assets
 
 collections:
   - team
