@@ -1,0 +1,21 @@
+- url: /product/
+  title: Product
+  pages:
+  - title: Results Capture
+    url: /product/results-capture.html
+  - title: Entry System
+    url: /product/entries-system.html
+  - title: Federation Management
+    url: /product/federation-admin.html
+  - title: Competition Management
+    url: /product/competition-management.html
+  - title: Open Reference Database
+    url: /product/open-reference-data.html
+  - title: Feature Matrix
+    url: /product/featurematrix.html
+- url: /results
+  title: Results
+- url: /team
+  title: The Team
+- url: /contact
+  title: Contact us
