@@ -468,7 +468,36 @@ blockquote {
 
 	}
 }
+.tablet-demo {
 
+	width:516px;
+	box-shadow: 0 8px 16px rgba($black, 0.66);
+	border-radius: 32px;
+	@extend .mx-auto;
+	position: relative;
+	//transition: transform ease 1s, opacity ease 1s;
+/*
+	margin-top:-24px;
+	transform: rotate(2deg) translateX(0);
+	transition: transform 0.5s;
+*/
+	backface-visibility: visible;
+	img.screen {
+		position: absolute;
+		top:22px;
+		left:48px;
+	}
+	&.loaded {
+		//transform: rotate(5deg) translateX(0);
+
+		//animation-duration: 1s; /* the duration of the animation */
+		//animation-timing-function: ease-out; /* how the animation will behave */
+		//animation-delay: 0s; /* how long to delay the animation from starting */
+		//animation-iteration-count: 1; /* how many times the animation will play */
+		//animation-name: slideInFromRight; /* the name of the animation we defined above */
+
+	}
+}
 a.player{
 	display: block;
 

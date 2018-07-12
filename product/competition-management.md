@@ -29,6 +29,12 @@ Using a simple hierarchical menu system all of the event details can be entered.
 * Links between heats and finals
 * Athlete Check in features
 
+ <div class="tablet-demo">
+     <img src="{{ site.baseurl }}/assets/img/screens/tablet-screen-comp-management-1.png" class="screen" id="screen1" width="420" height="316">
+  	{%- include icons/black-tablet.svg width="516" height="362" class="d-block" -%}
+</div>
+	      
+	      
 ### 2.2 Create a website for the match display
 Using the results capture framework we allow complete customisation of venue, event list and athlete entry.
 
