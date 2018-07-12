@@ -41,6 +41,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-octicons
 #  - jekyll-menus
+
 # Webpack handling sass
 # sass:
 #  load_paths:
