@@ -2,10 +2,10 @@
 <ul class="navbar-nav">
 {% for item in menu %}
   {%- if item.title -%}
-  <li class="menu-item-{{ forloop.index }} nav-item{% if page.title == item.title %} active{% endif %}{% if item.children %} dropdown{% endif %}">
-  	<a class="nav-link{% if item.children %} dropdown-toggle" id="menu-item-{{ forloop.index }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false{% endif %}" href="{{ item.url }}">{{ item.title }}{% if item.title == 'Results' %}{% octicon bell %}{% endif %} {% if page.title == item.title %}<span class="sr-only">(current)</span>{% endif %} </a>
-    {% if item.children %}
-      {% assign submenu = item.children %}
+  <li class="menu-item-{{ forloop.index }} nav-item{% if page.title == item.title %} active{% endif %}{% if item.pages %} dropdown{% endif %}">
+  	<a class="nav-link{% if item.pages %} dropdown-toggle" id="menu-item-{{ forloop.index }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false{% endif %}" href="{{ item.url }}">{{ item.title }}{% if item.title == 'Results' %}{% octicon bell %}{% endif %} {% if page.title == item.title %}<span class="sr-only">(current)</span>{% endif %} </a>
+    {% if item.pages %}
+      {% assign submenu = item.pages %}
       {% include submenu.html %}
     {% endif %}
   </li>
