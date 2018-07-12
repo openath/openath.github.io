@@ -39,6 +39,13 @@ We understand that English is not the first language of Europe and have successf
 
 Each club admin can add new athletes as they come into the sport, see all their members and their current status. They can make or request changes to be made.
 
+<figure>
+  <img 
+  	src="/assets/img/screenshots/estonia_home_page.png" 
+  	alt="Main page as seen by admins" 
+  	style="width:100%"/>
+</figure>
+
 #### 2.3.1 Licence Status
 
 The licence status (send last column in the above screen shot) will vary 
