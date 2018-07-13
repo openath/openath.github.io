@@ -1,0 +1,42 @@
+---
+layout: fullbleed
+title: Federation Management
+permalink: /product/federation-admin.html
+---
+
+<div class="container-fluid pb-4">
+	<section id="federation-admin-introduction" data-aos="fade-up">
+	  {% capture my_include %}{% include_relative federation-admin/1.introduction.md %}{% endcapture %}
+	  {{ my_include | markdownify }}
+	</section>
+</div>
+
+<div class="py-4 tinted">
+	<div class="container-fluid">
+		<section id="federation-admin-main" data-aos="fade-up">
+			{% capture my_include %}{% include_relative federation-admin/2.federation-management.md %}{% endcapture %}
+			{{ my_include | markdownify }}
+		</section>
+	</div>
+</div>
+<div class="py-4 container-fluid">
+	<section id="federation-admin-main" data-aos="fade-up">
+		{% capture my_include %}{% include_relative federation-admin/3.managing-comps.md %}{% endcapture %}
+		{{ my_include | markdownify }}
+	</section>
+</div>
+<div class="py-4 tinted">
+	<div class="container-fluid">
+	<section id="federation-admin-feedback" data-aos="fade-up">
+		{% capture my_include %}{% include_relative federation-admin/4.testimonials-and-feedback.md %}{% endcapture %}
+		{{ my_include | markdownify }}
+	</section>
+	</div>
+</div>
+<div class="py-4 container-fluid">
+	<section id="federation-admin-next-steps" data-aos="fade-up">
+		{% capture my_include %}{% include_relative federation-admin/5.next-steps.md %}{% endcapture %}
+		{{ my_include | markdownify }}
+	</section>
+</div>
+

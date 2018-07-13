@@ -8,12 +8,10 @@
 
     {% include navbar.html %}
 	<main id="content" role="main" class="bleed">
-		<div class="container-fluid">
-			<article class="post">
+		<article class="product">
 			<h1 class="ot-title"><span>{{ page.title | smartify }}</span></h1>
 	        {{ content }}
-			</article>
-		</div>
+		</article>
 	</main>
     {% include footer.html %}
     {% include scripts.html %}

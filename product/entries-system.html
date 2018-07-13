@@ -1,0 +1,33 @@
+---
+layout: fullbleed
+title: Entry System
+permalink: /product/entries-system.html
+---
+
+<div class="container-fluid pb-4">
+	<section id="entry-system-introduction" data-aos="fade-up">
+	  {% capture my_include %}{% include_relative entry-system/1.introduction.md %}{% endcapture %}
+	  {{ my_include | markdownify }}
+	</section>
+</div>
+
+<div class="py-4 tinted">
+	<div class="container-fluid">
+		<section id="entry-system-main" data-aos="fade-up">
+			{% capture my_include %}{% include_relative entry-system/2.entries-system.md %}{% endcapture %}
+			{{ my_include | markdownify }}
+		</section>
+	</div>
+</div>
+
+<div class="container-fluid py-4">
+	<section id="entry-system-feedback" data-aos="fade-up">
+		{% capture my_include %}{% include_relative entry-system/3.testimonials-and-feedback.md %}{% endcapture %}
+		{{ my_include | markdownify }}
+	</section>
+	<section id="what-next-feedback" data-aos="fade-up">
+		{% capture my_include %}{% include_relative entry-system/4.what-next.md %}{% endcapture %}
+		{{ my_include | markdownify }}
+	</section>
+</div>
+
