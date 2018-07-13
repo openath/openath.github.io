@@ -1,5 +1,5 @@
 ﻿---
-layout: page
+layout: fullbleed
 title: Competition Management
 menus: 
   product:
@@ -13,9 +13,16 @@ The Competition Management system allows organisers to simply deal with the comp
 
 The system is in its first season but has successfully managed events ranging from international athletics championships down to open meetings.
 
-
+<div class="side-image tablet-shadow">
+ <figure class="tablet-demo">
+     <img src="{{ site.baseurl }}/assets/img/screens/tablet-screen-comp-management-1.png" class="screen" id="comp-screen" width="430" height="322">
+  	{%- include icons/ipad-black.svg width="516" height="362" class="d-block" -%}
+</figure>
+</div>
 ## 2. Competition Management 
 
+
+	     
 ### 2.1 Full flexibility for the event organiser
 
 We have a full management menu for the race organiser.
@@ -29,14 +36,11 @@ Using a simple hierarchical menu system all of the event details can be entered.
 * Links between heats and finals
 * Athlete Check in features
 
- <div class="tablet-demo">
-     <img src="{{ site.baseurl }}/assets/img/screens/tablet-screen-comp-management-1.png" class="screen" id="screen1" width="420" height="316">
-  	{%- include icons/black-tablet.svg width="516" height="362" class="d-block" -%}
-</div>
-	      
+ 
 	      
 ### 2.2 Create a website for the match display
-Using the results capture framework we allow complete customisation of venue, event list and athlete entry.
+
+Using the results capture framework we allow complete customisation of venue, event list and athlete entry. 
 
 * Bulk athlete load
 * Full range of events covered
