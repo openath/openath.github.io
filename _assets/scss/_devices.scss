@@ -1,37 +1,85 @@
 
+.phone-demo {
+
+	width:225px;
+	box-shadow: 0 8px 16px rgba($black, 0.66);
+	border-radius: 32px;
+	@extend .mx-auto;
+	position: relative;
+	//transition: transform ease 1s, opacity ease 1s;
+	margin-top:-24px;
+	transform: rotate(2deg) translateX(0);
+	transition: transform 0.5s;
+	backface-visibility: visible;
+	img.screen {
+		position: absolute;
+		top:58px;
+		left:15px;
+	}
+	&.loaded {
+		//transform: rotate(5deg) translateX(0);
+
+		//animation-duration: 1s; /* the duration of the animation */
+		//animation-timing-function: ease-out; /* how the animation will behave */
+		//animation-delay: 0s; /* how long to delay the animation from starting */
+		//animation-iteration-count: 1; /* how many times the animation will play */
+		//animation-name: slideInFromRight; /* the name of the animation we defined above */
+
+	}
+}
+.tablet-demo {
+	width:516px;
+	margin: 0 auto;
+	border-radius: 24px;
+	position: relative;
+	backface-visibility: visible;
+	img.screen {
+		position: absolute;
+		top:22px;
+		left:48px;
+		z-index: 20;
+	}
+	svg {
+		z-index: 10;
+	}
+}
+
 .side-image {
 	max-width: 100%;
 	margin-bottom: 3rem;
 	position: relative;
 
 }
-.side-image-left {
-	margin-right: 3rem;
-	margin-left: -21rem;
-	float: left;
-	margin-top:3rem;
-
-}
-.side-image-right {
-	margin-left: 3rem;
-	margin-right: -21rem;
-	float: right;
-
+@include media-breakpoint-up(md) {
+	.side-image-left {
+		margin-right: 3rem;
+		margin-left: -21rem;
+		float: left;
+		margin-top:3rem;
+	
+	}
+	.side-image-right {
+		margin-left: 3rem;
+		margin-right: -21rem;
+		float: right;
+	
+	}
 }
 .tablet-shadow {
 	position: relative;
 	&:after {
 		content: ' ';
 		display: block;
-		width:100%;
 		height: 0;
 		background-color: rgba($black, 0.66);
 		box-shadow: 0 0 5px 3px rgba($black, 0.66);
 		position: absolute;
 		bottom: -1px;
-		left: 2%;
 		z-index: -1;
 		width:96%;
+		max-width:495px;
+		left: 52%;
+		transform: translateX(-258px);
 	}
 	
 }

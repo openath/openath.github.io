@@ -446,59 +446,6 @@ blockquote {
 .ot-demo {
 	perspective: 40px;
 }
-.phone-demo {
-
-	width:225px;
-	box-shadow: 0 8px 16px rgba($black, 0.66);
-	border-radius: 32px;
-	@extend .mx-auto;
-	position: relative;
-	//transition: transform ease 1s, opacity ease 1s;
-	margin-top:-24px;
-	transform: rotate(2deg) translateX(0);
-	transition: transform 0.5s;
-	backface-visibility: visible;
-	img.screen {
-		position: absolute;
-		top:58px;
-		left:15px;
-	}
-	&.loaded {
-		//transform: rotate(5deg) translateX(0);
-
-		//animation-duration: 1s; /* the duration of the animation */
-		//animation-timing-function: ease-out; /* how the animation will behave */
-		//animation-delay: 0s; /* how long to delay the animation from starting */
-		//animation-iteration-count: 1; /* how many times the animation will play */
-		//animation-name: slideInFromRight; /* the name of the animation we defined above */
-
-	}
-}
-.tablet-demo {
-
-	width:516px;
-	margin: 0;
-	//box-shadow: 0 0 8px rgba($black, 0.66);
-	border-radius: 24px;
-	//@extend .mx-auto;
-	position: relative;
-	//transition: transform ease 1s, opacity ease 1s;
-/*
-	margin-top:-24px;
-	transform: rotate(2deg) translateX(0);
-	transition: transform 0.5s;
-*/
-	backface-visibility: visible;
-	img.screen {
-		position: absolute;
-		top:22px;
-		left:48px;
-		z-index: 20;
-	}
-	svg {
-		z-index: 10;
-	}
-}
 main#content.bleed { 
 	overflow: hidden;
 	
@@ -507,10 +454,7 @@ main#content.bleed {
 		//padding-left: 3.5rem;
 		position: relative;
 		strong {
-			display: block;
-			position: absolute;
-			left:-4rem;
-			top:-6px;
+			display: inline-block;
 			color: $track-red;
 			background-color: $tint;
 			border-radius: 50%;
@@ -522,7 +466,14 @@ main#content.bleed {
 			
 		}
 	}
-	
+	@include media-breakpoint-up(md) {
+		h2 strong {
+			display: block;
+			position: absolute;
+			left:-4rem;
+			top:-6px;
+		}
+	}
 	h3 {
 		margin: 4rem 0 1rem;
 		span {
