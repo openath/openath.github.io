@@ -24,8 +24,7 @@ if (supportsMixBlendMode) {
 
 
 /* this bit of script wraps some h3 text in span so we can give them fancy red underlines */
-const prodArt = document.getElementsByTagName('article')[0];
-const allH3s = [...prodArt.getElementsByTagName('h3')];
+const allH3s = [...document.getElementsByTagName('h3')];
 allH3s.forEach((H3) => { 
 	if(H3.childNodes.length === 1 && H3.childNodes[0].nodeName === '#text'){
 		let node = H3.childNodes[0],
