@@ -3,7 +3,8 @@
 
 
 .phone-demo,
-.tablet-demo {
+.tablet-demo,
+.browser-demo {
 	margin: 0 auto;
 	position: relative;
 	backface-visibility: visible;
@@ -61,7 +62,32 @@
 		bottom:0;
 	}
 }
-
+.browser-demo {
+	width:728px;
+	border-radius: 0.69%;
+	padding-bottom: 70.1923%;
+	box-shadow: 0 0 16px rgba($black, 0.66);
+	img.screen {
+		width:100%;
+		height: auto;
+/*
+		top:22px;
+		left:48px;
+*/
+		bottom:0;
+		left:0;
+		right:0;
+		z-index: 20;
+	}
+	svg {
+		z-index: 10;
+		max-width: 100%;
+		height: auto;
+		position:absolute;
+		bottom:0;
+	}
+	
+}
 
 .side-image {
 	max-width: 100%;
@@ -114,16 +140,33 @@
 }
 
 @include media-breakpoint-up(lg) {
-	.side-image-left {
+	.side-image-left,
+	.side-browser-left {
 		margin-right: 3rem;
 		margin-left: -21rem;
 		float: left;
 		//margin-top:3rem;
 	
 	}
-	.side-image-right {
+	.side-image-right,
+	.side-browser-right {
 		margin-left: 3rem;
 		margin-right: -21rem;
+		float: right;
+	
+	}
+}
+@include media-breakpoint-up(xl) {
+	.side-browser-left {
+		margin-right: 3rem;
+		margin-left: -32rem;
+		float: left;
+		//margin-top:3rem;
+	
+	}
+	.side-browser-right {
+		margin-left: 3rem;
+		margin-right: -32rem;
 		float: right;
 	
 	}
