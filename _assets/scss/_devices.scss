@@ -1,20 +1,30 @@
 
-.phone-demo {
+// cascade order is very important here
 
-	width:225px;
-	box-shadow: 0 8px 16px rgba($black, 0.66);
-	border-radius: 32px;
-	@extend .mx-auto;
+
+.phone-demo,
+.tablet-demo {
+	margin: 0 auto;
 	position: relative;
-	//transition: transform ease 1s, opacity ease 1s;
-	margin-top:-24px;
-	transform: rotate(2deg) translateX(0);
-	transition: transform 0.5s;
 	backface-visibility: visible;
+	max-width: 100%;
 	img.screen {
 		position: absolute;
+	}
+}
+
+.phone-demo {
+	width:225px;
+	border-radius: 32px;
+	img.screen {
 		top:58px;
 		left:15px;
+	}
+	&.jaunty {
+		box-shadow: 0 8px 16px rgba($black, 0.66);
+		margin-top:-24px;
+		transform: rotate(2deg) translateX(0);
+		transition: transform 0.5s;
 	}
 	&.loaded {
 		//transform: rotate(5deg) translateX(0);
@@ -29,33 +39,86 @@
 }
 .tablet-demo {
 	width:516px;
-	margin: 0 auto;
-	border-radius: 24px;
-	position: relative;
-	backface-visibility: visible;
+	//border-radius: 24px;
+	border-radius: 4.65116279%;
+	padding-bottom: 70.155%;
 	img.screen {
-		position: absolute;
+		width:83.3333%;
+		height: auto;
+/*
 		top:22px;
 		left:48px;
+*/
+		bottom:5%;
+		left:9%;
 		z-index: 20;
 	}
 	svg {
 		z-index: 10;
+		max-width: 100%;
+		height: auto;
+		position:absolute;
+		bottom:0;
 	}
 }
 
+
 .side-image {
 	max-width: 100%;
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 	position: relative;
-
 }
-@include media-breakpoint-up(md) {
+.phone-shadow, 
+.tablet-shadow {
+	position: relative;
+	margin: 0 auto 2rem;
+	&:after {
+		content: ' ';
+		display: block;
+		height: 0;
+		background-color: rgba($black, 0.66);
+		box-shadow: 0 0 5px 3px rgba($black, 0.66), 0 -1px 2px 1px rgba($black, 0.5);
+		position: absolute;
+		bottom: -1px;
+		z-index: -1;
+	}
+	
+}
+.phone-shadow {
+	max-width: 225px;
+	&:after {
+		width:80%;
+		left: 10%;
+		max-width:190px;
+	}
+	@include media-breakpoint-up(sm) {
+		&.side-image-left {
+			float: left;
+			margin-right: 3rem;
+			margin-left: 0;
+		}
+		&.side-image-right {
+			float: right;
+			margin-right: 0;
+			margin-left: 3rem;
+		}
+	}
+}
+.tablet-shadow {
+	max-width: 516px;
+	&:after {
+		width:96%;
+		left: 2%;
+		max-width:495px;
+	}
+}
+
+@include media-breakpoint-up(lg) {
 	.side-image-left {
 		margin-right: 3rem;
 		margin-left: -21rem;
 		float: left;
-		margin-top:3rem;
+		//margin-top:3rem;
 	
 	}
 	.side-image-right {
@@ -65,21 +128,4 @@
 	
 	}
 }
-.tablet-shadow {
-	position: relative;
-	&:after {
-		content: ' ';
-		display: block;
-		height: 0;
-		background-color: rgba($black, 0.66);
-		box-shadow: 0 0 5px 3px rgba($black, 0.66);
-		position: absolute;
-		bottom: -1px;
-		z-index: -1;
-		width:96%;
-		max-width:495px;
-		left: 52%;
-		transform: translateX(-258px);
-	}
-	
-}
+
