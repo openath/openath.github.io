@@ -273,12 +273,26 @@ article.product {
     font-size: 1.25rem
   }
 }
-.bg-gray-100 {
-  background-color: $gray-100;
-}
+
 .bg-blue {
   background-color: $blue;
   color: $white;
+}
+.bg-red {
+  background-color: $track-red;
+  color: $white;
+}
+.bg-black {
+  background-color: $track-black;
+  color: $white;
+}
+.bg-blue,
+.bg-red,
+.bg-black	{
+	color: $white;
+	code {
+		color: $white;
+	}
 }
 .row-eq-height .card {
   height:100%;
@@ -334,6 +348,9 @@ svg.mid-right {
 }
 .tinted {
   background-color: $tint;
+}
+.bg-steel {
+ 	background-color:$steel;
 }
 .red-bar {
 /*
@@ -495,23 +512,46 @@ article.product {
 		
 		
 	}
-	.tinted {
+	.tinted,
+	.bg-steel {
 		h2 strong {
 			background-color: $white;
 		}
+	}
+	.tinted {
 		h3 span {
 			box-shadow: inset 0 -3px 0 $tint, inset 0 -5px 0 $track-red;
+		}
+	}
+	
+	.bg-steel {
+		h3 span {
+			box-shadow: inset 0 -3px 0 $steel, inset 0 -5px 0 $track-red;
+		}
+	}
+	.bg-blue,
+	.bg-red,
+	.bg-black {
+		a {
+			color: $white;
+		}
+		svg.octicon {
+			fill:$white;
 		}
 	}
 	.bg-blue {
 		h3 span {
 			box-shadow: inset 0 -3px 0 $blue, inset 0 -5px 0 $track-red;
 		}
-		a {
-			color: $white;
+	}
+	.bg-red {
+		h3 span {
+			box-shadow: inset 0 -3px 0 $track-red, inset 0 -5px 0 $white;
 		}
-		svg.octicon {
-			fill:$white;
+	}
+	.bg-black  {
+		h3 span {
+			box-shadow: inset 0 -3px 0 $track-black, inset 0 -5px 0 $track-red;
 		}
 	}
 	h4 {
@@ -760,6 +800,9 @@ a.block-link {
 		.tinted & {
 			box-shadow: inset 0 -3px 0 $tint, inset 0 -5px 0 $tint;
 		}
+		.bg-steel & {
+			box-shadow: inset 0 -3px 0 $steel, inset 0 -5px 0 $tint;
+		}
 	}
 	&:hover {
 		color: $track-black;
@@ -776,7 +819,74 @@ a.block-link {
 			.tinted & {
 				box-shadow: inset 0 -3px 0 $tint, inset 0 -5px 0 $track-red;
 			}
+			.bg-steel & {
+				box-shadow: inset 0 -3px 0 $steel, inset 0 -5px 0 $track-red;
+			}
 		}
 	}
 }
 
+.bg-red-80 {
+	background-color: mix(white, $track-red, 20%);
+	color: $white;
+}
+.bg-red-60 {
+	background-color: mix(white, $track-red, 40%);
+	color: $white;
+}
+.bg-red-40 {
+	background-color: mix(white, $track-red, 60%);
+}
+.bg-red-20 {
+	background-color: mix(white, $track-red, 80%);
+}
+
+.bg-black-80 {
+	background-color: mix(white, $track-black, 20%);
+	color: $white;
+}
+.bg-black-60 {
+	background-color: mix(white, $track-black, 40%);
+	color: $white;
+}
+.bg-black-40 {
+	background-color: mix(white, $track-black, 60%);
+}
+.bg-black-20 {
+	background-color: mix(white, $track-black, 80%);
+}
+
+.bg-blue-80 {
+	background-color: mix(white, $blue, 20%);
+	color: $white;
+}
+.bg-blue-60 {
+	background-color: mix(white, $blue, 40%);
+	color: $white;
+}
+.bg-blue-40 {
+	background-color: mix(white, $blue, 60%);
+}
+.bg-blue-20 {
+	background-color: mix(white, $blue, 80%);
+}
+
+.bg-steel-80 {
+	background-color: mix(white, $steel, 20%);
+	color: $white;
+}
+.bg-steel-60 {
+	background-color: mix(white, $steel, 40%);
+	color: $white;
+}
+.bg-steel-40 {
+	background-color: mix(white, $steel, 60%);
+}
+.bg-steel-20 {
+	background-color: mix(white, $steel, 80%);
+}
+
+.palette > div {
+	min-height:3rem;
+	text-align: center;
+}

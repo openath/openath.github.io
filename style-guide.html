@@ -13,8 +13,8 @@ permalink: /style-guide.html
 
 <div class="py-4 tinted">
 	<div class="container-fluid">
-		<section id="style-typo">
-			{% capture my_include %}{% include_relative style-guide/2.typography.md %}{% endcapture %}
+		<section id="style-logo">
+			{% capture my_include %}{% include_relative style-guide/2.logo.md %}{% endcapture %}
 			{{ my_include | markdownify }}
 		</section>
 	</div>
@@ -26,11 +26,19 @@ permalink: /style-guide.html
 		{{ my_include | markdownify }}
 	</section>
 </div>
+<div class="py-4 tinted">
+	<div class="container-fluid">
+		<section id="style-devices">
+			{% capture my_include %}{% include_relative style-guide/4.devices.md %}{% endcapture %}
+			{{ my_include | markdownify }}
+		</section>
+	</div>
+</div>
 
 
 <div class="container-fluid py-4">
-	<section id="style-devices">
-		{% capture my_include %}{% include_relative style-guide/4.devices.md %}{% endcapture %}
+	<section id="style-typo">
+		{% capture my_include %}{% include_relative style-guide/5.typography.md %}{% endcapture %}
 		{{ my_include | markdownify }}
 	</section>
 </div>
