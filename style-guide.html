@@ -1,0 +1,45 @@
+---
+layout: fullbleed
+title: Digital Style Guide
+permalink: /style-guide.html
+---
+
+<div class="container-fluid pb-4">
+  <section id="style-introduction" data-aos="fade-up">
+    {% capture my_include %}{% include_relative style-guide/1.introduction.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
+
+<div class="py-4 tinted">
+  <div class="container-fluid">
+    <section id="style-logo">
+      {% capture my_include %}{% include_relative style-guide/2.logo.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+    </section>
+  </div>
+</div>
+
+<div class="container-fluid py-4">
+  <section id="style-colours">
+    {% capture my_include %}{% include_relative style-guide/3.colours.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
+<div class="py-4 tinted">
+  <div class="container-fluid">
+    <section id="style-devices">
+      {% capture my_include %}{% include_relative style-guide/4.devices.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+    </section>
+  </div>
+</div>
+
+
+<div class="container-fluid py-4">
+  <section id="style-typo">
+    {% capture my_include %}{% include_relative style-guide/5.typography.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
+

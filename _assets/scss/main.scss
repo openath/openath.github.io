@@ -3,7 +3,7 @@
 @import "bootstrap/scss/bootstrap";
 
 @import "aos/dist/aos.css";
-
+@import "devices";
 
 .container-fluid {
   max-width: map-get($grid-breakpoints, xl)-108px;
@@ -27,23 +27,23 @@
 
 }
 .nav-item.active {
-	.octicon {
+  .octicon {
       fill: $navbar-light-active-color;
       }
 }
 .nav-link {
-	&:hover, &:focus {
-	.octicon {
+  &:hover, &:focus {
+  .octicon {
       fill: $navbar-light-active-color;
       }
     }
 
-	.octicon {
-		display: inline;
-		margin-left:0.5rem;
-		fill: $navbar-light-color;
-		margin-bottom: -2px;
-	}
+  .octicon {
+    display: inline;
+    margin-left:0.5rem;
+    fill: $navbar-light-color;
+    margin-bottom: -2px;
+  }
 }
 .navbar-nav {
   font-weight: 600;
@@ -54,7 +54,7 @@
 }/*
 
 #OpentrackNavbar .navbar-nav {
-	@extend .container-fluid;
+  @extend .container-fluid;
 }
 */
 .ot-navbar {
@@ -86,24 +86,25 @@
   }
 
 
-	.nav-item.active {
-		.octicon {
-	      fill: $navbar-dark-active-color;
-	      }
-	}
-	.nav-link {
-		&:hover, &:focus {
-		.octicon {
-	      fill: $navbar-dark-active-color;
-	      }
-	    }
+  .nav-item.active {
+    .octicon {
+        fill: $navbar-dark-active-color;
+        }
+  }
+  .nav-link {
+    &:hover, &:focus {
+    .octicon {
+        fill: $navbar-dark-active-color;
+        }
+      }
 
-		.octicon {
-			fill: $navbar-dark-color;
-		}
-	}
+    .octicon {
+      fill: $navbar-dark-color;
+    }
+  }
 
 }
+
 .ot-footer {
   background-color: $gray-600;
   color: $white;
@@ -246,14 +247,19 @@ button.navbar-toggler:focus {
     background-color: $track-black;
     background-color: rgba($track-black,0.9);
 }
-article.post {
-	// max-width: 820px; //(9 cols)
-	max-width: 728px; // (8 cols)
+article.post,
+article.product section {
+  // max-width: 820px; //(9 cols)
+  max-width: 728px; // (8 cols)
 
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 48px;
-	margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+article.product {
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
 .mast-wrap .burger-bar {
   background-color: $white;
@@ -267,12 +273,26 @@ article.post {
     font-size: 1.25rem
   }
 }
-.bg-gray-100 {
-  background-color: $gray-100;
-}
+
 .bg-blue {
   background-color: $blue;
   color: $white;
+}
+.bg-red {
+  background-color: $track-red;
+  color: $white;
+}
+.bg-black {
+  background-color: $track-black;
+  color: $white;
+}
+.bg-blue,
+.bg-red,
+.bg-black	{
+  color: $white;
+  code {
+    color: $white;
+  }
 }
 .row-eq-height .card {
   height:100%;
@@ -313,7 +333,8 @@ svg.mid-right {
   }
 }
 .has-blendmode .sepia-pics {
-  .col-2:after {
+  background-color: $blue;
+  > div:after {
     content: ' ';
     width: 100%;
     height:100%;
@@ -327,6 +348,9 @@ svg.mid-right {
 }
 .tinted {
   background-color: $tint;
+}
+.bg-steel {
+ 	background-color:$steel;
 }
 .red-bar {
 /*
@@ -353,14 +377,12 @@ svg.mid-right {
 .lead.mx-auto {
   max-width: 31rem; // 496px;
 }
-p.lead a {
-  font-weight: 500;
-}
+
 .icon-story {
   min-height: 129px;
   max-width: 208px;
-	margin-left: auto;
-	margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   .feature-icon {
     @extend .mt-2;
     height:74px;
@@ -382,9 +404,10 @@ p.lead a {
 
   p {
     margin-bottom: 0.5rem;
-	}
+  }
 }
 blockquote {
+  margin: 2rem 0;
   h3 {
     font-size:2.25rem;
     font-weight: 200;
@@ -401,11 +424,24 @@ blockquote {
     font-weight: 200;
     margin-top:0.75rem;
   }
+  p {
+    text-indent: -0.5rem;
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: 500;
+
+  small {
+    font-weight: 400;
+    font-style: normal;
+    color: $gray-600;
+  }
+  }
 }
 .callout {
   h2, h3 {
     font-weight: 200;
     text-transform: none;
+
   }
   h2 {
     color: $track-red;
@@ -430,110 +466,251 @@ blockquote {
 @keyframes slideInFromRight {
     0% {
         transform: rotate(0) translateX(500%);
-		//opacity :0;
+    //opacity :0;
     }
     100% {
         transform: rotate(2deg) translateX(0);
-		//opacity:1;
+    //opacity:1;
     }
 }
 .ot-demo {
-	perspective: 40px;
+  perspective: 40px;
 }
-.phone-demo {
+article.product {
+  overflow: hidden;
 
-	width:225px;
-	box-shadow: 0 8px 16px rgba($black, 0.66);
-	border-radius: 32px;
-	@extend .mx-auto;
-	position: relative;
-	//transition: transform ease 1s, opacity ease 1s;
-	margin-top:-24px;
-	transform: rotate(2deg) translateX(0);
-	transition: transform 0.5s;
-	backface-visibility: visible;
-	img.screen {
-		position: absolute;
-		top:58px;
-		left:15px;
-	}
-	&.loaded {
-		//transform: rotate(5deg) translateX(0);
+  h2 { // section titles
+    margin: 4rem 0 3rem;
+    //padding-left: 3.5rem;
+    position: relative;
+    strong {
+      display: inline-block;
+      color: $track-red;
+      background-color: $tint;
+      border-radius: 50%;
+      width:3rem;
+      height: 3rem;
+      padding: 0.333rem 0;
+      text-align: center;
+      margin-right: 0.5rem;
 
-		//animation-duration: 1s; /* the duration of the animation */
-		//animation-timing-function: ease-out; /* how the animation will behave */
-		//animation-delay: 0s; /* how long to delay the animation from starting */
-		//animation-iteration-count: 1; /* how many times the animation will play */
-		//animation-name: slideInFromRight; /* the name of the animation we defined above */
+    }
+  }
+  @include media-breakpoint-up(md) {
+    h2 strong {
+      display: block;
+      position: absolute;
+      left:-4rem;
+      top:-6px;
+    }
+  }
+  h3 {
+    margin: 4rem 0 1rem;
+    span {
+      box-shadow: inset 0 -3px 0 white, inset 0 -5px 0 $track-red;
+    }
 
-	}
+
+  }
+  .tinted,
+  .bg-steel {
+    h2 strong {
+      background-color: $white;
+    }
+  }
+  .tinted {
+    h3 span {
+      box-shadow: inset 0 -3px 0 $tint, inset 0 -5px 0 $track-red;
+    }
+  }
+
+  .bg-steel {
+    h3 span {
+      box-shadow: inset 0 -3px 0 $steel, inset 0 -5px 0 $track-red;
+    }
+  }
+  .bg-blue,
+  .bg-red,
+  .bg-black {
+    a {
+      color: $white;
+    }
+    svg.octicon {
+      fill:$white;
+    }
+  }
+  .bg-blue {
+    h3 span {
+      box-shadow: inset 0 -3px 0 $blue, inset 0 -5px 0 $track-red;
+    }
+  }
+  .bg-red {
+    h3 span {
+      box-shadow: inset 0 -3px 0 $track-red, inset 0 -5px 0 $white;
+    }
+  }
+  .bg-black  {
+    h3 span {
+      box-shadow: inset 0 -3px 0 $track-black, inset 0 -5px 0 $track-red;
+    }
+  }
+  h4 {
+    margin-top:2rem;
+  }
+  .siblings {
+    width: 100%;
+    max-width: 728px; // (8 cols)
+    margin-left: auto;
+    margin-right: auto;
+  }
+  a.sibling-link {
+
+    position: relative;
+    display: block;
+    padding: 2rem 0 3rem;
+    h3 {
+      margin: 0;
+      padding: 0;
+      font-size: 2rem;
+
+    }
+    svg.octicon {
+      position: absolute;
+      transform: scale(3) translateX(0);
+      top:50%;
+      margin-top:-0.25rem;
+      transition: transform 0.4s ease;
+      @include media-breakpoint-down(xs) {
+        display: none;
+      }
+
+    }
+
+    &.sibling-right {
+      text-align: right;
+      padding-left: 1rem;
+      svg.octicon {
+        right:-2rem;
+      }
+      @include media-breakpoint-down(xs) {
+        text-align: center;
+        padding-left: 0;
+      }
+    }
+
+    &.sibling-left {
+      text-align: left;
+      padding-right: 1rem;
+      svg.octicon {
+        left:-2rem;
+      }
+      @include media-breakpoint-down(xs) {
+        text-align: center;
+        padding-right: 0;
+      }
+    }
+    &:hover {
+      &.sibling-right {
+        svg.octicon {
+          transform: scale(3) translateX(0.5rem);
+        }
+      }
+
+      &.sibling-left {
+        svg.octicon {
+          transform: scale(3) translateX(-0.5rem);
+        }
+      }
+    }
+  }
+
 }
-
 a.player{
-	display: block;
+  display: block;
+  color: $track-black;
+  .team-image-box {
+    border-radius: 50%;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    padding-top: 100%;
+    position: relative;
+    background-color: $soft-blue;
+    .image-wrapper {
+      position: absolute;
+      top:0;
+      transition: top ease-in-out 0.2s;
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  .team-member-name {
+    span {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    svg {
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      //bottom: -1px;
+      fill:$track-red;
+      transform: translateX(0);
+      transition: opacity 0.4s ease, transform 0.4s ease;
+      opacity: 0;
+    }
+  }
+  &:hover {
+    //color: $track-red;
+    //text-decoration: underline;
+    .team-image-box .image-wrapper {
+      top:-100%;
+    }
+    .team-member-name {
+      span {
+        //border-bottom: 1px solid $track-red;
+        //color: $track-black;
+        box-shadow: inset 0 -1px 0 white, inset 0 -3px 0 $track-red;
+      }
+      svg {
+        transform: translateX(16px);
+        opacity: 1;
 
-	.team-image-box {
-		border-radius: 50%;
-		width: 100%;
-		height: 0;
-		overflow: hidden;
-		padding-top: 100%;
-		position: relative;
-		background-color: $soft-blue;
-		.image-wrapper {
-			position: absolute;
-			top:0;
-			transition: top ease-in-out 0.2s;
-			img {
-				display: block;
-				width: 100%;
-				height: auto;
-			}
-		}
-	}
-	&:hover {
-		color: $track-red;
-		text-decoration: underline;
-		.team-image-box .image-wrapper {
-			top:-100%;
-		}
-		.team-member-name,
-		.team-member-position {
-			span {
-				//border-bottom: 1px solid $track-red;
-				color: $track-black;
-			}
-
-		}
-	}
-	&:focus {
-		outline: none;
-	}
+      }
+    }
+  }
+  &:focus {
+    outline: none;
+  }
 }
 
 .ot-title {
-	@extend .mx-auto;
-	text-align: center;
-	text-transform: uppercase;
-	max-width: 720px;
-	line-height: 1;
-	margin-bottom: 2.5rem;
-	span {
-		border-bottom: 4px solid $track-red;
-		display: inline-block;
-	}
+  @extend .mx-auto;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 720px;
+  line-height: 1.2;
+  margin-bottom: 2.5rem;
+  span {
+    //border-bottom: 4px solid $track-red;
+    //display: inline-block;
+    box-shadow: inset 0 -6px 0 white, inset 0 -10px 0 $track-red;
+  }
 }
 .ot-lead {
-	@extend .lead;
-	@extend .mx-auto;
-	text-align: center;
-	max-width: 720px;
-	font-size: 1.3125rem;
+  @extend .lead;
+  @extend .mx-auto;
+  text-align: center;
+  max-width: 720px;
+  font-size: 1.3125rem;
 }
 
 .modal-content {
-	color: $white;
-	color: rgba($white,0.8);
+  color: $white;
+  color: rgba($white,0.8);
 }
 .modal-header {
 
@@ -543,8 +720,8 @@ a.player{
     margin: -1rem -1rem -1rem auto;
     color: $white;
     font-size: 2.5rem;
-	font-weight: 300;
-	line-height: 2rem;
+  font-weight: 300;
+  line-height: 2rem;
   }
 }
 // Footer (for actions)
@@ -553,31 +730,163 @@ a.player{
   justify-content: center;
 }
 .team-tabs {
-	&.player-pic {
-		position: absolute;
-		left: 0;
-		right: 0;
-		top: 218px;
+  &.player-pic {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 218px;
 
-	}
-	.nav-link {
-		min-width: 120px;
-		text-align: center;
-		&:hover {
-			color: $white;
-		}
-	}
+  }
+  .nav-link {
+    min-width: 120px;
+    text-align: center;
+    &:hover {
+      color: $white;
+    }
+  }
 }
 .team-content img {
-	margin-bottom:6rem;
+  margin-bottom:6rem;
 }
 h3.team-member-name {
-	font-size: 1rem;
+  font-size: 1rem;
 }
 @include media-breakpoint-up(md) {
 //@include media-breakpoint-only(md) {
-	.ot-team .col-6.col-sm-4.col-lg-2 {
-		flex: 0 0 20%;
-		max-width: 20%;
-	}
+  .ot-team .col-6.col-sm-4.col-lg-2 {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+p.lead a {
+  font-weight: 500;
+  transition: color 0.4s ease;
+  svg {
+    display: inline-block;
+    vertical-align: middle;
+    fill:$track-red;
+    position: relative;
+    bottom: 1px;
+    transform: translateX(0);
+    transition: transform 0.4s ease;
+  }
+  &:hover {
+    svg {
+      transform: translateX(8px);
+    }
+  }
+}
+
+a.block-link {
+  display: block;
+  color: $track-black;
+  .link-text {
+    color: $track-red;
+    font-weight: 500;
+    transition: color 0.4s ease;
+    svg {
+      display: inline-block;
+      vertical-align: middle;
+      fill:$track-red;
+      position: relative;
+      bottom: 1px;
+      transform: translateX(0);
+      transition: transform 0.4s ease;
+    }
+  }
+  h3 span {
+    box-shadow: inset 0 -3px 0 white, inset 0 -5px 0 white;
+    transition: box-shadow 0.4s ease;
+    .tinted & {
+      box-shadow: inset 0 -3px 0 $tint, inset 0 -5px 0 $tint;
+    }
+    .bg-steel & {
+      box-shadow: inset 0 -3px 0 $steel, inset 0 -5px 0 $tint;
+    }
+  }
+  &:hover {
+    color: $track-black;
+    .link-text {
+      color: $track-black;
+      svg {
+        transform: translateX(8px);
+      }
+    }
+    h3 span {
+      //border-bottom: 1px solid $track-red;
+      //color: $track-black;
+      box-shadow: inset 0 -3px 0 white, inset 0 -5px 0 $track-red;
+      .tinted & {
+        box-shadow: inset 0 -3px 0 $tint, inset 0 -5px 0 $track-red;
+      }
+      .bg-steel & {
+        box-shadow: inset 0 -3px 0 $steel, inset 0 -5px 0 $track-red;
+      }
+    }
+  }
+}
+
+.bg-red-80 {
+  background-color: mix(white, $track-red, 20%);
+  color: $white;
+}
+.bg-red-60 {
+  background-color: mix(white, $track-red, 40%);
+  color: $white;
+}
+.bg-red-40 {
+  background-color: mix(white, $track-red, 60%);
+}
+.bg-red-20 {
+  background-color: mix(white, $track-red, 80%);
+}
+
+.bg-black-80 {
+  background-color: mix(white, $track-black, 20%);
+  color: $white;
+}
+.bg-black-60 {
+  background-color: mix(white, $track-black, 40%);
+  color: $white;
+}
+.bg-black-40 {
+  background-color: mix(white, $track-black, 60%);
+}
+.bg-black-20 {
+  background-color: mix(white, $track-black, 80%);
+}
+
+.bg-blue-80 {
+  background-color: mix(white, $blue, 20%);
+  color: $white;
+}
+.bg-blue-60 {
+  background-color: mix(white, $blue, 40%);
+  color: $white;
+}
+.bg-blue-40 {
+  background-color: mix(white, $blue, 60%);
+}
+.bg-blue-20 {
+  background-color: mix(white, $blue, 80%);
+}
+
+.bg-steel-80 {
+  background-color: mix(white, $steel, 20%);
+  color: $white;
+}
+.bg-steel-60 {
+  background-color: mix(white, $steel, 40%);
+  color: $white;
+}
+.bg-steel-40 {
+  background-color: mix(white, $steel, 60%);
+}
+.bg-steel-20 {
+  background-color: mix(white, $steel, 80%);
+}
+
+.palette > div {
+  min-height:3rem;
+  text-align: center;
 }

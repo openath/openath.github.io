@@ -1,15 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="{{ page.description | default: site.description | smartify }}">
-<meta name="author" content="{{ site.authors }}">
 
-<title>
-  {%- if page.title -%}
-    {{ page.title | smartify }} · {{ site.title | smartify }}
-  {%- else -%}
-    {{ site.title | smartify }} · {{ site.description | smartify }}
-  {%- endif -%}
-</title>
 {%- seo -%}
 <link rel="stylesheet" href="https://use.typekit.net/gbg4fos.css">
 <link href="{{ "/assets/main.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" rel="stylesheet">

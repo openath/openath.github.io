@@ -1,0 +1,56 @@
+---
+layout: fullbleed
+title: Entry System
+permalink: /product/entries-system.html
+---
+
+<div class="container-fluid pb-4">
+  <section id="entry-system-introduction">
+    {% capture my_include %}{% include_relative entry-system/1.introduction.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
+
+<div class="py-4 tinted">
+  <div class="container-fluid">
+    <section id="entry-system-main">
+      {% capture my_include %}{% include_relative entry-system/2.entries-system.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+    </section>
+  </div>
+</div>
+
+<div class="container-fluid py-4">
+  <section id="entry-system-feedback">
+    {% capture my_include %}{% include_relative entry-system/3.testimonials-and-feedback.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+  <section id="what-next-feedback">
+    {% capture my_include %}{% include_relative entry-system/4.what-next.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
+
+<div class="bg-blue py-4">
+  <div class="container-fluid">
+    <div class="siblings">
+      	<div class="row align-items-center justify-content-center" data-aos="fade-up">
+
+          <div class="col-sm">
+            <a href="/product/results-capture.html" class="sibling-link sibling-left">
+              Read about our
+              	<h3>Results Capture</h3>
+              	{% octicon chevron-left %}
+              </a>
+          </div>
+          <div class="col-sm">
+            <a href="/product/federation-admin.html" class="sibling-link sibling-right">
+              Read about our
+              	<h3>Federation Management</h3>
+              	{% octicon chevron-right %}
+              </a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>

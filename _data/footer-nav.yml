@@ -25,6 +25,8 @@
     #  url: /philosophy/openstandards.html
     #- title: Open Source
     #  url: /philosophy/opensource.html
+    - title: Style Guide
+      url: /style-guide.html
 
 - title: Federation sites
   pages:
