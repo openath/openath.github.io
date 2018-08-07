@@ -59,10 +59,10 @@ function reqListener () {
         img = new Image();
     row.setAttribute("onclick", "window.open('" + rlroot + l.url + "')");
     
-    img.src = "//file.opentrack.run/countryflags/iso/" + l.flag + ".svg";
+    img.src = "http://file.opentrack.run/countryflags/iso/" + l.flag + ".svg";
     img.alt = l.country;
     img.title = l.country;
-    img.height = 24;
+    img.width = 36;
     c1.appendChild(document.createTextNode(l.date));
     c2.appendChild(document.createTextNode(l.fullName));
     c3.appendChild(img)
