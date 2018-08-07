@@ -59,7 +59,7 @@ function reqListener () {
         img = new Image();
     row.setAttribute("onclick", "window.open('" + rlroot + l.url + "')");
     
-    img.src = "//file.opentrack.run/countryflags/ioc/" + l.flag + ".svg";
+    img.src = "//file.opentrack.run/countryflags/iso/" + l.flag + ".svg";
     img.alt = l.country;
     img.title = l.country;
     img.height = 24;
