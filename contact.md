@@ -3,7 +3,7 @@ layout: page
 title: 'Contact us'
 permalink: /contact/
 ---
-email:  <b>opentrack@reportlab.com</b>
+email:  <b>info@opentrack.run</b>
 
 __OpenTrack__  
 Wimbletech (Zone 2),  
