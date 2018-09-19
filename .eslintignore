@@ -1,6 +1,7 @@
 _site/**
+dist/**
+__src/js/components/homemast.js
 webpack.config.js
 webpack.common.js
 webpack.dev.js
 webpack.prod.js
-_assets/js/components/homemast.js

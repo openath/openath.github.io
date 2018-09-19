@@ -22,12 +22,12 @@ var config = {
 
   // Entry points for our main js file
   // https://webpack.js.org/configuration/entry-context/#entry
-  entry: './_assets/entry.js',
+  entry: './__src/entry.js',
 
   // How and where it should output our bundles
   // https://webpack.js.org/configuration/output/
   output: {
-    path: path.resolve(__dirname, 'assets'),
+    path: path.resolve(__dirname, 'dist'),
     filename: '[name].js?[hash]'
   },
   optimization: {
@@ -88,9 +88,9 @@ var config = {
       // https://github.com/webpack-contrib/file-loader
       loader: 'file-loader',
       options: {
-        emitFile: false,
+        //emitFile: false,
         name: '[name].[ext]?[hash]',
-        publicPath: 'assets/img/',
+        publicPath: '/dist/img/',
         outputPath: 'img/'
       }
     }, {
@@ -99,9 +99,9 @@ var config = {
       // https://github.com/webpack-contrib/file-loader
       loader: 'file-loader',
       options: {
-        emitFile: false,
+        //emitFile: false,
         name: '[name].[ext]?[hash]',
-        publicPath: 'assets/fonts/',
+        publicPath: '/dist/fonts/',
         outputPath: 'fonts/'
       }
     }]
