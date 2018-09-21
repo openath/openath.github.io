@@ -43,14 +43,14 @@ plugins:
 #  - jekyll-menus
 
 # Webpack handling sass
-# sass:
+#sass:
 #  load_paths:
 #    - _sass
 #    - node_modules
 
 # Make sure the `_site/assets/` is not trashed (webpack output)
 # keep_files:
-# - assets
+#  - dist
 
 collections:
   - team

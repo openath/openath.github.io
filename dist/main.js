@@ -1,4 +1,4 @@
-/*! banner 1.0.0 - Wed Sep 19 2018 15:52:31 GMT+0100 (British Summer Time) - 🦆 */ !(function(
+/*! banner 1.0.0 - Fri Sep 21 2018 16:17:30 GMT+0100 (British Summer Time) - 🦆 */ !(function(
   e
 ) {
   var t = {};

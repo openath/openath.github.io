@@ -4,7 +4,8 @@
 
 .phone-demo,
 .tablet-demo,
-.browser-demo {
+.browser-demo,
+.phone-landscape-demo {
   margin: 0 auto;
   position: relative;
   backface-visibility: visible;
@@ -44,6 +45,36 @@
     //animation-name: slideInFromRight; /* the name of the animation we defined above */
 
   }
+}
+.phone-landscape-demo {
+/*
+  border-radius: 50px;
+*/
+  // percentages make it responsive
+  width:728px;
+  //border-radius: 24px;
+  border-radius: 6.8681%;
+  padding-bottom: 49.0385%;
+  img.screen {
+    width:75.8242%;
+    height: auto;
+/*
+    bottom:24px;
+    left:88px;
+*/
+    bottom:6.3%;
+    left:12%;
+    z-index: 20;
+  }
+  svg {
+    z-index: 10;
+    max-width: 100%;
+    height: auto;
+    position:absolute;
+    bottom:0;
+  }
+
+
 }
 .tablet-demo {
   width:516px;
@@ -102,7 +133,8 @@
   position: relative;
 }
 .phone-shadow,
-.tablet-shadow {
+.tablet-shadow,
+.phone-landscape-shadow {
   position: relative;
   margin: 0 auto 2rem;
   &:after {
@@ -135,6 +167,14 @@
       margin-right: 0;
       margin-left: 3rem;
     }
+  }
+}
+.phone-landscape-shadow {
+  max-width: 728px;
+  &:after {
+    width:86%;
+    left: 7%;
+    max-width:628px;
   }
 }
 .tablet-shadow {
