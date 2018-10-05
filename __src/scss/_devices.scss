@@ -1,10 +1,16 @@
 
 // cascade order is very important here
 
+figure > figcaption {
+	margin: 0.5rem;
+	font-size: 0.875rem;
+}
+
 
 .phone-demo,
 .tablet-demo,
-.browser-demo {
+.browser-demo,
+.phone-landscape-demo {
   margin: 0 auto;
   position: relative;
   backface-visibility: visible;
@@ -12,6 +18,7 @@
   clear: both;
   img.screen {
     position: absolute;
+    display: block;
     padding: 0;
 	background-color: transparent;
 	border: none;
@@ -19,6 +26,10 @@
 	max-width: 100%;
 
   }
+  > figcaption {
+	margin-top: 0.75rem;
+  }
+
 }
 
 .phone-demo {
@@ -45,11 +56,43 @@
 
   }
 }
+.phone-landscape-demo {
+/*
+  border-radius: 50px;
+*/
+  // percentages make it responsive
+  width:728px;
+  //border-radius: 24px;
+  border-radius: 6.8681%;
+  padding-top: 49.0385%;
+  img.screen {
+    width:75.8242%;
+    height: auto;
+/*
+    bottom:24px;
+    left:88px;
+*/
+    top:0;
+    left:0;
+    margin-top:3.2967%;
+    margin-left:12.0879%;
+    z-index: 20;
+  }
+  svg {
+    z-index: 10;
+    max-width: 100%;
+    height: auto;
+    position:absolute;
+    top:0;
+  }
+
+
+}
 .tablet-demo {
   width:516px;
   //border-radius: 24px;
   border-radius: 4.65116279%;
-  padding-bottom: 70.155%;
+  padding-top: 70.155%;
   img.screen {
     width:83.3333%;
     height: auto;
@@ -57,23 +100,23 @@
     top:22px;
     left:48px;
 */
-    bottom:5%;
-    left:9%;
+    top:0;
+    left:0;
     z-index: 20;
+    margin-left: 8.5271%;
+    margin-top: 3.876%;
   }
   svg {
     z-index: 10;
     max-width: 100%;
     height: auto;
     position:absolute;
-    bottom:0;
+    top:0;
   }
 }
 .browser-demo {
   width:728px;
-  border-radius: 0.69%;
-  padding-bottom: 70.1923%;
-  box-shadow: 0 0 16px rgba($black, 0.66);
+  padding-top: 70.1923%;
   img.screen {
     width:100%;
     height: auto;
@@ -81,9 +124,10 @@
     top:22px;
     left:48px;
 */
-    bottom:0;
+    top:0;
     left:0;
     right:0;
+    margin-top:3.5714%;
     z-index: 20;
   }
   svg {
@@ -91,7 +135,17 @@
     max-width: 100%;
     height: auto;
     position:absolute;
-    bottom:0;
+    top:0;
+  }
+  &:after {
+	  content: ' ';
+	  border-radius: 0.69%;
+	  box-shadow: 0 0 16px rgba($black, 0.66);
+	  display: block;
+	  position: absolute;
+	  width: 100%;
+	  top: 0;
+	  padding-bottom: 70.1923%;
   }
 
 }
@@ -102,27 +156,30 @@
   position: relative;
 }
 .phone-shadow,
-.tablet-shadow {
+.tablet-shadow,
+.phone-landscape-shadow {
   position: relative;
   margin: 0 auto 2rem;
-  &:after {
+  > figure:after {
     content: ' ';
     display: block;
     height: 0;
     background-color: rgba($black, 0.66);
     box-shadow: 0 0 5px 3px rgba($black, 0.66), 0 -1px 2px 1px rgba($black, 0.5);
     position: absolute;
-    bottom: -1px;
+    top:0;
     z-index: -1;
   }
 
 }
 .phone-shadow {
   max-width: 225px;
-  &:after {
+  > figure:after {
     width:80%;
     left: 10%;
     max-width:190px;
+    top:auto;
+    bottom: 0;
   }
   @include media-breakpoint-up(sm) {
     &.side-image-left {
@@ -137,22 +194,36 @@
     }
   }
 }
+.phone-landscape-shadow {
+  max-width: 728px;
+  > figure:after {
+    width:86%;
+    left: 7%;
+    max-width:628px;
+    margin-top: 49.0385%;
+
+  }
+}
 .tablet-shadow {
   max-width: 516px;
-  &:after {
+  > figure:after {
     width:96%;
     left: 2%;
     max-width:495px;
+    margin-top: 70.155%;
+
   }
 }
-
+.side-image {
+	margin-top:2rem;
+}
 @include media-breakpoint-up(lg) {
   .side-image-left,
   .side-browser-left {
     margin-right: 3rem;
     margin-left: -21rem;
     float: left;
-    //margin-top:3rem;
+    margin-top:0;
 
   }
   .side-image-right,
@@ -160,6 +231,7 @@
     margin-left: 3rem;
     margin-right: -21rem;
     float: right;
+    margin-top:0;
 
   }
 }
@@ -168,14 +240,14 @@
     margin-right: 3rem;
     margin-left: -32rem;
     float: left;
-    //margin-top:3rem;
+    margin-top:0;
 
   }
   .side-browser-right {
     margin-left: 3rem;
     margin-right: -32rem;
     float: right;
+    margin-top:0;
 
   }
 }
-
