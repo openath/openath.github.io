@@ -1,0 +1,22 @@
+---
+layout: fullbleed
+title: Screenshot Gallery
+permalink: /screenshots.html
+---
+
+<div class="container-fluid pb-4">
+  <section id="style-introduction" data-aos="fade-up">
+    {% capture my_include %}{% include_relative screenshots/1.introduction.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
+
+<div class="py-4 tinted">
+  <div class="container-fluid">
+    <section id="style-logo">
+      {% capture my_include %}{% include_relative screenshots/2.federations.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+    </section>
+  </div>
+</div>
+
