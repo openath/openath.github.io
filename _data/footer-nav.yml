@@ -27,6 +27,8 @@
     #  url: /philosophy/opensource.html
     - title: Style Guide
       url: /style-guide.html
+    - title: Screenshot Gallery
+      url: /screenshots.html
 
 - title: Federation sites
   pages:
