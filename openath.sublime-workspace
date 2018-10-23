@@ -7,6 +7,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "screenshots.html",
+			"settings":
+			{
+				"buffer_size": 1081,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "screenshots/4.results.md",
+			"settings":
+			{
+				"buffer_size": 761,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -40,10 +58,13 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/rptlab/code/openath.github.io"
+		"/Users/andy/code/openath.github.io",
+		"/Users/andy/code/openath.github.io/screenshots",
+		"/Users/andy/code/openath.github.io/style-guide"
 	],
 	"file_history":
 	[
+		"/Users/andy/code/openath.github.io/screenshots/3.results.md",
 		"/Users/rptlab/code/openath.github.io/product/competition-management/4.results.md",
 		"/Users/rptlab/code/openath.github.io/product/entry-system/2.The Background.md",
 		"/Users/rptlab/code/openath.github.io/contact.md",
@@ -82,8 +103,67 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "screenshots.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1081,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								739,
+								739
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "screenshots/4.results.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								683,
+								683
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
