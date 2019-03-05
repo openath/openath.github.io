@@ -21,4 +21,4 @@ With the men's league taking the decision to adopt the women's declaration syste
 
 Importantly, <a href="https://surreyleague.org">results</a> were displayed very quickly after the race and all queries were dealt with swiftly and efficiently, enabling the results crossover to Power of 10 to be done in good time. In fact, six of the eight races used OpenTrack's timing system meaning there was no need for copying data between systems!
 
-With the next race in just under a month's time, there is a lot to be done to prepare but we are all looking forward to it and can't wait to be racing again!
+With the next race in just under a month's time, there is a lot to be done to prepare but we are all looking forward to it and can't wait to be racing again!!!
