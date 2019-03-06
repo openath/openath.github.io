@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welsh Athletics U20s Indoor Interntaional 2019
+title: Welsh Athletics U20s Indoor International 2019
 author: Gus Upton
 cover_image: http://file.opentrack.run/img/2019/jazu.jpg
 ---
