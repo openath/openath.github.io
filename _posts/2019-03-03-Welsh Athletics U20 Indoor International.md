@@ -15,6 +15,8 @@ With the friendly Welsh Athletics officials buying into the OpenTrack system all
 
 The resulting reduced workload for the officials was one thing but with the competition commentator James Thie (also winner of the Master's mile in 4:25.45) announcing the jumps and throws as the events took place, along with the ever-updating match scores, it made for a much more entertaining and followable experience for the packed-out crowd. 
 
+First time user Darran Williams, Welsh Athletics' Competition Officer, over-saw the competition and was in charge of using OpenTrack's Competition Management System for the meeting. Speaking with him after the event, Darran found the system "very easy to understand" and was excited about how "moving forward this will reduce official's time before, during and after competitions".
+
 With surely many of Great Britain's stars of the future in attendance, this was a tremendously fun and successful meeting for both Welsh Athletics and OpenTrack. 
 
 Notable (meeting record performances) were achieved by:
