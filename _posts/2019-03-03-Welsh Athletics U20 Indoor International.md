@@ -5,7 +5,7 @@ author: Gus Upton
 cover_image: http://file.opentrack.run/img/2019/jazu.jpg
 ---
 
-Whilst most of the UK had their attention turned North toward Laura Muir and the rest of Team GB winning medal-after-medal in Glasgow, if you had happened to look West you will have been lucky enough to witness an excting day of action between Wales & England U20s. 
+Whilst most of the UK had their attention turned North toward Laura Muir and the rest of Team GB winning medal-after-medal in Glasgow, if you had happened to look West you will have been lucky enough to witness an excting day of action between Wales & England U20s.
 
 On March 3rd 2019, the annual U20 indoor match between England & Wales served up an exciting affair complete with close races and record-breaking performances, all of which was successfully managed from start to finish by OpenTrack's Competition Management System. 
 
