@@ -1,4 +1,0 @@
-My passion for sport has expressed itself through Rugby. I played at Club and University level in the second row. Eventually, work and family meant I could no longer commit the same amount of time so I switched to club administration. I am currently a Director of London Welsh Rugby Club and have the role of Club Welfare Officer with safeguarding responsibility for the club’s thriving junior and youth sections.  
-
-As Head of Compliance for a financial firm, I have been dealing for years with GDPR and with Compliance, IT Security and Privacy issues, as well as having a good understanding of how another major sport does things.  I look forward to contributing my expertise to OpenTrack 
-
