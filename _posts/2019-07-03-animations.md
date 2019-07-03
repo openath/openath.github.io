@@ -10,9 +10,6 @@ Ben Pochee and his team have being putting in some serious hard graft ahead of t
 We have come up with some fun animations from last years races to whet your appetite. Using the split data taken every 200m we can recreate the excitement of the race, just "sped up" a little. At the start of a race, ahletes naturally pack together, the number of athletes in each pack is displayed along side the moving pack lines. The leading athletes are displayed on the left. As time and tiredness work their magic, the packs break up and we can see who is staying with the pace. Sadly, some will be lapped and as that happens they drop onto the inner ovals. Finally as they finish we see the official results on the right.
 Basically, all the excitement of the fair - just bring your own beer.
 
-We will again be working with the splits on this Saturday night. Results will be on this 
-<a href="https://results.opentrack.run/x/2019/GBR/not/"> site</a>, and maybe even a few interesting displays.
-
 
 <a href="/assets/img/animation/2018/race2.mp4">Race 2: Men's E</a>
 
@@ -30,6 +27,7 @@ We will again be working with the splits on this Saturday night. Results will be
 
 <a href="/assets/img/animation/2018/race9.mp4">Race 9: Men's A</a>
 
-
+We will again be working with the splits on this Saturday night. Results will be on this 
+<a href="https://results.opentrack.run/x/2019/GBR/not/"> site</a>, and maybe even a few interesting displays.
 
 [![Hampstead Heath at its finest](http://file.opentrack.run/img/2017/ten_thousand_PB1.jpg)](http://file.opentrack.run/img/2017/ten_thousand_PB1.jpg)
