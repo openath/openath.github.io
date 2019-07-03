@@ -19,8 +19,8 @@ We have come up with some fun animations of last years races to whet your appeti
 
 <a href="/assets/img/animation/2018/race6.mp4">Race 6: Women's B</a>
 
-<a href="/assets/img/animation/2018/race5.mp4">Race 7: Men's B</a>
+<a href="/assets/img/animation/2018/race7.mp4">Race 7: Men's B</a>
 
-<a href="/assets/img/animation/2018/race6.mp4">Race 8: Women's A</a>
+<a href="/assets/img/animation/2018/race8.mp4">Race 8: Women's A</a>
 
-<a href="/assets/img/animation/2018/race5.mp4">Race 9: Men's A</a>
+<a href="/assets/img/animation/2018/race9.mp4">Race 9: Men's A</a>
