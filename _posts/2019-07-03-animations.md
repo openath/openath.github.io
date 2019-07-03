@@ -9,18 +9,18 @@ Ben Pochee and his team have being putting in some serious hard graft ahead of t
 We have come up with some fun animations of last years races to whet your appetite
 
 
-<a href="/assets/img/animations/2018/race2.mp4">Race 2: Men's E</a>
+<a href="/assets/img/animation/2018/race2.mp4">Race 2: Men's E</a>
 
-<a href="/assets/img/animations/2018/race3.mp4">Race 3: Women's C</a>
+<a href="/assets/img/animation/2018/race3.mp4">Race 3: Women's C</a>
 
-<a href="/assets/img/animations/2018/race4.mp4">Race 4: Men's D</a>
+<a href="/assets/img/animation/2018/race4.mp4">Race 4: Men's D</a>
 
-<a href="/assets/img/animations/2018/race5.mp4">Race 5: Men's C</a>
+<a href="/assets/img/animation/2018/race5.mp4">Race 5: Men's C</a>
 
-<a href="/assets/img/animations/2018/race6.mp4">Race 6: Women's B</a>
+<a href="/assets/img/animation/2018/race6.mp4">Race 6: Women's B</a>
 
-<a href="/assets/img/animations/2018/race5.mp4">Race 7: Men's B</a>
+<a href="/assets/img/animation/2018/race5.mp4">Race 7: Men's B</a>
 
-<a href="/assets/img/animations/2018/race6.mp4">Race 8: Women's A</a>
+<a href="/assets/img/animation/2018/race6.mp4">Race 8: Women's A</a>
 
-<a href="/assets/img/animations/2018/race5.mp4">Race 9: Men's A</a>
+<a href="/assets/img/animation/2018/race5.mp4">Race 9: Men's A</a>
