@@ -29,3 +29,7 @@ We will again be working with the splits on this Saturday night. Results will be
 <a href="/assets/img/animation/2018/race8.mp4">Race 8: Women's A</a>
 
 <a href="/assets/img/animation/2018/race9.mp4">Race 9: Men's A</a>
+
+
+
+[![Hampstead Heath at its finest](http://file.opentrack.run/img/2017/ten_thousand_PB1.jpg)](http://file.opentrack.run/img/2017/ten_thousand_PB1.jpg)
