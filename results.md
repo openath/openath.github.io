@@ -80,7 +80,7 @@ switch(rlenv) {
       rlroot = '//localhost:8000';
       break;
     default:
-       rlroot = "//data.opentrack.run"
+       rlroot = "//results.opentrack.run"
 }
     
 oReq = new XMLHttpRequest();
