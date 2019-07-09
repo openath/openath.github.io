@@ -14,6 +14,11 @@ We're delighted to support the <a href="https://www.facebook.com/Highgate10k">Ni
 
 Last year we were able to capture live splits and deliver a leaderbpard to commentators, but weren't quite ready to roll out to the world.  This year, after a lot of preparation, we went very public with this.
 
+Nick Anderson, commentator, says:
+
+> It’s a game changer for commentary ...we were able to keep the audience fully in touch with leaders, splits and placings as the race unfolded. We were also able to track pace and target times...
+
+
 The number of connected phones and screens grew gradually from about 50 at the start of the first race, to over 1000 during the Mens' A Race.  At the same time, the number of hits per minute on our web server grew to about 3,000, and about 600,000 on the day.  So, quite a lot of people were watching!  Here's what they saw...the left side of the screen stays constant, and the right scrolls gradually past you...
 
 <div class="row">
