@@ -5,7 +5,7 @@ author: Andy Weir
 cover_image: http://file.opentrack.run/assets/img/gallery/IMG_1917.JPG
 ---
 
-Well they certainly delivered, what an evening the Night of the 10,000s was. We have again produced some fun anumations of Saturday's drama filled events. Using the split data taken every 200m we can recreate the excitement of the race, just "sped up" a little. At the start of a race, athletes naturally pack together, the number of athletes in each pack is displayed along side the moving pack lines. The leading athletes are displayed on the left. As time and tiredness work their magic, the packs break up and we can see who is staying with the pace. The lead pack being drawn in green. Sadly, some will be lapped and as that happens they drop onto the inner ovals. Finally as they finish we see the official results on the right.
+Well the two Ben's certainly delivered, what an evening the Night of the 10,000s was. We have again produced some fun anumations of Saturday's drama filled events. Using the split data taken every 200m we can recreate the excitement of the race, just "sped up" a little. At the start of a race, athletes naturally pack together, the number of athletes in each pack is displayed along side the moving pack lines. The leading athletes are displayed on the left. As time and tiredness work their magic, the packs break up and we can see who is staying with the pace. The lead pack being drawn in green. Sadly, some will be lapped and as that happens they drop onto the inner ovals. Finally as they finish we see the official results on the right.
 
 Basically, all the excitement of the fair - just bring your own beer.
 
