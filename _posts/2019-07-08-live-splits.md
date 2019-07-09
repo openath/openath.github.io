@@ -12,7 +12,7 @@ We're delighted to support the <a href="https://www.facebook.com/Highgate10k">Ni
 ## Live splits
  The challenge now was to get the next level of information out.  After all, if you're watching a 10,000, you want to know how the runners are doing, and who's where in the pack, who paced it well, who blew up and so on.
 
-Last year we were able to capture live splits and deliver a leaderbpard to commentators, but weren't quite ready to roll out to the world.  This year, after a lot of preparation, we went very public with this.
+Last year we were able to capture live splits and deliver a leaderboard to commentators, but weren't quite ready to roll out to the world.  This year, after a lot of preparation, we went very public with this.
 
 Nick Anderson, commentator, says:
 
