@@ -5,14 +5,14 @@ author: Andy Weir
 cover_image: http://file.opentrack.run/assets/img/gallery/IMG_1917.JPG
 ---
 
-Well the two Ben's certainly delivered, what an evening the Night of the 10,000s was. We have again produced some fun anumations of Saturday's drama filled events. Using the split data taken every 200m we can recreate the excitement of the race, just "sped up" a little. At the start of a race, athletes naturally pack together, the number of athletes in each pack is displayed along side the moving pack lines. The leading athletes are displayed on the left. As time and tiredness work their magic, the packs break up and we can see who is staying with the pace. The lead pack being drawn in green. Sadly, some will be lapped and as that happens they drop onto the inner ovals. Finally as they finish we see the official results on the right.
+Well the two Bens certainly delivered! What an evening the Night of the 10,000s was. We have again produced some fun animations of Saturday's drama filled events. Using the split data taken every 200m we can recreate the excitement of the race, just "sped up" a little. At the start of a race, athletes naturally pack together, the number of athletes in each pack is displayed along side the moving pack lines. The leading athletes are displayed on the left. As time and tiredness work their magic, the packs break up and we can see who is staying with the pace. The lead pack being drawn in green. Sadly, some will be lapped and as that happens they drop onto the inner ovals. Finally as they finish we see the official results on the right.
 
 Basically, all the excitement of the fair - just bring your own beer.
 
 think you can do better, grab the raw data. So for event 11, the Men's A race go to 
 <a href="https://data.opentrack.run/x/2019/GBR/not/event/11/1/1/json/"> this page</a>
 
-If you know what JSON is we reckon you can work out the rest.......send us your best attempts and we will post them here.
+If you know what JSON is we reckon you can work out the rest.......send us your best visualisatiions and we will post them here.
 <a href="https://opentrack.run/"> Contact details </a> are on the home webpage.
 
 
