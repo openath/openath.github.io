@@ -6,7 +6,7 @@ cover_image: /assets/img/screenshots/salpeter.png
 ---
 
 
-We're delighted to support the <a href="https://www.facebook.com/Highgate10k">Night of the 10,000m PBs</a> with our competition management end entry systems, and trying to push the envelope on an already amazing experience with technology innovations.   For the last few years, we have been happy to work with Ben Pochee to take the club entries, and to put the results up as quickly as possible.  We've been able to automatically upload the results as soon as they are recorded for some years.  On Saturday night, we broadcast live splits directly to the phones and web browsers of over 1000 people, as well as TV titles .  
+We're delighted to support the <a href="https://www.facebook.com/Highgate10k">Night of the 10,000m PBs</a> with our competition management and entry systems, and trying to push the envelope on an already amazing experience with technology innovations.   For the past few years we have been happily working with Ben Pochee to take the club entries and ensure the race results are online as quickly as possible.  We've been able to automatically upload the results as soon as they are recorded for some years.  On Saturday night, we broadcast live splits directly to the phones and web browsers of over 1000 people, as well as TV titles .  
 
 
 ## Live splits
@@ -20,7 +20,7 @@ The number of connected phones and screens grew gradually from about 50 at the s
 	<div class="col-md-6">
 		<figure>
 			<img src="/assets/img/screenshots/salpeter.png" class="screen" width="100%">
-			<figcaption>Kilometer to go...steady pace, Stpeh sitting on Lonah Salpeter, Eilish 8sec behind..</figcaption>
+			<figcaption>Kilometer to go...steady pace, Steph sitting on Lonah Salpeter, Eilish 8sec behind..</figcaption>
 		</figure>
 	</div>
 	<div class="col-md-6">
@@ -42,7 +42,7 @@ If you want to see the effect, browse to one of the races now, go to the fourth 
 	</figure>
 </div>
 
-Anyone on the website would have seen times (typically accurate to 3-4 hundredths) and provisional results as they crossed the line, to be 
+Anyone on the website would have seen times (typically accurate to 3-4 hundredths) and provisional results as they crossed the line, to be replaced with the official photofinish times shortly after.
 
 Chip timing does produce some quirks, such as when the second place Mens' B runner dropped a chip with a couple of laps to go and vanished from the preview, or when we overheard one of the best ever pre-race questions:  *"Athlete x wants to run barefoot.  Where do we put the chip?"*  But overall, we think it really enhance the experience.
 
