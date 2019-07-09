@@ -26,4 +26,8 @@ If you know what JSON is we reckon you can work out the rest.......send us your 
 
 <a href="/assets/img/animation/2019/2019Event_8.mp4">Race 6: Women's B</a>
 
+<a href="/assets/img/animation/2019/2019Event_10.mp4">Race 8: Women's A</a>
+
+<a href="/assets/img/animation/2019/2019Event_11.mp4">Race 9: Men's A</a>
+
 [![Hampstead Heath at its finest](http://file.opentrack.run/assets/img/gallery/IMG_1917.JPG)](http://file.opentrack.run/assets/img/gallery/IMG_1917.JPG)
