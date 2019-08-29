@@ -5,13 +5,15 @@ author: Gus Upton
 cover_image: http://file.opentrack.run/img/2019/sll_2018_div1.png
 ---
 
-[![XC](http://file.opentrack.run/img/2019/sll_2018_div1.png)](http://file.opentrack.run/img/2019/sll_2018_div1.png)
 
 ## The Future of Athletics - Where is it heading?
 
 Just before we start, no - we are not opening a discussion on the fear of the potential introduction of genetically or mechanically modified athletes beginning to have an impact on our sport!
 
-Currently, OpenTrack are looking much closer to home and are simply aiming to modernise the amateur world of the sport we all love. Specifically, moving away from an over-reliance on pen & paper and digitising our competitions. Importantly, this goed hand-in-hand with minimising officials & volunteers' workloads, whilst providing a more interactive experience for spectators & athletes. Sounds good, right?!
+Currently, OpenTrack are looking much closer to home and are simply aiming to modernise the amateur world of the sport we all love. Specifically, moving away from an over-reliance on pen & paper and digitising our competitions. Importantly, this goes hand-in-hand with minimising officials & volunteers' workloads, whilst providing a more interactive experience for spectators & athletes. Sounds good, right?!
+
+
+[![XC](http://file.opentrack.run/img/2019/sll_2018_div1.png)](http://file.opentrack.run/img/2019/sll_2018_div1.png)
 
 ## So, how can we help you?
 

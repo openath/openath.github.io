@@ -20,7 +20,7 @@
 			"file": "screenshots/4.results.md",
 			"settings":
 			{
-				"buffer_size": 761,
+				"buffer_size": 788,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -142,15 +142,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 761,
+						"buffer_size": 788,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								683,
-								683
+								410,
+								410
 							]
 						],
 						"settings":
