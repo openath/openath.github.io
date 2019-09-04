@@ -10,7 +10,7 @@ cover_image: http://file.opentrack.run/img/2019/sll_2018_div1.png
 
 Just before we start, no - we are not opening a discussion on the fear of the potential introduction of genetically or mechanically modified athletes beginning to have an impact on our sport!
 
-Currently, OpenTrack are looking much closer to home and are simply aiming to modernise the amateur world of the sport we all love. Specifically, moving away from an over-reliance on pen & paper and digitising our competitions. Importantly, this goes hand-in-hand with minimising officials & volunteers' workloads, whilst providing a more interactive experience for spectators & athletes. Sounds good, right?!
+Currently, OpenTrack are looking much closer to home and are simply aiming to modernise the amateur world of the sport we all love. Specifically, moving away from an over-reliance on pen & paper and digitising our competitions. "Why?" We hear you ask. Importantly, this goes hand-in-hand with minimising officials & volunteers' workloads, potentially reducing costs, definitely imrpoving the eco foot-print, all whilst providing a more engaging, interactive experience for spectators & athletes. Sounds good, right?
 
 
 [![XC](http://file.opentrack.run/img/2019/sll_2018_div1.png)](http://file.opentrack.run/img/2019/sll_2018_div1.png)
@@ -19,11 +19,11 @@ Currently, OpenTrack are looking much closer to home and are simply aiming to mo
 
 ## _1 Entries_
 
-Our Entry System will provide a tailor-made microsite for your competition allowing team managers or individuals to swiftly and easily enter themselves into individual races or squads. This takes all the stress and urgency out of declarations!
+Our Entry System will provide a tailor-made microsite for your competition allowing XC Team Managers and individuals to swiftly and easily enter races. This takes all the stress and urgency out of declarations!
 
 [![Team Entries](http://file.opentrack.run/img/2019/athlete_selection2.png)](http://file.opentrack.run/img/2019/athlete_selection2.png)
 
-Unlike many race entry sites, OpenTrack's has been created specifically with squad athletics, both XC & T&F, in mind. This means it can be completely tailored to your needs:
+Unlike many race entry sites, OpenTrack's has been created specifically with XC in mind. This means it can be completely tailored to your needs:
 
 - Team & Squad Declarations on-the-go
 	- Team Managers can make declarations using mobile friendly screens; easy to adjust to last minute drop outs at the venue!
@@ -34,26 +34,27 @@ Unlike many race entry sites, OpenTrack's has been created specifically with squ
 
 ## _2 Competition Management & Results Display_
 
-In a nutshell, the Competition Management System (CMS) is website based software designed to take all the pen, paper, time & stress out of the organistion and running of athletics competitions. It provides an individual and completely tailored microsite for your competition. Importantly, this is integrated into the Entry system meaning all athletes, events and any updates are incorporated seamlessly. 
+In a nutshell, the Competition Management System is web based software designed to take all the pen, paper, time & stress out of the organistion and running of athletics competitions. It provides an individual and completely tailored microsite for your competition, meaning you can organise it exactly as you want, from detailed information through to logo display. Importantly, this is integrated into the Entry system meaning all athletes, events and any updates are incorporated seamlessly. 
 
 [![Results](http://file.opentrack.run/img/2019/not_results3.jpg)](http://file.opentrack.run/img/2019/not_results3.jpg)
 
-- Quick and easy "copy and paste" set-up
-- Tailored configurable set-up: age group limitations, scoring, athlete check-in, etc.
-- Integrated finish line technology
-- Live as-it-happens results input, updates & displays
-- Team Scores
-- Automatic reports and start lists/field cards
+Organisers and officials love it . . . 
+ 	. . .  it provides a quick and simple set-up, easily pasted from Excel. The framework is completely configurable by the user allowing all manner of design: age group limitations, scoring, athlete check-in, etc. Automatic reports and start/results lists are also produced in an instant!
+
+Fans and spectators love it . . . 
+	 . . . it provides live, real-time results and scores straight to their mobile device. 
 
 ## _3 Race Timing_
 
-Whilst athletics participation increasing can only be a good thing, one of the issues with the escalation is the growing cost. Many events nowadays use chip timing for even simple races, such as XC. OpenTrack have a straightforward and manageable race timing software that you can use for free. Designed to work on phone and tablets this is great for keeping costs down whilst maintaining the detail and accuracy required. 
+Athletics participation increasing can only be a good thing, however it does come with a potential escalation of costs. Many events nowadays use chip timing for even simple races, such as XC. OpenTrack have a straightforward and manageable race timing software that you can use for free. Designed to work on phone and tablets this is great for keeping costs down whilst maintaining the detail and accuracy required. 
 
 ## Current Users
 
-OpenTrack is currently used all across the UK for various competitions, ranging from XC & County Championships through to national events. 
+OpenTrack is currently used all across the UK for various competitions, ranging from XC leagues and county championships through to national events. 
 
 Importantly, Welsh Athletics use it exclusively for all their major championships, whilst countries such as Norway, Estonia, Malta & Cyprus use it to manage their entire athletic database and competitions. 
+
+## Testimonials
 
 "Have never spent less time doing results due to the automation"
 	Darran Williams, Welsh Athletics, Competition Officer
@@ -64,8 +65,13 @@ Importantly, Welsh Athletics use it exclusively for all their major championship
 "A game changer for commentary at events like Highgate . . . the technology used let us keep the audience fully in touch with leaders, splits and placings as the race unfolded"
 	Nick Anderson, Night of 10000m PBs Commentator
 
+"My paperwork has been cut by ninety percent - and I can do it all on holiday"
+	Nicola Fleet, Croydon Harriers
+
 ## Contact us for more information
 
 If you are keen to use OpenTrack for your competitions or if you would like to receive more information then please get in touch. We  would love to help you organise your events.
 
-support@opentrack.run
+info@opentrack.run
+
++44 20 8191 7277 
