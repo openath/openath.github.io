@@ -21,7 +21,7 @@ Currently, OpenTrack are looking much closer to home and are simply aiming to mo
 
 Our Entry System will provide a tailor-made microsite for your competition allowing XC Team Managers and individuals to swiftly and easily enter races. This takes all the stress and urgency out of declarations!
 
-[![Team Entries](http://file.opentrack.run/img/2019/athlete_selection2.png)](http://file.opentrack.run/img/2019/athlete_selection2.png)
+[![Team Entries](http://file.opentrack.run/img/2019/team_entries_xc.png)](http://file.opentrack.run/img/2019/team_entries_xc.png)
 
 Unlike many race entry sites, OpenTrack's has been created specifically with XC in mind. This means it can be completely tailored to your needs:
 
