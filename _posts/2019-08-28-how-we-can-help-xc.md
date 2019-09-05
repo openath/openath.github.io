@@ -66,7 +66,7 @@ Importantly, Welsh Athletics use it exclusively for all their major championship
 	Nick Anderson, Night of 10000m PBs Commentator
 
 "My paperwork has been cut by ninety percent - and I can do it all on holiday"
-	Nicola Fleet, Croydon Harriers
+	Nicola Fleet, Croydon Harriers, CLub President
 
 ## Contact us for more information
 
