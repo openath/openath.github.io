@@ -6,9 +6,7 @@ cover_image: http://file.opentrack.run/img/2019/sll_2018_div1.png
 ---
 
 
-## The Future of Athletics - Where is it heading?
-
-Just before we start, no - we are not opening a discussion on the fear of the potential introduction of genetically or mechanically modified athletes beginning to have an impact on our sport!
+The Future of Athletics - Where is it heading? Just before we start, no - we are not opening a discussion on the fear of the potential introduction of genetically or mechanically modified athletes beginning to have an impact on our sport!
 
 Currently, OpenTrack are looking much closer to home and are simply aiming to modernise the amateur world of the sport we all love. Specifically, moving away from an over-reliance on pen & paper and digitising our competitions. "Why?" We hear you ask. Importantly, this goes hand-in-hand with minimising officials & volunteers' workloads, potentially reducing costs, definitely imrpoving the eco foot-print, all whilst providing a more engaging, interactive experience for spectators & athletes. Sounds good, right?
 
