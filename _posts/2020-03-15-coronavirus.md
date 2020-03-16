@@ -7,11 +7,11 @@ author: Andy Robinson
 
 
 
-First of all, we hope you are all safe and well  at this strange time.  Our thoughts go out to the many older officials who make athletics work, who may not be stuck indoors for some time.
+First of all, we hope you are all safe and well  at this strange time.  Our thoughts go out to the many older officials who make athletics work, who may now be stuck indoors for some time.
 
 We are asking all meeting organisers who take entries with our system to..
  1. 'pause' any entries which are currently open
- 2.  not open any new entries about to open, until we have clear UKA guidance
+ 2.  not open any new entries, until we have clear UKA guidance
  3.  if you have taken entries already for March and April meetings, decide if you wish to (a) refund everyone, or (b) wait and see if rescheduling is possible for late summer
 
 
@@ -23,6 +23,8 @@ Processing cancellations takes time, and will require careful accounting, even i
 In addition, in most cases the sums to be refunded will not be in your Stripe account, 
 as they were transferred to your banks on a rolling basis.  So you may need to ensure the right sums are there before we can send it back to peoples' cards.  This is not normally
 an issue with the odd cancellation amidst a flow of successful payments; but with everything stopping at once, it is.
+
+If this affects you, please get in touch with us on support@opentrack.run and we will liaise until things are resolved.
 
 
 Looking further ahead
