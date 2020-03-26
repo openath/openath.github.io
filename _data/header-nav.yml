@@ -1,6 +1,8 @@
 - url: /
   title: Product
   pages:
+  - title: Virtual Racing
+    url: /product/virtual-racing.html
   - title: Results Capture
     url: /product/results-capture.html
   - title: Entry System
