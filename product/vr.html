@@ -1,0 +1,52 @@
+---
+layout: fullbleed
+title: Virtual Racing
+permalink: /product/vr.html
+---
+
+<div class="container-fluid pb-4">
+  <section id="virtual-racing-introduction">
+    {% capture my_include %}{% include_relative virtual-racing/1.introduction.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
+
+<div class="py-4 tinted">
+  <div class="container-fluid">
+    <section id="results-capture-main">
+      {% capture my_include %}{% include_relative results-capture/2.results-capture.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+    </section>
+  </div>
+</div>
+
+<div class="container-fluid py-4">
+  <section id="results-capture-share">
+    {% capture my_include %}{% include_relative results-capture/3.tell-the-world.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
+
+<div class="bg-blue py-4">
+  <div class="container-fluid">
+    <div class="siblings">
+      	<div class="row align-items-center justify-content-center" data-aos="fade-up">
+
+          <div class="col-sm">
+            <a href="/product/featurematrix.html" class="sibling-link sibling-left">
+              View our
+              	<h3>Feature Matrix</h3>
+              	{% octicon chevron-left %}
+              </a>
+          </div>
+          <div class="col-sm">
+            <a href="/product/entries-system.html" class="sibling-link sibling-right">
+              Read about our
+              	<h3>Entry System</h3>
+              	{% octicon chevron-right %}
+              </a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
