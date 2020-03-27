@@ -1,13 +1,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-{%- seo -%}
+
 <link rel="stylesheet" href="https://use.typekit.net/gbg4fos.css">
 <link href="{{ "/dist/main.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" rel="stylesheet">
 
 {% include favicons.html %}
 
 {% include social.html %}
+
+{%- seo -%}
 
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
