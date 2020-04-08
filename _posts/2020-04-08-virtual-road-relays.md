@@ -6,12 +6,10 @@ cover_image: http://file.opentrack.run/custom_images/banner.png
 ---
 
 
-<div class="row">
-	<img src="http://file.opentrack.run/custom_images/banner.png" class="screen" width="100%">
-</div>
-
 
 The first ever Virtual National Road Relay Championship is just about finishing up. Starting off as a simple discussion between James McCrae and OpenTrack, this event snowballed from what we initially thought would be ~800 competitors to nearly 5,500 athletes entering. One thing is for sure, COVID-19 cannot stem an athlete's healthy appetite for competition!
+
+
 
 
 We’ve seen some stunning runs, with superb individual performances, but importantly everyone seems to have got on-board with this idea and appreciated its sentiment in these difficult times. Providing a competitive edge to our daily allowance of exercise at a time when we would ordinarily be gunning it up that hill in Sutton Park and cheering along our clubmates, and sometimes others . . . has given many of us some unforeseen club-based athletics enjoyment! Most importantly, we at OpenTrack have seen an overwhelmingly positive reaction from the athletes, from the sheer quantity of entries, encouraging and appreciative emails to the already mentioned, stellar performances. So we thank you and congratulate you all, especially for adhering to the guidelines and respecting the importance of social distancing! 
