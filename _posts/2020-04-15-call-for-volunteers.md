@@ -23,7 +23,9 @@ Too much time on your hands?  Just come on our [forum](https://forum.opentrack.r
 
 ## Stattos
 
-All results on OpenTrack are Open Data, available to download and play with.  If you can do something interesting with it, go right ahead!
+All results on OpenTrack are Open Data, available to download and play with.  If you can do something interesting with it, go right ahead!  For insipration, look what Will Mycroft produce on the relays!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FMYPc-snAZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## OpenTrack Experts and Forum Moderators
