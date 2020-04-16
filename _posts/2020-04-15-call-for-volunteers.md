@@ -8,7 +8,7 @@ author: Andy Robinson
 We're looking for people with some time on their hands who can help us to build and improve our platform this summer.
 
 <div class="row">
-	<img src="http://file.opentrack.run/img/2020/bolt.jpg" class="screen" width="100%">
+	<img src="http://file.opentrack.run/img/2020/bolt.png" class="screen" width="100%">
 </div>
 
 
