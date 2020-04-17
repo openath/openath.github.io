@@ -67,6 +67,10 @@ This is how we made the web site, hosted in GitHub.  It's really important that 
 
 Our front end pages are in [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/), with rather too many not yet upgraded from Bootstrap 3.   We bring them to life with [VueJS](https://vuejs.org).  There's always 
 
+## Nginx gurus
+
+If you know how to make the web server Nginx cache Django views nicely, respecting logged in users, or you've set up reverse proxies with it and tuned sites for very high performance, we'd love to pick your brains for just an hour or two!
+
 ## Amazon Web Services gurus and architects
 
 We aren't on AWS yet, but are convinced it's our future.  In the long run we want a core database that's indestructible, capacity that can scale up for specific competitions, 90% of the past content in static storage and rendered with 100%-static HTML/CSS/JS, and real-time push notifications.   We want to be able to handle competitions all over the world on Saturday afternoons, or the traffic from a major Games.  AND to be able to take days off without needing sysadmins on duty all the time!  So if you know the AWS ecosystem, perhaps you can help us figure out the right long term architecture...
