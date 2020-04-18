@@ -78,7 +78,7 @@ We aren't on AWS yet, but are convinced it's our future.  In the long run we wan
 
 ## Project Managers and Coordinators
 
-There are too many strands to OpenTrack for us to lead and manage top-down.  If you understand the dynamics of volunteer projects with remote working, and can coordinate a few others to try to get a result, 
+There are too many strands to OpenTrack for us to lead and manage top-down.  If you understand the dynamics of volunteer projects with remote working, are a good communicator, and can coordinate a few others to try to get a result, perhaps you could help steer one of our strands of work on a weekly basis?
 
 # Next Steps
 
