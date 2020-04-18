@@ -2,6 +2,7 @@
 layout: post
 title: Call for Volunteers
 author: Andy Robinson
+description: We need help to scale up and let everyone enjoy virtual athletics this summer!
 ---
 
 
