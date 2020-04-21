@@ -48,9 +48,9 @@ If you're good at creating the right visual to convey an idea clearly, making ic
 
 ## User Experience and Interaction Designers
 
-We really need to design features visually up front, go through cycles of review and feedback, and know what we're going to build before we move to code.  THere are many planned features where we know the requirements, but lack a good design before they can be built.
+We really need to design features visually up front, go through cycles of review and feedback, and know what we're going to build before we move to code.  There are many planned features where we know the requirements, but lack a good design before we can build them.
 
-## [Django](https://www.djangoproject.org/) and [Python](https://python.org) Developers
+## [Django](https://www.djangoproject.com/) and [Python](https://python.org) Developers
 We have a large code base written in Django and Python, often 'extended in a hurry' during competition weekends!  In addition to the insatiable demand for features, we need to gradually clean up, document, and fix bugs.  
 
 We're pretty experienced in this (running production sites since 2006), but if you are too, we'd LOVE to hear from you.
@@ -65,7 +65,7 @@ This is how we made the web site, hosted in GitHub.  It's really important that 
 
 ## CSS and Javascript Gurus
 
-Our front end pages are in [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/), with rather too many not yet upgraded from Bootstrap 3.   We bring them to life with [VueJS](https://vuejs.org).  There's always 
+Our front end pages are in [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/), with rather too many not yet upgraded from Bootstrap 3.   We bring them to life with [VueJS](https://vuejs.org).  There's always a need to make sure the pages look right, on all devices.
 
 ## Amazon Web Services gurus and architects
 
@@ -74,7 +74,7 @@ We aren't on AWS yet, but are convinced it's our future.  In the long run we wan
 
 ## Project Managers and Coordinators
 
-There are too many strands to OpenTrack for us to lead and manage top-down.  If you understand the dynamics of volunteer projects with remote working, and can coordinate a few others to try to get a result, 
+There are too many strands to OpenTrack for us to lead and manage top-down.  If you understand the dynamics of volunteer projects with remote working, and can coordinate a few others to try to get a result.
 
 # Next Steps
 

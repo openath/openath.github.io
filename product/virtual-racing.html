@@ -6,6 +6,30 @@ image: /assets/img/logos/virtual_racing.png
 description: Race solo, compete as a team, raise funds for charity - safely!
 ---
 
+<div class="bg-blue py-4">
+  <div class="container-fluid">
+    <div class="siblings">
+        <div class="row align-items-center justify-content-center" data-aos="fade-up">
+
+          <div class="col-sm">
+            <a href="https://docs2.opentrack.run/funstuff/virtual_races/" class="sibling-link sibling-left">
+                <h3>Organise a V-Race</h3>
+                {% octicon chevron-left %}
+              </a>
+          </div>
+          <div class="col-sm">
+            <a href="https://data.opentrack.run/x/?type=VIRTUAL" 
+              class="sibling-link sibling-right">
+              
+                <h3>Enter a V-Race</h3>
+                {% octicon chevron-right %}
+              </a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
 <div class="container-fluid pb-4">
   <section id="virtual-racing-introduction">
     {% capture my_include %}{% include_relative virtual-racing/1.introduction.md %}{% endcapture %}
@@ -28,7 +52,7 @@ description: Race solo, compete as a team, raise funds for charity - safely!
 
           <div class="col-sm">
             <a href="https://docs2.opentrack.run/funstuff/virtual_races/" class="sibling-link sibling-left">
-              	<h3>How to organise a Virtual Race</h3>
+              	<h3>Organise a V-Race</h3>
               	{% octicon chevron-left %}
               </a>
           </div>
@@ -36,11 +60,16 @@ description: Race solo, compete as a team, raise funds for charity - safely!
             <a href="https://data.opentrack.run/x/?type=VIRTUAL" 
               class="sibling-link sibling-right">
               
-              	<h3>See Races</h3>
+              	<h3>Enter a V-Race</h3>
               	{% octicon chevron-right %}
               </a>
           </div>
         </div>
       </div>
   </div>
+</div>
+
+<div class="container-fluid pb-4">
+  
+  <img style="width:100%" src="http://file.opentrack.run/img/2020/uk_hcafs.jpeg">
 </div>
