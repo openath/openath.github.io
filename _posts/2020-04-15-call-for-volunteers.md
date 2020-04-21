@@ -2,13 +2,14 @@
 layout: post
 title: Call for Volunteers
 author: Andy Robinson
+description: We need help to scale up and let everyone enjoy virtual athletics this summer!
 ---
 
 
 We're looking for people with some time on their hands who can help us to build and improve our platform this summer.
 
 <div class="row">
-	<img src="http://file.opentrack.run/img/2020/opentrack_needs_you.jpg" class="screen" width="100%">
+	<img src="http://file.opentrack.run/img/2020/bolt.png" class="screen" width="100%">
 </div>
 
 
@@ -23,7 +24,7 @@ Too much time on your hands?  Just come on our [forum](https://forum.opentrack.r
 
 ## Stattos
 
-All results on OpenTrack are Open Data, available to download and play with.  If you can do something interesting with it, go right ahead!
+All results on OpenTrack are Open Data, available to download and play with.  If you can do something interesting with it, go right ahead!  For example, see Will MyCroft's [video of the relay results](https://www.youtube.com/watch?v=FMYPc-snAZM&feature=youtu.be)
 
 
 ## OpenTrack Experts and Forum Moderators
@@ -67,6 +68,10 @@ This is how we made the web site, hosted in GitHub.  It's really important that 
 
 Our front end pages are in [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/), with rather too many not yet upgraded from Bootstrap 3.   We bring them to life with [VueJS](https://vuejs.org).  There's always a need to make sure the pages look right, on all devices.
 
+## Nginx gurus
+
+If you know how to make the web server Nginx cache Django views nicely, respecting logged in users, or you've set up reverse proxies with it and tuned sites for very high performance, we'd love to pick your brains for just an hour or two!
+
 ## Amazon Web Services gurus and architects
 
 We aren't on AWS yet, but are convinced it's our future.  In the long run we want a core database that's indestructible, capacity that can scale up for specific competitions, 90% of the past content in static storage and rendered with 100%-static HTML/CSS/JS, and real-time push notifications.   We want to be able to handle competitions all over the world on Saturday afternoons, or the traffic from a major Games.  AND to be able to take days off without needing sysadmins on duty all the time!  So if you know the AWS ecosystem, perhaps you can help us figure out the right long term architecture...
@@ -74,7 +79,7 @@ We aren't on AWS yet, but are convinced it's our future.  In the long run we wan
 
 ## Project Managers and Coordinators
 
-There are too many strands to OpenTrack for us to lead and manage top-down.  If you understand the dynamics of volunteer projects with remote working, and can coordinate a few others to try to get a result.
+There are too many strands to OpenTrack for us to lead and manage top-down.  If you understand the dynamics of volunteer projects with remote working, are a good communicator, and can coordinate a few others to try to get a result, perhaps you could help steer one of our strands of work on a weekly basis?
 
 # Next Steps
 
