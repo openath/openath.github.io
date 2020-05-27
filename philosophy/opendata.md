@@ -62,7 +62,7 @@ This, combined with common reference data on clubs and venues, and with standard
 
 To facilitate this, we will offer tools to help organisers check and publish results on the web and in print, by pasting in a spreadsheet.  At this moment they will be explicitly asked to give us copyright under the ODBL, ensuring that the results are free for anyone to use in future.
 
-Results will generally include the name, current affiliation and age group of the competitors.  If they contain personal information (e.g. detailed dates of birth) this will not be released as Open Data.    See our separate <a href="/policies/">Privacy Policy</a> page for more information.
+Results will generally include the name, current affiliation and age group of the competitors.  If they contain personal information (e.g. detailed dates of birth) this will not be released as Open Data.    See our separate <a href="https://opentrack.run/about/privacy.html">Privacy Policy</a> page for more information.
 
 
 ### Created works:  documents, artwork and images
