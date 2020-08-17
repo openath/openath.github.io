@@ -28,6 +28,8 @@
     url: /product/featurematrix.html
 # - url: /results
 #   title: Results
+- url: /pricing/
+  title: Pricing
 - url: /team
   title: The Team
 - url: /news/
