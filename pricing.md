@@ -29,3 +29,5 @@ Outside the UK, we charge 1 Euro per competitor, or a broadly equivalent amount 
 ## Virtual Competitions
 
 The subsidy from England Athletics that allowed us to offer this free during COVID-19 ran from April to July.  Any virtual competition setbup in that time may keep running at no cost.  However, any new ones will be charged as above.
+
+If you feel these fees are not appropriate for any reason, please contact us to discuss.  We're happy to discuss arrangements for regular series of races or for high-volume events.  However, bear in mind that we do need to cover our own time; and if your event might take up a few hours of our support time, the income needs to broadly cover the cost!
