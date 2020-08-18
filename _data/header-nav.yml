@@ -1,16 +1,3 @@
-- url: /  
-  title: Virtual
-  pages:
-  - title: Overview
-    url: /product/virtual-racing.html
-  - title: Setup instructions
-    url: https://docs.opentrack.run/funstuff/virtual_races/
-  - title: Visual instructions
-    url:  https://www.youtube.com/channel/UCLDAe5Ib3pWbtW8iq3u6rUg/playlists 
-  - title: Forum
-    url:  https://forum.opentrack.run/c/virtual-comp/5 
-  - title: Competitions
-    url: https://data.opentrack.run/x/
 - url: /
   title: Products
   pages:
@@ -22,6 +9,8 @@
     url: /product/federation-admin.html
   - title: Competition Management
     url: /product/competition-management.html
+  - title: Virtual Racing
+    url: /product/virtual-racing.html    
   - title: Open Reference Database
     url: /product/open-reference-data.html
   - title: Feature Matrix
