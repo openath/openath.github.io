@@ -18,10 +18,9 @@ As an organiser of a competition, the first point of call for up to date informa
 
 <div class="row">
 	<img src="https://s3.eu-west-2.amazonaws.com/file.opentrack.run/live/img/2020/covid_guidelines.png" 
-	style="display:block;width:50%;margin-left: auto;margin-right: auto"
+	style="display:block;max-width:100%;margin-left: auto;margin-right: auto"
 	class="screen">
 </div>
-
 
 
 At Opentrack, our job is to help provide a framework for you to put on the best competition possible at a budget suited to our sport, whilst adhering to the guidelines.
@@ -33,13 +32,6 @@ When it comes to distance events, we anticipate three main forms of competition 
  * Seeded shorter races with small fields, e.g. 3000m on the track
  * Wave start or handicap races (whether chip-timed or hand-timed) 
  * Time trial (virtual races) - over 380 competitions for 65,000 athletes to date.
-
-
-<div class="row">
-	<img src="https://s3.eu-west-2.amazonaws.com/file.opentrack.run/live/img/2020/winter_events_640.png" 
-	style="display:block;width:50%;margin-left: auto;margin-right: auto"
-	class="screen">
-</div>
 
 For the KJTs out there, we also have completely customisable combined events scoring, allowing you to participate in unique indoor challenges - design your own decathlon!  Scottish Athletics used this to organise and score their SuperTeams format, keeping thousands of young athletes engaged in inter-club competitions this year.
 
