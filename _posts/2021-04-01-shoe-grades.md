@@ -2,7 +2,7 @@
 layout: post
 title: Announcing Shoe Grades!
 author: Andy Robinson
-cover_image: https://s3.eu-west-2.amazonaws.com/files.opentrack.run/live/img/2021/shoeentry_2.png
+cover_image: https://s3.eu-west-2.amazonaws.com/files.opentrack.run/live/img/2021/Shoe-spoof.png
 ---
 
 A new season is upon us, starting with last night’s [Comeback 5000](https://data.opentrack.run/en-gb/x/2021/GBR/comeback/) at Battersea Park.  
@@ -21,4 +21,4 @@ Jon Ridgeon, World Athletics CEO, said last night at Battersea Park _“These ne
 
 Mirko Jalava of Tilastopaja in Finland says _“With all this new data and our huge database we’re working on a system of Shoe Grades - similar to Age Grades - so that by late season, we can adjust your time to correct for footwear.”_
 
-Shoe Factors will be announced at the end of each season at the [AthTech conference](http://athtech.run/2021/), and the results will hopefully be used to set official time penalties for the next season
+Shoe Factors will be announced at the end of each season at the [AthTech conference](http://athtech.run/2021), and the results will hopefully be used to set official time penalties for the next season
