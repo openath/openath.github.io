@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New features for Super Shoes!
+title: Announcing Shoe Grades!
 author: Andy Robinson
 cover_image: https://s3.eu-west-2.amazonaws.com/files.opentrack.run/live/img/2021/shoeentry_2.png
 ---
