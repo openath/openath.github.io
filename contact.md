@@ -12,4 +12,3 @@ Wimbledon Hill Rd, Wimbledon,
 London SW19 7NB,  
 United Kingdom 
 
-Tel. +44 20 8191 7277
