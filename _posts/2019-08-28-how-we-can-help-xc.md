@@ -2,7 +2,7 @@
 layout: post
 title: XC Season is Nearly Upon Us - How We Can Help You
 author: Gus Upton
-cover_image: https://file.opentrack.run/img/2019/sll_2018_div1.png
+cover_image: https://files.opentrack.run/img/2019/sll_2018_div1.png
 ---
 
 
