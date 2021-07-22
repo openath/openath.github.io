@@ -11,7 +11,7 @@ The Future of Athletics - Where is it heading? Just before we start, no - we are
 Currently, OpenTrack are looking much closer to home and are simply aiming to modernise the amateur world of the sport we all love. Specifically, moving away from an over-reliance on pen & paper and digitising our competitions. "Why?" We hear you ask. Importantly, this goes hand-in-hand with minimising officials & volunteers' workloads, potentially reducing costs, definitely imrpoving the eco foot-print, all whilst providing a more engaging, interactive experience for spectators & athletes. Sounds good, right?
 
 
-[![XC](https://files.opentrack.run/img/2019/sll_2018_div1.png)](http://file.opentrack.run/img/2019/sll_2018_div1.png)
+[![XC](https://files.opentrack.run/live/img/2019/sll_2018_div1.png)](https://files.opentrack.run/live/img/2019/sll_2018_div1.png)
 
 ## So, how can we help you?
 
@@ -19,7 +19,7 @@ Currently, OpenTrack are looking much closer to home and are simply aiming to mo
 
 Our Entry System will provide a tailor-made microsite for your competition allowing XC Team Managers and individuals to swiftly and easily enter races. This takes all the stress and urgency out of declarations!
 
-[![Team Entries](https://files.opentrack.run/img/2019/team_entries_xc.png)](https://files.opentrack.run/img/2019/team_entries_xc.png)
+[![Team Entries](https://files.opentrack.run/live/img/2019/team_entries_xc.png)](https://files.opentrack.run/live/img/2019/team_entries_xc.png)
 
 Unlike many race entry sites, OpenTrack's has been created specifically with XC in mind. This means it can be completely tailored to your needs:
 
@@ -34,7 +34,7 @@ Unlike many race entry sites, OpenTrack's has been created specifically with XC 
 
 In a nutshell, the Competition Management System is web based software designed to take all the pen, paper, time & stress out of the organistion and running of athletics competitions. It provides an individual and completely tailored microsite for your competition, meaning you can organise it exactly as you want, from detailed information through to logo display. Importantly, this is integrated into the Entry system meaning all athletes, events and any updates are incorporated seamlessly. 
 
-[![Results](https://files.opentrack.run/img/2019/not_results3.jpg)](https://files.opentrack.run/img/2019/not_results3.jpg)
+[![Results](https://files.opentrack.run/live/img/2019/not_results3.jpg)](https://files.opentrack.run/live/img/2019/not_results3.jpg)
 
 Organisers and officials love it . . . 
  	. . .  it provides a quick and simple set-up, easily pasted from Excel. The framework is completely configurable by the user allowing all manner of design: age group limitations, scoring, athlete check-in, etc. Automatic reports and start/results lists are also produced in an instant!
