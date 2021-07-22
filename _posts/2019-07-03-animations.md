@@ -31,4 +31,4 @@ Basically, all the excitement of the fair - just bring your own beer.
 We will again be working with the splits on this Saturday night. Results will be on this 
 <a href="https://results.opentrack.run/x/2019/GBR/not/"> site</a>, and maybe even a few interesting displays.
 
-[![Hampstead Heath at its finest](http://file.opentrack.run/img/2017/ten_thousand_PB1.jpg)](http://file.opentrack.run/img/2017/ten_thousand_PB1.jpg)
+[![Hampstead Heath at its finest](https://files.opentrack.run/live/img/2017/ten_thousand_PB1.jpg)](https://files.opentrack.run/live/img/2017/ten_thousand_PB1.jpg)
