@@ -2,7 +2,7 @@
 layout: post
 title: Virtual Road Relays
 author: Gus Upton
-cover_image: http://file.opentrack.run/custom_images/banner.png
+cover_image: https://file.opentrack.run/custom_images/banner.png
 ---
 
 
@@ -35,21 +35,21 @@ Finally, a quick summary of how the scores are looking so far (at the time of wr
 (i.e. fastest 12 of everyone who took part in the club - no need to pre-declare!)
 
 <div class="row">
-	<img src="http://file.opentrack.run/img/2020/vnnrc-men-12.png" class="screen" width="100%">
+	<img src="https://files.opentrack.run/live/img/2020/vnnrc-men-12.png" class="screen" width="100%">
 </div>
 
 
 ## Womens 12 stage
 
 <div class="row">
-	<img src="http://file.opentrack.run/img/2020/vnnrc-women-12.png" class="screen" width="100%">
+	<img src="https://files.opentrack.run/live/img/2020/vnnrc-women-12.png" class="screen" width="100%">
 </div>
 
 ## Age graded teams of 12
 
 In addition to traditional classic veterans teams, we have worked out an age graded best for everyone.  Everyone in the club counts, young or old, and making it much more realistic to field a team of 12!  
 <div class="row">
-	<img src="http://file.opentrack.run/img/2020/vnnrc-vets.png" class="screen" width="100%">
+	<img src="https://files.opentrack.run/live/img/2020/vnnrc-vets.png" class="screen" width="100%">
 </div>
 
 
