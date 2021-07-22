@@ -2,7 +2,7 @@
 layout: post
 title: DNA - the first match
 author: Andy Robinson
-cover_image: http://file.opentrack.run/img/2017/ladders.jpg
+cover_image: https://files.opentrack.run/live/img/2017/ladders.jpg
 ---
 This weekend sees the first ever <i>**Dynamic New Athletics**</i> matches hosted by European Athletics at Wimbledon Park.
 
@@ -15,11 +15,11 @@ This weekend sees the first ever <i>**Dynamic New Athletics**</i> matches hosted
 
 This is a new format for team athletics competitions, being launched internationally next year. It includes many innovations to make an exciting and fun team competition, with many new wrinkles, and can be adapted to youth, club and university level easily.
 
-![image here](http://file.opentrack.run/img/2017/ladders.jpg)
+![image here](https://files.opentrack.run/live/img/2017/ladders.jpg)
 
 <a href="http://file.opentrack.run/docs/2017/dna/dna_guide_v3.pdf">Click here</a> for all the details of the meeting as a whole and the individual events within the program.  These are designed both to be fun and rewarding for the athletes, and also a great watch for spectators.  The event is going to be filmed, and the edited version shown at the European Athletics Conference next month, as they develop this new format for the sport. 
 
-![European Athletics logo](http://file.opentrack.run/img/2017/logo-eaa.png)
+![European Athletics logo](https://files.opentrack.run/live/img/2017/logo-eaa.png)
 
 We're looking for more athletes to come down on Sunday and do a fun session.   We need to create 6 club / composite teams on the day - each of which require between 4 and 6 athletes of each gender.  We're offering £20 to the first 50 athletes to sign up (and come down).   <a href="https://goo.gl/forms/obPi04eIVZRZfXjJ2">Sign up here...</a>
 
