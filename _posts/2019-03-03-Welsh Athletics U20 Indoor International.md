@@ -2,7 +2,7 @@
 layout: post
 title: Welsh Athletics U20s Indoor International 2019
 author: Gus Upton
-cover_image: http://file.opentrack.run/img/2019/jazu.jpg
+cover_image: https://files.opentrack.run/live/img/2019/jazu.jpg
 ---
 
 Whilst most of the UK had their attention turned North toward Laura Muir and the rest of Team GB winning medal-after-medal in Glasgow, if you had happened to look West you will have been lucky enough to witness an excting day of action between Wales & England U20s.
