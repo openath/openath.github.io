@@ -9,7 +9,7 @@ description: We need help to scale up and let everyone enjoy virtual athletics t
 We're looking for people with some time on their hands who can help us to build and improve our platform this summer.
 
 <div class="row">
-	<img src="http://file.opentrack.run/img/2020/bolt.png" class="screen" width="100%">
+	<img src="https://files.opentrack.run/live/img/2020/bolt.png" class="screen" width="100%">
 </div>
 
 
