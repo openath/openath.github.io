@@ -4,9 +4,9 @@ title: Major upgrade to live streaming
 author: Gus Upton
 ---
 
-![IMG_4893](https://user-images.githubusercontent.com/70197434/126626844-60517e98-df32-4d84-af39-f1e6a9f8d574.jpg)
-
 Our new TV console graphics package has proven to be a great success across many athletics competitions throughout Europe this season, as ever more events look to step up their broadcasting and media coverage to the next level.
+
+![IMG_4893](https://user-images.githubusercontent.com/70197434/126626844-60517e98-df32-4d84-af39-f1e6a9f8d574.jpg)
 
 
 *Having watched many a livestream from someone’s phone, and relied upon whichever training partner was present at an athletics event to share grainy photos of paper results print-outs in group chats, it was clear to see that athletics was crying out for better media coverage at the grassroots to sub-elite level.*
