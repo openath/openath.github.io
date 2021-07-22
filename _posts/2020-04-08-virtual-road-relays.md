@@ -2,7 +2,7 @@
 layout: post
 title: Virtual Road Relays
 author: Gus Upton
-cover_image: https://file.opentrack.run/custom_images/banner.png
+cover_image: https://files.opentrack.run/live/custom_images/banner.png
 ---
 
 
