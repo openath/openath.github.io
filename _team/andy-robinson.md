@@ -1,6 +1,7 @@
 ---
 title: Andy Robinson
-position: Board Member
+position: Managing Director
+band: 1
 rank: 1
 image: /assets/img/team/andyr.jpg
 athlete_pic: /assets/img/team/andyr2.jpg

@@ -1,6 +1,7 @@
 ---
 title: David Brunsdon
-position: Board Member
+position: Compliance Director
+band: 1
 rank: 5
 image: /assets/img/team/davidb.jpg
 athlete_pic: /assets/img/team/davidb2.jpg

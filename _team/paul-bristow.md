@@ -1,6 +1,7 @@
 ---
 title: Paul Bristow
 position: Board Member
+band: 1
 rank: 3
 image: /assets/img/team/paulb.jpg
 athlete_pic: /assets/img/team/paulb2.jpg

@@ -1,6 +1,7 @@
 ---
 title: Paul Rowbotham
 position: Board Member
+band: 1
 rank: 4
 image: /assets/img/team/paulr.jpg
 athlete_pic: /assets/img/team/paulr2.jpg
