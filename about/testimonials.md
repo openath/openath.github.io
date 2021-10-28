@@ -160,20 +160,3 @@ Starting the "standards process" on our behalf::
   England Athletics
   Head of Business Development and Communications
 
-
-
-
-<blockquote><p>
-Quotation goes here
-</p><footer><cite>Some person</cite></footer></blockquote>
-
-
-
-<blockquote><p>
-Quotation goes here
-</p><footer><cite>Some person</cite></footer></blockquote>
-
-<blockquote><p>
-Quotation goes here
-</p><footer><cite>Some person</cite></footer></blockquote>
-
