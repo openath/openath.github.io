@@ -9,5 +9,5 @@ rank: 3
 profile: professional
 ---
 
-Lorem ipsum dolor sic amet. 
+Llewellyn completed an internship with OpenTrack's partner company ReportLab in 2017/18 during his computer science degree, and was hired full time by OpenTrack on graduation in 2020. 
 

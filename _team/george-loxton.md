@@ -9,5 +9,5 @@ athlete_pic: /assets/img/team/george2.png
 profile: professional
 ---
 
-Lorem ipsum dolor sic amet. 
+George is a final years master's student at the University of Birmingham studying mathematics. 
 
