@@ -14,7 +14,7 @@
 <meta property="fb:appid" content="2562915560696451">
 {% if page.image %}
   <meta content="{{ site.url }}{{ page.image }}" property="og:image">
-{% else %}}
+{% else %}
 <meta property="og:image" content="{{ site.url | replace: 'https://', 'http://' | append: site.social_image_path }}">
 {% endif %}
 <meta property="og:image:secure_url" content="{{ site.url | append: site.social_image_path }}">
