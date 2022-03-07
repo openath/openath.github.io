@@ -32,15 +32,24 @@
 
 - title: Federation sites
   pages:
-    - title: Estonia Athletics (Eesti Kergejõustikuliit)
+    - title: Belgium
+      url: https://belgium.opentrack.run
+    - title: Bosnia & Herzegovina
+      url: https://bih.opentrack.run/
+    - title: Cyprus
+      url: https://cyprus.opentrack.run
+    - title: Estonia
       url: http://estonia.opentrack.run
     - title: Malta
       url: https://malta.opentrack.run
-    - title: Cyprus
-      url: https://cyprus.opentrack.run
-    - title: Belarus
-      url: https://belarus.opentrack.run
-    - title: Surrey League
-      url: http://surreyleague.org
+    - title: Norway
+      url: https://norway.opentrack.run/
+    - title: Serbia
+      url: https://serbia.opentrack.run/
+    - title: Wales
+      url: https://wales.opentrack.run/
     - title: British Masters
       url: http://bmaf.opentrack.run
+    - title: Surrey League
+      url: https://www.surreyleague.org
+
