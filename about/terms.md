@@ -6,7 +6,7 @@ layout: page
 Entry system - terms and conditions
 ----
 
-<em>Last updated:  26 Feb 2017</em>
+<em>Last updated:  27 Feb 2017</em>
 
 Our entry system is being used more and more widely, with 5 counties and a number of clubs in spring 2017.  We have therefore reached a point where we need to be clearer about who does what. This page sets out the terms of use for the 2017 summer season.
 
