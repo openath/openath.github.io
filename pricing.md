@@ -19,9 +19,7 @@ b) the club will make up the difference
 
 ## Competition Management - £1.20 / &euro;1.00
 
-Using OpenTrack end to end - for real or virtual competitions, with all features from entries through to seeding, live results, and score calculations - in the UK costs £1.00 + VAT (£1.20) per competitor, unless the 50p+5% yields a greater amount.  We can either collect this from entry fees, or invoice retrospectively. 
-
-*Note that the the subsidy from England Athletics that allowed us to offer this free for virtual competitions during COVID-19 will run until September 2021.  Any virtual competition set up in that time may keep running at no cost.  However, any new ones will be charged as above.*
+Using OpenTrack end to end, with all features from entries through to seeding, live results, and score calculations - in the UK costs £1.00 + VAT (£1.20) per competitor, unless the 50p+5% yields a greater amount.  We can either collect this from entry fees, or invoice retrospectively. 
 
 Outside the UK, we charge 1 Euro per competitor, or a broadly equivalent amount in local currency, with no need to charge VAT.
 
