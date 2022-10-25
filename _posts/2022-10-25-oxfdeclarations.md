@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Oxfordshire XC League Declarations Open
-author: James Davis, Andy Robinson
-cover_image: https://files.opentrack.run/live/custom_images/221025.JPG
+author: James Davis
+cover_image: https://files.opentrack.run/live/custom_images/221025.jpg
 ---
 
 Declarations are now open for the [Oxfordshire Cross Country League](https://data.opentrack.run/leagues/1/), managed on OpenTrack.
