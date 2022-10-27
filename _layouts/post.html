@@ -14,7 +14,12 @@ layout: default
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
       {%- if page.cover_image -%}
-        <img src="{{ page.cover_image}} ">
+        <figure>
+          <img src="{{ page.cover_image}} ">
+          {%- if page.cover_image_caption -%}
+            <figcaption>{{ page.cover_image_caption}}</figcaption>
+          {%- endif -%}
+        </figure>
       {%- endif -%}</p>
   </header>
 
