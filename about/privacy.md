@@ -107,8 +107,7 @@ consent.
 In providing our services and managing your Athletics Data we will also be guided by 
 [England Athletics](https://www.englandathletics.org/clubs--community/club-management/gdpr-
 and-data-protection-advice); and
-[European Athletics](http://www.european-athletics.org/european-athletics/what-we-
-do/programmes-and-projects/athletics-data-protection/)
+[European Athletics](https://file.opentrack.run/live/euroath/athlete-data-protection.pdf)
 
 ### Your rights
 You have the following rights with respect to your Athletics Data and Additional Personal Data 
