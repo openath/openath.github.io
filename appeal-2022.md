@@ -4,6 +4,12 @@ title: OpenTrack Appeal
 permalink: /appeal/
 ---
 
+To do before launch:
+ - Jazz up page with pictures, divide the narrative with blocks, big clear donate buttons
+ - add some testimonials from our key users
+ - can we make it shorter?
+ - strong focus on leagues, schools, matches as the focus for this year. Say why.
+
 # Help us to support grass-roots athletics!
 
 
