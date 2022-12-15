@@ -4,43 +4,60 @@ title: OpenTrack Appeal
 permalink: /appeal/
 ---
 
-To do before launch:
- - Jazz up page with pictures, divide the narrative with blocks, big clear donate buttons
- - add some testimonials from our key users
- - can we make it shorter?
- - strong focus on leagues, schools, matches as the focus for this year. Say why.
-
-# Help us to support grass-roots athletics!
+**We’re asking for donations to help us keep improving our low-cost platform for grassroots athletics.**
 
 
-OpenTrack was set up to benefit grass roots athletics.  Our mission statement is to *“save time for the volunteers, make athletics more fun for the participants, and help the sport to grow”*. We aim to do this through a modern digital platform that dramatically reduces the work in organising competitions - so that people can organise more of them.   We’re actively tackling the corners of the sport that offer the least financial return, and which nobody else was helping.
 
-Our business model has always been, broadly speaking, to try to persuade governing bodies to invest in the capital costs of building a system; and for the users to pay only the operating costs.  We had fantastic support in our early years from an EU incubator, from European Athletics, from some private investors passionate about athletics, and from various national governing bodies funding development of specific features.  This has built the system we have to date
+OpenTrack was set up to benefit grassroots athletics.  Our mission statement is to “save time for the volunteers, make athletics more fun for the participants, and help the sport to grow”. We aim to do this through a modern digital platform that dramatically reduces the work in organising competitions - so that people can organise more of them.   We’re actively targeting the areas of the sport that offer the least financial return, such as leagues, schools and developing nations.  
 
-To cover the ongoing costs, we make a small amount when somebody competes, or makes an entry.  Unfortunately, since the pandemic, we have not attracted the levels of funding we originally hoped for from national and international governing bodies; and have been left trying to pay for high quality IT development with a tiny budget.  This is a tough way to make a living. 
+Donate  
+ - [once](https://donate.stripe.com/eVaaIJeNS8OL7044gg)
+ - [£5 per quarter](https://buy.stripe.com/fZe8AB6hm7KH1FK7su)
+ - [£10 per quarter](https://buy.stripe.com/6oE5op2165Cz3NSbIL)
+ - [£25 per quarter](https://buy.stripe.com/aEUeYZ0X23urbgk3cg) 
 
-Over the last 3 years, we have broadly only just broken even, with too small a team to really deliver the new functionality we want. Meanwhile, clubs and counties have near-infinite wish lists, and expect everything to work perfectly, like the social networks and apps everybody uses which have development teams 100x our size.
+## Why are we raising money?
 
-This summer, we reached a milestone of **over 100,000 users** with logins.  80,000 of these are in the United Kingdom, and 65,000 of them have used us to enter a competition with an entry fee in 2022 so far.  We helped **take £1.1m in entries in the past year**, and 90-95% of the funds from this have gone directly to clubs and counties organising competitions, helping them to support themselves.   Users benefit from finding competitions easily, transparent entries and (in many cases) rapid live results.  
+Our business model has always been, broadly speaking, to try to persuade governing bodies to invest in the capital costs of building a system; and for the users to pay only the operating costs.  We had fantastic support in our early years from an EU incubator, from European Athletics, and from various national governing bodies funding development of specific features.  
 
-If just 10% of these users gave us £5 each year, we would be able to pay for one more badly needed software developer, and make OpenTrack available in far more places!
+We charge a small amount when somebody competes, or makes an entry. Since the pandemic, we have not attracted the levels of funding we originally hoped for; and have been left trying to pay for high quality IT development with a tiny budget.  
 
-So, we are launching an appeal in December 2022.  If you want to support what we are doing, please consider a donation! Our target is to **raise £50,000 pounds**.  
+We want to keep investing in features, usability and infrastructure, so we can serve the sport even better.    We want to keep supporting leagues, schools, and developing nations, where there is little or no budget.
 
-Our key development targets for 2023 include… 
+This summer, we reached a milestone of over 100,000 users with logins.  80,000 of these are in the United Kingdom, and 65,000 of them have used us to enter a competition with an entry fee in 2022 so far.  We helped take £1.1m in entries in the past year, and 90-95% of the funds from this have gone directly to clubs and counties organising competitions, helping them to support themselves.   Users benefit from finding competitions easily, transparent entries and (in most cases) rapid live results.  
 
- - Producing a 100% rule-compliant system that handles and automates the rules of athletics for all ages. There are a few loose ends still to finish off.
- - Make it much easier to set up and manage inter-club and inter-school matches.  This works now if you take care in setup, but it's easy to select the wrong options, and we could make it much, much easier to set up matches and leagues.
- - Support schools, so that teachers can add in the sporty kids quickly and make their team selections; and organise internal competitions easily
- - Provide a more general service to work out season scores and rankings, which users can define and operate themselves, opening the door to leagues of all kinds - track and field, road and cross country.
- - Work on performance and reliability, so that every page and process response quickly, and we can “scale up” automatically at weekends and to handle many simultaneous competitions on a busy summer Saturday all over Europe.
- - Investigate every issue, and pay down past “technical debt” where we had to take shortcuts to get a solution ready for Saturday. 
- - Have support staff on duty at weekends to help competition organisers
- - Add features we know clubs want, like recording apps for small races and cross country, and configurable league scoring systems
- - Supporting key parts of the sport which want our service but currently lack a clear funding model, like the UK Youth Leagues, or poorer countries 
+**If just 10% of these users gave us £5 each year, we would be able to pay for one more badly needed software developer!**
 
-So, if you love our sport, you’ve benefited from our service, and want to give something back to the grass roots of the sport, please consider a small donation to OpenTrack in December 2022.
+So, we are launching an appeal in December 2022.  If you want to support what we are doing, please consider a donation! **Our target is to raise £50,000**.
+
+## Where will the money go?
+
+Any funds raised will go on staff resources.  Depending on the sums raised, this could be a full time developer, or a number of specialist part-time workers.  And we’ll get to work on improvements and new features.
+
+Our key targets for 2023 include… 
+
+### Support for Matches and Leagues
+
+A lot of the sport consists of _matches between teams_. This ranges from the National Athletics League, which we served successfully this year, down to lots of lesser leagues, and matches between or within schools.   These are very different to championships and open meetings.
+You can run these in OpenTrack now, but there is a lot to set up, and it’s too easy to make a mistake.  So our number one goal is to make it really easy to create “templates” for a match or series of matches, set the competition up with a click or two, and hide all the irrelevant options. 
+
+This will open the door to supporting leagues across the whole country and all age ranges, working with the Association of Athletics Leagues.
+
+We’re very conscious that leagues are often organised with no cash budget, and clubs taking turn to host, instead of paying any fees to the league, so costs need to be very low.  
+
+### Completing the system
+
+There are still a few small corners of athletics that we would like to implement, such as capturing the exact weights thrown for differing age groups and reporting them to Power of 10; disability athletics; and the various seeding methods with heats, semis and finals.
+
+### Usability
+
+We have hundreds of screens.  It needs constant work to make sure they are all friendly and work nicely on mobile phones.
+
+### Performance and Reliability
+
+Software services like us always need to work on performance and reliability, so that every page and process respond quickly, and we can “scale up” automatically at weekends and to handle many simultaneous competitions on a busy summer Saturday all over Europe. This is a matter of developers constantly investigating and optimising the code.
+
+*So, if you love our sport, have benefited from our service, and kindly wish to give something back to the grassroots, please consider a small donation to OpenTrack in the festive season*
 
 
-## Donation links
-[Donate a one-off amount here](https://donate.stripe.com/eVaaIJeNS8OL7044gg). Or, if you 'd like to contribute regularly, you can sign up to donate [£5.00](https://buy.stripe.com/fZe8AB6hm7KH1FK7su), [£10.00](https://buy.stripe.com/6oE5op2165Cz3NSbIL) or [£25.00](https://buy.stripe.com/aEUeYZ0X23urbgk3cg) every 3 months.  You'll be able to cancel at any time.
+
