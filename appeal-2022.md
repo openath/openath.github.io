@@ -10,8 +10,7 @@ permalink: /appeal/
 
 OpenTrack was set up to benefit grassroots athletics.  Our mission statement is to “save time for the volunteers, make athletics more fun for the participants, and help the sport to grow”. We aim to do this through a modern digital platform that dramatically reduces the work in organising competitions - so that people can organise more of them.   We’re actively targeting the areas of the sport that offer the least financial return, such as leagues, schools and developing nations.  
 
-Donate  
-<a href="https://donate.stripe.com/eVaaIJeNS8OL7044gg" class="btn btn-primary">once</a>
+<a href="https://donate.stripe.com/eVaaIJeNS8OL7044gg" class="btn btn-primary">Donate once</a>
 <a href="https://donate.stripe.com/fZe8AB6hm7KH1FK7su" class="btn btn-warning">£5 per quarter</a>
 <a href="https://donate.stripe.com/6oE5op2165Cz3NSbIL" class="btn btn-danger">£10 per quarter</a>
 <a href="https://donate.stripe.com/aEUeYZ0X23urbgk3cg" class="btn btn-success">£25 per quarter</a>
@@ -59,5 +58,10 @@ Software services like us always need to work on performance and reliability, so
 
 *So, if you love our sport, have benefited from our service, and kindly wish to give something back to the grassroots, please consider a small donation to OpenTrack in the festive season*
 
+
+<a href="https://donate.stripe.com/eVaaIJeNS8OL7044gg" class="btn btn-primary">Donate once</a>
+<a href="https://donate.stripe.com/fZe8AB6hm7KH1FK7su" class="btn btn-warning">£5 per quarter</a>
+<a href="https://donate.stripe.com/6oE5op2165Cz3NSbIL" class="btn btn-danger">£10 per quarter</a>
+<a href="https://donate.stripe.com/aEUeYZ0X23urbgk3cg" class="btn btn-success">£25 per quarter</a>
 
 
