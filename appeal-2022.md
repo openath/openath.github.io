@@ -47,9 +47,6 @@ permalink: /appeal/
     }
     
 </style>
-<div class="ot-appeal-logo-con">
-    <img width="100%" height="100%" src="https://data.opentrack.run/static/img/ot-appeal-logo.svg" alt="opentrack appeal logo">
-</div>
 
 <div class="row mb-5 justify-content-center">
     <img class="ot-appeal-logo" width="100%" height="100%" src="https://data.opentrack.run/static/img/ot-appeal-logo.svg" alt="opentrack appeal logo">
