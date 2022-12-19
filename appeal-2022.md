@@ -3,17 +3,60 @@ layout: page
 title: OpenTrack Appeal
 permalink: /appeal/
 ---
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+    .btn {
+        font-size: 1.5rem;
+    }
+    .once {
+        /* padding: 0.25rem 1rem; */
+        /* font-size: 0.675rem; */
+    }
+    .pq5 {
+        /* padding: 0.75rem 1.3rem; */
+        /* font-size: 0.875rem; */
+    }
+    .pq10 {
+        /* padding: 1.25rem 1.6rem; */
+        /* font-size: 1rem; */
+    }
+    .pq25 {
+        /* padding: 1.75rem 2rem; */
+        /* font-size: 1.2rem; */
+    }
+    .material-icons {
+        font-size: 1.3rem !important;
+    }
+</style>
 
 **We’re asking for donations to help us keep improving our low-cost platform for grassroots athletics.**
 
 
 
-OpenTrack was set up to benefit grassroots athletics.  Our mission statement is to “save time for the volunteers, make athletics more fun for the participants, and help the sport to grow”. We aim to do this through a modern digital platform that dramatically reduces the work in organising competitions - so that people can organise more of them.   We’re actively targeting the areas of the sport that offer the least financial return, such as leagues, schools and developing nations.  
+OpenTrack was set up to benefit grassroots athletics.  Our mission statement is to “save time for the volunteers, make athletics more fun for the participants, and help the sport to grow”. We aim to do this through a modern digital platform that dramatically reduces the work in organising competitions - so that people can organise more of them.   We’re actively targeting the areas of the sport that offer the least financial return, such as leagues, schools and developing nations.
 
-<a href="https://donate.stripe.com/eVaaIJeNS8OL7044gg" class="btn btn-primary">Donate once</a>
-<a href="https://donate.stripe.com/fZe8AB6hm7KH1FK7su" class="btn btn-warning">£5 per quarter</a>
-<a href="https://donate.stripe.com/6oE5op2165Cz3NSbIL" class="btn btn-danger">£10 per quarter</a>
-<a href="https://donate.stripe.com/aEUeYZ0X23urbgk3cg" class="btn btn-success">£25 per quarter</a>
+<div class="donate-once-container row justify-content-center mt-5 mb-4">
+    <a href="https://donate.stripe.com/eVaaIJeNS8OL7044gg" class="once btn btn-outline-primary">
+        Donate once
+        <!-- <span class="material-icons">favorite</span> -->
+    </a>
+</div>
+
+<h2>Or, make quarterly donation of..</h2>
+<div class="donate-pq-container row justify-content-around mb-5">
+    <a href="https://donate.stripe.com/fZe8AB6hm7KH1FK7su" class="pq5 btn btn-outline-primary">
+        £5
+        <!-- <span class="material-icons">favorite</span> -->
+    </a>
+    <a class="heart-icon" href="https://donate.stripe.com/6oE5op2165Cz3NSbIL" class="pq10 btn btn-outline-primary">
+        £10
+        <!-- <span class="material-icons">favorite</span> -->
+    </a>
+    <a href="https://donate.stripe.com/aEUeYZ0X23urbgk3cg" class="pq25 btn btn-outline-primary">
+        £25
+        <!-- <span class="material-icons">favorite</span> -->
+    </a>
+</div>
 
 ## Why are we raising money?
 
