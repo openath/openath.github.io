@@ -38,12 +38,18 @@ permalink: /appeal/
         width: 180px;
         height: 60px;
     }
+    @media (max-width: 1142px) {
+        .ot-appeal-logo-con {
+            display: none !important;
+        }
+    }
+    
 </style>
-<div class="ot-appeal-logo-con d-none d-lg-flex">
+<div class="ot-appeal-logo-con">
     <img width="100%" height="100%" src="https://data.opentrack.run/static/img/ot-appeal-logo.svg" alt="opentrack appeal logo">
 </div>
 
-<div class="d-flex d-lg-none ot-appeal-logo-con-center row mb-5 justify-content-center">
+<div class="row mb-5 justify-content-center">
     <img class="ot-appeal-logo" width="100%" height="100%" src="https://data.opentrack.run/static/img/ot-appeal-logo.svg" alt="opentrack appeal logo">
 </div>
 ### We’re asking for donations to help us keep improving our low-cost platform for grassroots athletics.
