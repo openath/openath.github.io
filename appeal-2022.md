@@ -27,9 +27,26 @@ permalink: /appeal/
     .material-icons {
         font-size: 1.3rem !important;
     }
+    .ot-appeal-logo-con {
+        position: absolute;
+        top: 120px;
+        right: 150px;
+        width: 180px;
+        height: 60px;
+    }
+    .ot-appeal-logo {
+        width: 180px;
+        height: 60px;
+    }
 </style>
+<div class="ot-appeal-logo-con d-none d-lg-flex">
+    <img width="100%" height="100%" src="https://data.opentrack.run/static/img/ot-appeal-logo.svg" alt="opentrack appeal logo">
+</div>
 
-**We’re asking for donations to help us keep improving our low-cost platform for grassroots athletics.**
+<div class="d-flex d-lg-none ot-appeal-logo-con-center row mb-5 justify-content-center">
+    <img class="ot-appeal-logo" width="100%" height="100%" src="https://data.opentrack.run/static/img/ot-appeal-logo.svg" alt="opentrack appeal logo">
+</div>
+### We’re asking for donations to help us keep improving our low-cost platform for grassroots athletics.
 
 
 
@@ -102,9 +119,27 @@ Software services like us always need to work on performance and reliability, so
 *So, if you love our sport, have benefited from our service, and kindly wish to give something back to the grassroots, please consider a small donation to OpenTrack in the festive season*
 
 
-<a href="https://donate.stripe.com/eVaaIJeNS8OL7044gg" class="btn btn-primary">Donate once</a>
-<a href="https://donate.stripe.com/fZe8AB6hm7KH1FK7su" class="btn btn-warning">£5 per quarter</a>
-<a href="https://donate.stripe.com/6oE5op2165Cz3NSbIL" class="btn btn-danger">£10 per quarter</a>
-<a href="https://donate.stripe.com/aEUeYZ0X23urbgk3cg" class="btn btn-success">£25 per quarter</a>
+<div class="donate-once-container row justify-content-center mt-5 mb-4">
+    <a href="https://donate.stripe.com/eVaaIJeNS8OL7044gg" class="once btn btn-outline-primary">
+        Donate once
+        <!-- <span class="material-icons">favorite</span> -->
+    </a>
+</div>
+
+<h2>Or, make quarterly donation of..</h2>
+<div class="donate-pq-container row justify-content-around mb-5">
+    <a href="https://donate.stripe.com/fZe8AB6hm7KH1FK7su" class="pq5 btn btn-outline-primary">
+        £5
+        <!-- <span class="material-icons">favorite</span> -->
+    </a>
+    <a class="heart-icon" href="https://donate.stripe.com/6oE5op2165Cz3NSbIL" class="pq10 btn btn-outline-primary">
+        £10
+        <!-- <span class="material-icons">favorite</span> -->
+    </a>
+    <a href="https://donate.stripe.com/aEUeYZ0X23urbgk3cg" class="pq25 btn btn-outline-primary">
+        £25
+        <!-- <span class="material-icons">favorite</span> -->
+    </a>
+</div>
 
 
