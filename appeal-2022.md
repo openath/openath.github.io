@@ -84,9 +84,9 @@ OpenTrack was set up to benefit grassroots athletics.  Our mission statement is 
 
 Our business model has always been, broadly speaking, find investors for our sport and work with Federations to cover the capital costs of building a system; and for the users to pay only the operating costs.  We had fantastic support in our early years from an EU incubator, from European Athletics, and from various national governing bodies funding development of specific features.  
 
-We charge a small amount when somebody competes, or makes an entry.  
+We charge a small amount when somebody competes, or makes an entry.  This covers our operating costs.
 
-We want to keep investing in features, usability and infrastructure, so we can serve the sport even better.    We want to keep supporting leagues, schools, and developing nations, where there is little or no budget.
+We want to go beyind this and keep investing in features, usability and infrastructure, so we can serve the sport even better.    We want to keep supporting leagues, schools, and developing nations, where there is little or no budget.
 
 This summer, we reached a milestone of over 100,000 users with logins.  80,000 of these are in the United Kingdom, and 65,000 of them have used us to enter a competition with an entry fee in 2022 so far.  We helped take £1.1m in entries in the past year, and 90-95% of the funds from this have gone directly to clubs and counties organising competitions, helping to support themselves.   Users benefit from finding competitions easily, transparent entries and (in most cases) rapid live results.  
 
