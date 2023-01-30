@@ -23,3 +23,5 @@ Things went well on the recording at the back of the funnel.  The challenges wer
 
 We also shot a finish line video using a GoPro-style camera.  
 
+
+Blah Blah
