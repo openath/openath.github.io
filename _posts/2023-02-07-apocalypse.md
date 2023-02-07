@@ -10,7 +10,7 @@ image: https://file.opentrack.run/live/img/2023/richmondpark/image2.png
 
 When once asked if all the technology he was introducing to the world was changing it for the worse, into a more soulless, less romantic place Bill Gates replied, “don’t worry, whatever I do will never replace the treasured words:  “let’s go climb a mountain, let’s go for a picnic.”
 
-Words that DO descend the world into a joyless place though are these from the Royal Parks:  
+Words that DO descend the world into a joyless place though are these from the Royal Parks (last week, responding to a club who applied for permission to host a traditional race there):  
 
 "Unfortunately, we are no longer accepting cross country events in Richmond Park as we feel these are not suitable for the park being a SSSI [site of special scientiic interest] and NNR [Natural nature reserve].”
 
