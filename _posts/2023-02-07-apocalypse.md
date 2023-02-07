@@ -6,7 +6,7 @@ cover_image: https://file.opentrack.run/live/img/2023/richmondpark/image2.png
 image: https://file.opentrack.run/live/img/2023/richmondpark/image2.png
 ---
 
-Will Cockerell wails, “The horror… the horror.”
+*Will Cockerell wails, “The horror… the horror.”*
 
 When once asked if all the technology he was introducing to the world was changing it for the worse, into a more soulless, less romantic place Bill Gates replied, “don’t worry, whatever I do will never replace the treasured words:  “let’s go climb a mountain, let’s go for a picnic.”
 
