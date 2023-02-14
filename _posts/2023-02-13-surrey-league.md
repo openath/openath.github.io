@@ -6,7 +6,7 @@ cover_image: https://files.opentrack.run/live/img/2023/sll2023.jpg
 image: https://files.opentrack.run/live/img/2023/sll2023.jpg
 ---
 
-All Goes Off Like Clockwork for Magnificent Flourish to Season
+*All Goes Off Like Clockwork for Magnificent Flourish to Season*
 
 The 60th version of the Surrey Cross-country gave us all the thrills we wished for as questions were answered as neatly as Sally Wainwright’s recent wrap of Happy Valley.
 
@@ -30,11 +30,19 @@ In the individual stakes, Georgie Grgec became the 6th athlete in history to win
 
 Hercules had a 24 point deficit to make up over a remarkable assault from Guildford but it was felt by the sages that they would respond with some ferocity, and goodness did they ever.  With 20% of the squads home Guildford had grown their lead to 32 points, and at the half-way stage they still had a 12 point advantage.  But credit to Hercules’ next five as they took a brutal 127 points out of their rivals.  Superb strength in depth seeing them home.  Belgrave were 3rd only 143 points adrift for the season which is pretty slender, and they can dream of a 10th title one day.  In the individual, Jack Millar was immaculate for his 2nd win in a row.
 
-SLH needed to duff up Dulwich at the other end, but it wasn’t there and will take an extremely rare tour into division 2 life, to be joined by Croydon.  Very well done to Dulwich for their strong season.
+There is only one club to go down in Div 1 this season, due to its expansion to 10 teams, so SLH have been granted a stay of execution and it’s just Croydon for the drop.
 
-In Division 2, Epsom hit Ranelagh hard but it was insufficient, and RAN will join Clapham who were in splendid form and swamped the top 10 in the final race.  Stragglers saw off the fast finishing Windmilers to survive, who face the drop with Walton.
+For the rest, it’s:
 
-Holland Sports had a superb season to dominate Div 3 and Woking also got comfortably promoted, whilst 26.2 and Sutton R drop to Div 4.  They are replaced by the excellent Tadworth, led as ever by the phenomenon that is David Williamson who now has 82 consecutive scoring runs, and Elmbridge rebounded from a horror start to take the runner’s up spot.  
+Mens D1 - 1 team relegated, Men D2 - 2 team promoted, 1 relegated, D3 - 3 teams promoted, 1 relegated, D4 - 4 teams promoted. LADIES - proposals under discussion for 4 equal sized divisions to be voted on at AGM.
+
+How does this work in practice?!
+
+In Division 2, Epsom hit Ranelagh hard but it was insufficient, and RAN will join Clapham who were in splendid form and swamped the top 10 in the final race.  Walton drop down, whilst Windmilers survive.
+
+The biggest changes happen in Div 3 where the three to rise are Holland Sports who had a superb season and Woking also got comfortably promoted along with K&P, whilst Sutton R drop to Div 4; and it’s 26.2 who won the Brucie bonus ball to survive.  
+
+In Div 3, Sutton are replaced by no fewer than FOUR clubs!  The excellent Tadworth, led as ever by the phenomenon that is David Williamson who now has 82 consecutive scoring runs, and Elmbridge rebounded from a horror start to take the runner’s up spot.  The two more teams on the make are Ful-on-Tri and Tri Surrey.   
 
 Elsewhere the League record of scoring runs was extended to 92 by Stuart Major, dating back to October 1988.
 
@@ -49,3 +57,4 @@ SLH’s U13Gs were terrific to win their competition [to show their errant senio
 Our thanks to all and sundry who make the league such a splendid and competitive occasion.  Hosting does not get any easier and the recent furore with Richmond Park shows how precious our venues have become.
 
 Do let us know if you can see anything awry with our results service and we hope you enjoy studying the story of the season’s 40 races at your leisure, and our History page has been updated with all this season’s statistics and results.
+
