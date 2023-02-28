@@ -9,8 +9,8 @@ athlete_bio: james-davis-athlete.md
 profile: professional
 ---
 
-James is a graduate of the University of Birmingham in Sport & Exercise Sciences, and a freelance writer.
+James is a graduate of the University of Birmingham in Sport & Exercise Sciences, and a freelance writer currently working towards an MA in Sports Journalism at St Mary's, Twickenham.
 
 While at Birmingham, James was heavily involved in the university athletics club, creating wide-ranging multimedia coverage of the club and its athletes, and he continues to work in the organisation of the club’s athletics meets as Technical Operations Manager.
 
-James also has roles with the British Masters Athletics Federation, Midland Counties Athletics Association, and Athletics Data.
+James also works with the British Masters Athletics Federation as Track and Field Comms lead.
