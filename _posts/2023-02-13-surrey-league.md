@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OPENTRACK’s REVIEW OF THE SURREY LEAGUE
+title: OpenTrack's review of the Surrey League
 author: Will Cockerell
 cover_image: https://files.opentrack.run/live/img/2023/sll2023.jpg
 image: https://files.opentrack.run/live/img/2023/sll2023.jpg
