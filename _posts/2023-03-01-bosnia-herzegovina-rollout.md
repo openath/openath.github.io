@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OpenTrack rapid rollout in Bosnia &amp; Herzegovina
+title: OpenTrack rapid rollout in Bosnia & Herzegovina
 author: Andy Robinson
 cover_image: https://asbih.org/wp-content/uploads/2022/11/cropped-Untitled-23456.png
 image: https://asbih.org/wp-content/uploads/2022/11/cropped-Untitled-23456.png
