@@ -14,4 +14,4 @@ The contract was signed before Christmas.  At the start of February the main adm
 
 This rapid adoption was made possible through groundwork a few years ago.  Some of the first tests of our live results recording happened at competitions in Bosnia in summer 2017, so we had a handful of people familiar with the system, including their key timing firm OnTime Sarajevo.  
 
-Many thanks to President Duško Ivičić, general secretary Mehmed Lokmić, and his predecessor Milan Pedalo; our operator Jasmin Gavranović; to Marko Ristov for sharing his skills and knowledge; Vahida, Dženana and the team at AK Sarajevo; and to Amir and Nedim at OnTime Sarajevo.
+Many thanks to everyone who has worked hard to make this a success.
