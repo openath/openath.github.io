@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OpenTrack rapid rollout in Bosnia
+title: OpenTrack rapid rollout in Bosnia &amp; Herzegovina
 author: Andy Robinson
 cover_image: https://asbih.org/wp-content/uploads/2022/11/cropped-Untitled-23456.png
 image: https://asbih.org/wp-content/uploads/2022/11/cropped-Untitled-23456.png
@@ -12,6 +12,6 @@ The contract was signed before Christmas.  At the start of February the main adm
 
 “The Opentrack system has made competitions much easier to  organise. This sophisticated system provides a fantastic overview of competitors and disciplines. It's great to have an overview of the results right after the race. It reduces bureaucracy and speeds up the process.   It is easy to use, even for people with basic technology skills”. - Jasmin Gavranovic
 
-This rapid adoption was made possible through groundwork a few years ago.  Some of the first tests of our live results recording happened at competitions in Bosnia in summer 2017, so we had a handful of people familiar with the system, including their key timing firm OnTime Sarajevo.  
+This rapid adoption was made possible through groundwork a few years ago.  Some of the first tests of our live results recording happened at competitions in BiH in summer 2017, so we had a handful of people familiar with the system, including their key timing firm OnTime Sarajevo.  
 
 Many thanks to everyone who has worked hard to make this a success.
