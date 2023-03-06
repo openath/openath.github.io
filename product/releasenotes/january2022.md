@@ -1,5 +1,5 @@
 <div markdown="1" data-aos="fade-up">
-## __'22__ Jan
+## __'22__ January
 
 ### Title 1
 * Subtitle 1
