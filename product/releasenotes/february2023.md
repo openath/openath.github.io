@@ -1,5 +1,5 @@
 <div markdown="1" data-aos="fade-up">
-## __Feb__ 2023
+## __'23__ Feb
 
 ### Seeding Improvements
 * Added championship lane draws for non-standard indoor and outdoor tracks
