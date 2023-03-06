@@ -1,0 +1,28 @@
+---
+layout: fullbleed
+title: Release Notes
+permalink: /product/releasenotes.html
+---
+
+<div class="container-fluid pb-4">
+  <section id="feb2023">
+    {% capture my_include %}{% include_relative releasenotes/february2023.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
+
+<div class="py-4 tinted">
+  <div class="container-fluid">
+    <section id="jan2023">
+      {% capture my_include %}{% include_relative releasenotes/january2023.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+    </section>
+  </div>
+</div>
+
+<div class="container-fluid py-4">
+  <section id="dec2022">
+    {% capture my_include %}{% include_relative releasenotes/december2022.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
