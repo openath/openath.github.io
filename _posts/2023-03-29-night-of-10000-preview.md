@@ -21,6 +21,7 @@ Of course it was a disgraceful thing to say, by someone with limited vision abou
 	style="display:block;max-width:100%;margin-left: auto;margin-right: auto"
 	class="screen">
 </div>
+<br/><br/>
 
 However, over the past decade, the ‘Glastonbury of the 10K’ has attracted eager athletes from all over the UK — and the globe — for a marvellous festival of top level racing and a celebration of life. And that sole female entry for 2013? Make it 80 for 2022! It’s quirky, riotous, bonkers, but brilliant.
 
@@ -39,14 +40,17 @@ It is a veritable cacophony of colour, stats, info, and a gentle bubbling toward
 	style="display:block;max-width:100%;margin-left: auto;margin-right: auto"
 	class="screen">
 </div>
+<br/><br/>
 
 Let’s take six athletes’ journeys and enjoy their travails, with 10 different checkpoints:
+<br/><br/>
 
 <div class="row">
 	<img src="https://file.opentrack.run/live/img/2023/notpreview/image4.png" 
 	style="display:block;max-width:100%;margin-left: auto;margin-right: auto"
 	class="screen">
 </div>
+<br/><br/>
 
 These numbers take us on the “long and winding road” of what high-class distance running is all about. The consistency, or lack thereof; the fade, the exhaustion, the fightback or sometimes the collapse – and indeed there were many DNFs on the night. A startling 80 entrants didn’t trouble the scorers – with 23 failing to reach the start line, and 57 more having to leave the dance floor thereafter. If not for all the joy and excitement in the air, one might say this was positively medieval.
 
