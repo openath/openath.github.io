@@ -56,8 +56,7 @@ Athletics Data with other parties as instructed.  For example, if your club ente
 competition, we will pass some of your Athletics Data to the competition organiser.  
 
 If we receive competition results, we will pass these onto recognised statisticians in the sport, 
-such as Power of 10 in the UK, Tilastopaja in Finland (who maintain European rankings), or the 
-IAAF.
+such as Power of 10 in the UK, Tilastopaja in Finland (who maintain European rankings), or World Athletics.  We will assist them outside of competitions to accurately identify athletes and ensure correctness of data.
 
 ### Our Individual Customers 
 
