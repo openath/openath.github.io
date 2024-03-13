@@ -45,11 +45,11 @@ You will be the first line of support for athletes entering your competitions, w
 
 1. Provide a public contact email address for the meeting.
 2. If one of your users does have a problem, and you need to contact us, obtain detailed information to help us track down the problem.
-  a. How far did they get?
-  b. What error message did they see?
-  c. What options were they inputting?
-  d. Have they tried on a second device?
-  e. When did it happen, so we can check our logs? 
+  - How far did they get?
+  - What error message did they see?
+  - What options were they inputting?
+  - Have they tried on a second device?
+  - When did it happen, so we can check our logs? 
 
 Our responsibilities
 --------------
