@@ -33,10 +33,10 @@ We assume that these users are IT-literate, with good attention to detail; and t
 Initial Setup
 -------
 You will need to do the following things:
- 1. sign up for an account on <a href="http://data.opentrack.run/">OpenTrack</a>
- 1. create your meeting on our <a href="https://data.opentrack.run/en-gb/x/">competition listing page</a>
- 1. sign up for a Payments account with  <a href="https://stripe.com/">Stripe</a>
- 1. set up the entry configuration for your competition
+ 1. Sign up for an account on <a href="http://data.opentrack.run/">OpenTrack</a>
+ 1. Create your meeting on our <a href="https://data.opentrack.run/en-gb/x/">competition listing page</a>
+ 1. Sign up for a Payments account with  <a href="https://stripe.com/">Stripe</a>
+ 1. Set up the entry configuration for your competition
 
 Your responsibilities
 ---------------
