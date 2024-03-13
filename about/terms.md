@@ -1,10 +1,7 @@
 ---
-title:  Entries - Terms and Conditions
+title:  Terms and Conditions
 layout: page
 ---
-
-Terms and Conditions
-----
 
 Background
 -----------
