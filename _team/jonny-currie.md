@@ -1,8 +1,6 @@
 ---
 title: Jonny Currie
 position: Design and Marketing
-band: 2
-rank: 2
 image: /assets/img/team/jonny.jpg
 athlete_pic: /assets/img/team/jonny2.jpg
 athlete_bio: jonny-currie-athlete.md
