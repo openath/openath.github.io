@@ -9,5 +9,6 @@ athlete_pic: /assets/img/team/gus2.png
 profile: professional
 ---
 
-Gus graduated from the University of Bath with a degree in Sports Sciences. 
-He has nine years experience in operations and project management.
+Gus graduated from the University of Bath with a degree in Sports Sciences.
+
+He has more than a decade's experience in operations and project management.
