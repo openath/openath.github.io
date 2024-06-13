@@ -13,4 +13,4 @@ James is a graduate of the University of Birmingham in Sport & Exercise Sciences
 
 While at Birmingham, James was heavily involved in the university athletics club, creating wide-ranging multimedia coverage of the club and its athletes, and working in the organisation of the club’s athletics meets as Technical Operations Manager. He now works to put on meetings at his home club, Shaftesbury Barnet Harriers.
 
-James is a qualified athletics official in a variety of disciplines, in addition to being Hertfordshire County Officials Secretary.
+Having started as a Support Specialist, James now works as a Product Engineer, making OpenTrack better for users, and providing on-site support at major competitions.
