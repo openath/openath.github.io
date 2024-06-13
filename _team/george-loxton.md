@@ -1,8 +1,6 @@
 ---
 title: George Loxton
 position: Support Specialist
-band: 2
-rank: 5
 image: /assets/img/team/george.png
 athlete_pic: /assets/img/team/george2.png
 athlete_bio: george-loxton-athlete.md
