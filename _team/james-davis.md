@@ -2,7 +2,7 @@
 title: James Davis
 position: Product Engineer
 band: 2
-rank: 6
+rank: 3
 image: /assets/img/team/james.jpg
 athlete_pic: /assets/img/team/james2.png
 athlete_bio: james-davis-athlete.md
