@@ -2,4 +2,4 @@ James is a lifelong member of Shaftesbury Barnet Harriers, and a former multi-ev
 
 After hanging up his spikes when he realised he was much better at cycling, James has focused on all other areas of athletics.
 
-James is a highly experienced athletics official, qualified in six different officiating disciplines, and is the stadium announcer of choice for BIGish, as well as having held a microphone at the National Athletics League, London Inter-Club Challenge, and the British Athletics Indoor Selection Trials in 2021, among others.
+James is a highly experienced athletics official, qualified in six different officiating disciplines, as well as being the Hertfordshire County Officials Secretary, and is the stadium announcer of choice for BIGish, as well as having held a microphone at the National Athletics League, London Inter-Club Challenge, and the British Athletics Indoor Selection Trials in 2021, among others.
