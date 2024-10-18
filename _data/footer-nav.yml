@@ -21,6 +21,8 @@
     #  url: /philosophy/grassroots.html
     - title: Open Data
       url: /philosophy/opendata.html
+    - title: White Paper
+      url: https://files.opentrack.run/live/docs/benefits_of_digitisation_in_athletics.pdf
     #- title: Open Standards
     #  url: /philosophy/openstandards.html
     #- title: Open Source
@@ -32,22 +34,28 @@
 
 - title: Federation sites
   pages:
-    - title: Belgium
-      url: https://belgium.opentrack.run
+    - title: Bulgaria
+      url: https://bul.opentrack.run
     - title: Bosnia & Herzegovina
       url: https://bih.opentrack.run/
     - title: Cyprus
       url: https://cyprus.opentrack.run
     - title: Estonia
       url: http://estonia.opentrack.run
+    - title: Gibraltar
+      url: http://gibraltar.opentrack.run
     - title: Malta
       url: https://malta.opentrack.run
+    - title: Moldova
+      url: https://moldova.opentrack.run
     - title: Norway
       url: https://norway.opentrack.run/
     - title: Serbia
       url: https://serbia.opentrack.run/
     - title: Wales
       url: https://wales.opentrack.run/
+    - title: Northern Ireland
+      url: https://ani.opentrack.run/
     - title: British Masters
       url: http://bmaf.opentrack.run
     - title: Surrey League
