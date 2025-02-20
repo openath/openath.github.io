@@ -11,6 +11,38 @@ permalink: /product/league-management.html
   </section>
 </div>
 
+<div class="py-4 tinted">
+  <div class="container-fluid">
+    <section id="league-management-declarations-entries">
+      {% capture my_include %}{% include_relative league-management/2.declarations-entries.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+    </section>
+  </div>
+</div>
+
+<div class="container-fluid py-4">
+  <section id="league-management-results">
+    {% capture my_include %}{% include_relative league-management/3.results.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
+
+<div class="py-4 tinted">
+  <div class="container-fluid">
+    <section id="league-management-match-scoring">
+      {% capture my_include %}{% include_relative league-management/4.match-scoring.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+    </section>
+  </div>
+</div>
+
+<div class="container-fluid py-4">
+  <section id="league-management-league-scoring  ">
+    {% capture my_include %}{% include_relative league-management/5.league-scoring.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
+
 <div class="bg-blue py-4">
   <div class="container-fluid">
     <div class="siblings">
