@@ -16,7 +16,7 @@ You will get solid experience working with an expert development team and experi
 
 The ideal candidate will be:
 - Passionate about athletics, with a strong understanding of how the sport operates
-- Capable and willing and to learn a new system and gain an in-depth knowledge of OpenTrack’s products
+- Capable and willing to learn a new system and gain an in-depth knowledge of OpenTrack’s products
 - Comfortable with IT systems, and able to come up with pragmatic solutions to technical problems
 - Comfortable leading training meetings to pass on product knowledge to prospective/current clients
 - Willing to work weekends and some evenings, where necessary
