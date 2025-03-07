@@ -23,7 +23,9 @@ The ideal candidate will be:
 - Willing to travel to competitions when required, schedule permitting
 
 ## Technical Interns
-If you have any familiarity with coding or software projects, or wish to gain experience, we're also looking for people to take a more technical role.  This could be shared with the above Competition Support duties, or a separate role.  This is ideal experience if you are looking at a career in software industries. Duties would include
+If you have any familiarity with coding or software projects, or wish to gain experience, we're also looking for people to take a more technical role.  This could be shared with the above Competition Support duties, or a separate role.  This is ideal experience if you are looking at a career in software industries. Requirements are as above, plus more technical knowledge.
+
+Duties would include
 - Regular system checks and data quality checking
 - Authoring product documentation (using a text editor, version control system, and static site generator)
 - Testing various OpenTrack features
