@@ -6,7 +6,7 @@ permalink: /jobs/
 
 # Open Roles at OpenTrack 
 
-## Support Intern
+## Competition Support Interns
 
 OpenTrack is actively looking for individuals to work in a Support Intern role for the 2025 summer season. If you’re interested in athletics, and looking to gain varied experience in a small yet busy and progressing team then this is a great chance to develop a multitude of skills.
 
@@ -22,10 +22,13 @@ The ideal candidate will be:
 - Willing to work weekends and some evenings, where necessary
 - Willing to travel to competitions when required, schedule permitting
 
-Strong candidates will be technically minded, and able to assist with:
+## Technical Interns
+If you have any familiarity with coding or software projects, or wish to gain experience, we're also looking for people to take a more technical role.  This could be shared with the above Competition Support duties, or a separate role.  This is ideal experience if you are looking at a career in software industries. Duties would include
 - Regular system checks and data quality checking
 - Authoring product documentation (using a text editor, version control system, and static site generator)
-- Testing various OpenTrack products and triaging bug reports
+- Testing various OpenTrack features
+- Triaging bug reports, reproducing problems, and re-testing fixes
+- Ddata loading, data correction and creating data quality monitoring tools
 
 ### Details
 
