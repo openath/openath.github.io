@@ -23,20 +23,20 @@ The ideal candidate will be:
 - Willing to travel to competitions when required, schedule permitting
 
 ## Technical Interns
-If you have any familiarity with coding or software projects, or wish to gain experience, we're also looking for people to take a more technical role.  This could be shared with the above Competition Support duties, or a separate role.  This is ideal experience if you are looking at a career in software industries. Requirements are as above, plus more technical knowledge.
+If you have any familiarity with coding or software projects, or wish to gain experience, we're also looking for people to take a more technical role. This could be shared with the above Competition Support role, or separately. This is ideal experience if you are looking at a career in software industries. Requirements are as above, plus more technical knowledge.
 
-Duties would include
+Duties would include:
 - Regular system checks and data quality checking
 - Authoring product documentation (using a text editor, version control system, and static site generator)
 - Testing various OpenTrack features
 - Triaging bug reports, reproducing problems, and re-testing fixes
-- Ddata loading, data correction and creating data quality monitoring tools
+- Data loading, correction and creating data quality monitoring tools
 
 ### Details
 
 Successful applicants will be able to work from home, unless providing in-person support at a competition.
 
-Work will be a maximum of 25 hours each week, depending on the need for support among our customers — we are able to offer pay of £10-£12 per hour depending on skills and experience.
+Work will be a maximum of 25 hours each week, depending on the need for support from our customers — we are able to offer pay of £10-£12 per hour depending on skills and experience.
 
 ### How to Apply
 
