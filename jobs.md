@@ -8,7 +8,7 @@ permalink: /jobs/
 
 ## Competition Support Interns
 
-OpenTrack is actively looking for individuals to work in a Support Intern role for the 2025 summer season. If you’re interested in athletics, and looking to gain varied experience in a small yet busy and progressing team then this is a great chance to develop a multitude of skills.
+OpenTrack is actively looking for individuals to work in a Support Intern role for the 2026 summer season. If you’re interested in athletics, and looking to gain varied experience in a small yet busy and progressing team then this is a great chance to develop a multitude of skills.
 
 You will get solid experience working with an expert development team and experienced operations staff, helping us cope with the demands of supporting clubs, organisers, and national governing bodies across Europe and beyond.
 
