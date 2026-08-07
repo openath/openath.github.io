@@ -1,8 +1,6 @@
 ---
 title: Louis Cummings
 position: Support Specialist
-band: 2
-rank: 4
 image: /assets/img/team/louis.png
 athlete_pic: /assets/img/team/louis2.png
 athlete_bio: louis-cummings-athlete.md
