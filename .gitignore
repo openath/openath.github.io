@@ -69,7 +69,7 @@ target/
 
 img/.DS_Store
 .DS_Store
-dotrun.sublime-project
+*.sublime-project
 *.sublime-workspace
 
 
