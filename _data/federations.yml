@@ -1,0 +1,51 @@
+# Federations and organisations shown in the homepage logo wall.
+# `logo` is a filename in assets/img/fedlogos/ — drop a real logo in with the
+# same filename to replace the placeholder, or add a new entry + file for
+# any federation not yet listed.
+#
+# `service` is informational only (not currently rendered): what OpenTrack
+# is contracted to provide them — competitions, federation admin, or both.
+- name: Scotland
+  logo: scotland.png
+  service: competitions
+- name: Wales
+  logo: wales.png
+  service: competitions
+- name: Northern Ireland
+  logo: northern-ireland.png
+  service: federation & competitions
+- name: Estonia
+  logo: estonia.svg
+  service: federation & competitions
+- name: Norway
+  logo: norway.png
+  service: competitions
+- name: Cyprus
+  logo: cyprus.png
+  service: federation & competitions
+- name: Malta
+  logo: malta.png
+  service: federation & competitions
+- name: Serbia
+  logo: serbia.svg
+  service: federation & competitions
+- name: Bosnia & Herzegovina
+  logo: bosnia-and-herzegovina.png
+  service: competitions
+- name: Bulgaria
+  logo: bulgaria.png
+  service: federation & competitions
+- name: North Macedonia
+  logo: north-macedonia.png
+  service: competitions
+- name: Saudi Arabia
+  logo: saudi-arabia.png
+  service: federation & competitions
+- name: Gibraltar
+  logo: gibraltar.svg
+- name: National Athletics League
+  logo: national-athletics-league.png
+- name: Forth Valley League
+  logo: forth-valley-league.png
+- name: Oxfordshire Cross Country League
+  logo: oxfordshire-cross-country-league.png

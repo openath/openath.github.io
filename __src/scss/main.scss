@@ -169,6 +169,54 @@
   //text-align: center;
 }
 
+.logo-wall-item {
+  margin-bottom: 40px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
+
+  a {
+    display: block;
+  }
+}
+
+.logo-wall-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 72px;
+  margin-bottom: 12px;
+
+  @include media-breakpoint-up(md) {
+    height: 88px;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: filter ease 0.2s, opacity ease 0.2s;
+  }
+
+  .logo-wall-item:hover &,
+  .logo-wall-item a:focus & {
+    img {
+      filter: grayscale(0%);
+      opacity: 1;
+    }
+  }
+}
+
+.logo-wall-caption {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.8125rem;
+  color: $gray-600;
+}
+
 .housekeeping {
   margin-top: 32px;
   font-size:13px;
@@ -407,6 +455,40 @@ svg.mid-right {
     margin-bottom: 0.5rem;
   }
 }
+
+.product-card {
+  border: none;
+  border-top: 4px solid $track-red;
+  box-shadow: 0 2px 12px rgba($track-black, 0.08);
+  transition: transform ease 0.2s, box-shadow ease 0.2s;
+
+  &:hover,
+  &:focus-within {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba($track-black, 0.14);
+  }
+
+  .product-card-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: $soft-blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .card-title {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+  }
+
+  .btn {
+    @extend .btn-outline-dark;
+  }
+}
+
 blockquote {
   margin: 2rem 0;
   h3 {
