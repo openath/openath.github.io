@@ -187,5 +187,7 @@ page, and — if it is the newest year — renders inline on the hub.
 
 If a brand-new year needs its own page (first entry for `<year>`), also add
 `product/releasenotes/<year>.html` by copying `product/releasenotes/2023.html`
-and changing the three `rn_year` / `permalink` / `title` values and the sibling
-links. Flag this in the PR so the reviewer checks the nav wiring.
+and changing only the `rn_year`, `permalink`, `title`, and `description` values.
+The page is otherwise generic — front matter, the year nav, and the year render;
+there are no per-year sibling links to wire. Flag the new page in the PR so the
+reviewer checks it.
