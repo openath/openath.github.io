@@ -978,3 +978,103 @@ figure img {
 	@extend .img-fluid;
 	@extend .img-thumbnail;
 }
+
+/* Release notes — hub + year pages.
+   See _includes/release-notes-year.html and _includes/release-notes-years.html.
+   Rendered inside article.product (fullbleed layout), so selectors are prefixed
+   to win over the generic article.product h2 / section rules. */
+.release-years {
+  margin: 0 auto 2.5rem;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  a,
+  .release-year-current {
+    display: block;
+    padding: 0.4rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    border: 2px solid $track-red;
+    border-radius: 2rem;
+  }
+
+  a {
+    color: $track-red;
+    transition: background-color 0.2s ease, color 0.2s ease;
+
+    &:hover,
+    &:focus {
+      background-color: $track-red;
+      color: $white;
+      text-decoration: none;
+    }
+  }
+
+  .release-year-current {
+    background-color: $track-red;
+    color: $white;
+  }
+}
+
+article.product .release-band {
+  section {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  // months butt together; a hairline separates two plain bands, while a
+  // plain/tinted colour change is divider enough on its own.
+  & + & {
+    border-top: 1px solid $gray-200;
+  }
+  &.tinted + &,
+  & + &.tinted {
+    border-top: 0;
+  }
+}
+
+article.product h2.release-month {
+  margin: 0 0 1.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.75rem;
+  border-bottom: 3px solid $track-red;
+  scroll-margin-top: 4.5rem; // clear the sticky navbar on anchor jumps
+}
+
+article.product h3.release-group {
+  margin: 1.75rem 0 0.5rem;
+  font-size: 0.9375rem;
+  color: $gray-600;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
+.release-items {
+  margin: 0 0 0.75rem;
+  padding-left: 1.25rem;
+  line-height: 1.6;
+
+  li {
+    margin-bottom: 0.35rem;
+    padding-left: 0.25rem;
+
+    &::marker {
+      color: $track-red;
+    }
+  }
+
+  a {
+    font-weight: 500;
+  }
+}
