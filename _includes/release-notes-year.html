@@ -1,0 +1,52 @@
+{%- comment -%}
+  Renders one year of release notes from _data/releasenotes/<year>.yml
+
+  Usage:  {% include release-notes-year.html year="2023" %}
+
+  Data shape (see _data/releasenotes/2023.yml for a worked example):
+
+    year: "2023"
+    months:
+      - id: "2023-03"                # YYYY-MM -> anchor id="rn-2023-03"
+        label: "March 2023"
+        summary: "One-line overview of the month (optional)."
+        groups:
+          - heading: "Seeding"
+            items:
+              - "Plain string item"
+              - text: "Item with a link to the relevant product page"
+                product: competition-management   # -> /product/competition-management.html
+
+  Newest month first in the file. Bands alternate tinted / plain.
+{%- endcomment -%}
+{%- assign rn = site.data.releasenotes[include.year] -%}
+{%- if rn and rn.months -%}
+  {%- for month in rn.months -%}
+<div class="release-band{% cycle 'rnband': '', ' tinted' %} py-4">
+  <div class="container-fluid">
+    <section id="rn-{{ month.id }}" data-aos="fade-up">
+      <h2 class="release-month">{{ month.label }}</h2>
+      {%- if month.summary %}
+      <p class="lead">{{ month.summary }}</p>
+      {%- endif -%}
+      {%- for group in month.groups -%}
+      <h3 class="release-group">{{ group.heading }}</h3>
+      <ul class="release-items">
+        {%- for item in group.items -%}
+        {%- if item.text -%}
+        <li>{{ item.text }}{% if item.product %} &mdash; <a href="/product/{{ item.product }}.html">learn more</a>{% endif %}</li>
+        {%- else -%}
+        <li>{{ item }}</li>
+        {%- endif -%}
+        {%- endfor -%}
+      </ul>
+      {%- endfor -%}
+    </section>
+  </div>
+</div>
+  {%- endfor -%}
+{%- else -%}
+<div class="container-fluid py-4">
+  <p>Release notes for {{ include.year }} are being written up.</p>
+</div>
+{%- endif -%}

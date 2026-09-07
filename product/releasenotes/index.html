@@ -1,0 +1,43 @@
+---
+layout: fullbleed
+title: Release Notes
+permalink: /product/releasenotes/
+description: >-
+  What's new in OpenTrack — a month-by-month record of features, integrations,
+  and improvements across competition management, federation administration,
+  rankings, and results.
+redirect_from:
+  - /product/releasenotes.html
+---
+
+{%- comment -%} Newest year in the data set — shown inline below. {%- endcomment -%}
+{%- assign _years = "" | split: "" -%}
+{%- for entry in site.data.releasenotes -%}{%- assign _years = _years | push: entry[0] -%}{%- endfor -%}
+{%- assign _years = _years | sort | reverse -%}
+{%- assign latest = _years | first -%}
+
+<div class="container-fluid pb-2">
+  <p class="lead mx-auto" style="max-width:800px" data-aos="fade-up">
+    OpenTrack ships continuously. This is the running record of what changed and
+    when &mdash; new features, integrations, and fixes across the whole platform.
+    Pick a year, or read the latest below.
+  </p>
+  {% include release-notes-years.html %}
+</div>
+
+{% include release-notes-year.html year=latest %}
+
+<div class="bg-blue py-4">
+  <div class="container-fluid">
+    <div class="siblings">
+      <div class="row align-items-center justify-content-center" data-aos="fade-up">
+        <div class="col-sm">
+          <a href="/product/" class="sibling-link sibling-left">
+            {% octicon chevron-left %}
+            <h3>All products</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

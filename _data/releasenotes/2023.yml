@@ -1,0 +1,64 @@
+# OpenTrack release notes — 2023
+#
+# Rendered by _includes/release-notes-year.html onto /product/releasenotes/2023.html
+# Newest month first. See _includes/release-notes-year.html for the full schema.
+#
+# Each item is either a plain string, or:
+#   - text: "…"
+#     product: competition-management   # optional; links to /product/<slug>.html
+
+year: "2023"
+months:
+  - id: "2023-03"
+    label: "March 2023"
+    groups:
+      - heading: "Improvements"
+        items:
+          - "Previous / next year buttons added to competition homepages for easier navigation."
+          - "Further cosmetic tidy-ups across the competition management screens."
+          - "Improved logic for opening entries."
+          - "Clearer competitor counts for competitions that include relays."
+      - heading: "In progress"
+        items:
+          - "Continued build-out of the World Athletics API integration."
+
+  - id: "2023-02"
+    label: "February 2023"
+    groups:
+      - heading: "Seeding"
+        items:
+          - "Rules-compliant championship lane draws for non-standard indoor and outdoor tracks."
+          - "Major progress on fully World Athletics-compliant seeding (due March 2023): integrated seeding page for competition directors, smart seeding functions, check-in and call-room features, and seeding overrides."
+      - heading: "Relays"
+        items:
+          - "Full ad hoc relay entry system — teams not tied to a real-life club can now enter, declare, and carry their own team identifiers."
+          - "Relay bib numbers now show on competitor listings."
+      - heading: "Improvements"
+        items:
+          - "Improved England Athletics API integration."
+          - "Improved homepage competitor count."
+          - "Improved SwissTiming photofinish integration."
+          - "Tidied management screens for competition directors."
+          - "'Surrey-style' field-card downloads made available to all users."
+          - "Added scoring for the Oxbridge varsity match."
+      - heading: "In progress"
+        items:
+          - "Full World Athletics API integration."
+
+  - id: "2023-01"
+    label: "January 2023"
+    groups:
+      - heading: "Major improvements"
+        items:
+          - "Anti-doping checkbox added for all UK-based competitions."
+          - "Scoring system for the Swedish national Distriktskampen (inter-region competition)."
+      - heading: "Background tasks"
+        items:
+          - "Improved logging of competition-management background tasks, with detail readily accessible to competition directors."
+      - heading: "Improvements"
+        items:
+          - "Full integration with the Serbian national athletics database."
+          - "Tidied the Norwegian bulk competitor upload."
+          - "Fixes to Scottish SUPERteams scoring."
+          - "Improved Estonian and Maltese competition licensing."
+          - "Improved exception handling in combined-events scoring."

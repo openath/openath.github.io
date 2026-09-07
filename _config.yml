@@ -64,6 +64,7 @@ collections:
 exclude:
   - .git/
   - .github/
+  - _dev/
   - CNAME
   - Gemfile
   - Gemfile.lock

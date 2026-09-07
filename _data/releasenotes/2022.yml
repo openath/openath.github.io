@@ -1,0 +1,22 @@
+# OpenTrack release notes — 2022
+#
+# Rendered by _includes/release-notes-year.html onto /product/releasenotes/2022.html
+# Newest month first. See _includes/release-notes-year.html for the full schema.
+#
+# NOTE: only December 2022 was written up in the old site. The rest of 2022 is a
+# gap for the release-notes agent to backfill from the product repo (see
+# _dev/release-notes-agent-spec.md).
+
+year: "2022"
+months:
+  - id: "2022-12"
+    label: "December 2022"
+    groups:
+      - heading: "British Masters"
+        items:
+          - "Customised experience for British Masters athletes."
+      - heading: "Improvements"
+        items:
+          - "Better federation-administrator handling of transfers between clubs."
+          - "Fixed a small error in the ranking of vertical jumps."
+          - "Improved mobile layout for competition directors."

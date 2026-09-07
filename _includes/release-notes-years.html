@@ -1,0 +1,26 @@
+{%- comment -%}
+  Renders the list of release-notes year links, newest first.
+  Highlights the current page's year when include.current is passed.
+
+  Usage:  {% include release-notes-years.html current=page.rn_year %}
+{%- endcomment -%}
+{%- assign years = "" | split: "" -%}
+{%- for entry in site.data.releasenotes -%}
+  {%- assign years = years | push: entry[0] -%}
+{%- endfor -%}
+{%- assign years = years | sort | reverse -%}
+{%- if years.size > 0 -%}
+<nav class="release-years" aria-label="Release notes by year">
+  <ul>
+    {%- for y in years -%}
+    <li>
+      {%- if y == include.current -%}
+      <span class="release-year-current" aria-current="page">{{ y }}</span>
+      {%- else -%}
+      <a href="/product/releasenotes/{{ y }}.html">{{ y }}</a>
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+</nav>
+{%- endif -%}
