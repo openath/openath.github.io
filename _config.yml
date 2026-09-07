@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: OpenTrack – The complete competition management suite
+title: OpenTrack – The complete athletics management
 email: info@opentrack.run
 author: OpenTrack
 description: >- # this means to ignore newlines until "baseurl:"
-  The complete competition management suite for athletics organisers.
-  Our open cloud platform saves time for organisers and volunteers
+  The complete athletics management suite.
+  Our open cloud platform saves time for federations, organisers, and volunteers
   and makes it more fun for participants, helping the sport to grow.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://opentrack.run" # the base hostname & protocol for your site, e.g. http://example.com
