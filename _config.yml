@@ -13,19 +13,20 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: OpenTrack – The complete athletics management
+title: OpenTrack
+name: OpenTrack
+tagline: The complete athletics management suite
 email: info@opentrack.run
 author: OpenTrack
 description: >- # this means to ignore newlines until "baseurl:"
-  The complete athletics management suite.
-  Our open cloud platform saves time for federations, organisers, and volunteers
-  and makes it more fun for participants, helping the sport to grow.
+  OpenTrack is a cloud athletics management platform covering competition
+  entries and results, national rankings, and federation administration — one
+  open, integrated system for federations, organisers, clubs, and volunteers.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://opentrack.run" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: opentrack
 date_format: "%b %-d, %Y"
-google_analytics: 'UA-XXXXXXXX-X'
+# Analytics: Plausible is loaded in _includes/header.html.
 # 
 # header_pages: 
 #   - product.md
@@ -39,6 +40,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-octicons
 #  - jekyll-menus
 
