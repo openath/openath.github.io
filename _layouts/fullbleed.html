@@ -3,14 +3,15 @@
   <head>
     {% include header.html %}
   </head>
-  <body>
+  <body{% if page.section_nav %} class="has-section-nav"{% endif %}>
     {% include skippy.html %}
 
     {% include navbar.html %}
+    {% include section-nav.html %}
 	<main id="content" role="main" class="bleed">
 		<article class="product">
 			<h1 class="ot-title"><span>{{ page.title | smartify }}</span></h1>
-	        {{ content }}
+      {{ content }}
 		</article>
 	</main>
     {% include footer.html %}

@@ -1,0 +1,96 @@
+# Meetings / series shown in the "In Action" grid on
+# product/competition-management.html
+#
+#   name   – meeting or series name (shown on the card + as the modal title)
+#   image  – path under assets/img/  (placeholders point at assets/img/gallery/;
+#            drop real photos in assets/img/competitions/ and point here)
+#   images – optional; a list of paths instead of a single `image`. The card
+#            tile and the modal then show them as an auto-rotating carousel.
+#   logo   – optional; set `true` when the image(s) are organiser/federation
+#            logos rather than photos. Shown contained on white, not cropped.
+#   blurb  – what OpenTrack changed for this meeting. Markdown: leave a blank
+#            line between paragraphs for a gap; [text](url) for links. Keep the
+#            `|` so line breaks are preserved.
+#   url    – optional; link shown as "See it live" in the modal (live results,
+#            the event site, a write-up…). Omit to hide the button.
+
+- name: European Masters Athletics Championships
+  image: competitions/emacs.jpg
+  blurb: |
+    With more than 4,000 competitors over 11 days of competition, OpenTrack was
+    used at the 2025 European Masters Athletics Championships to great success, providing
+    live results across track, field, road, and cross country.
+
+    OpenTrack staff provided on-site support and product improvements throughout the
+    championships, ensuring successful delivery of an end-to-end championships entry
+    and results service.
+  url: https://data.opentrack.run/x/2025/PRT/emacs/
+
+- name: National Athletics League
+  image: competitions/nal.jpg
+  blurb: |
+    Since 2022, the UK's National Athletics League has trusted OpenTrack to
+    provide an entries and results service for the country's top teams.
+    Moving away from spreadsheets, volunteer time spend validating athlete
+    eligibility has gone to zero, with OpenTrack ensuring every athlete declared
+    is allowed to compete.
+
+    The NAL has a custom, NAL-specific OpenTrack website, and each match sees
+    OpenTrack's team scoring come to the fore, with scores updating live as
+    soon as results come in for each event, powering the narrative of team competition.
+  url: https://nal.opentrack.run/
+
+- name: National Championships
+  images:
+    - fedlogos/wales.png
+    - fedlogos/scotland.png
+    - fedlogos/northern-ireland.png
+    - fedlogos/saudi-arabia.png
+    - fedlogos/bulgaria.png
+    - fedlogos/serbia.svg
+  logo: true
+  blurb: |
+    OpenTrack is used at National Championships in more than 10 countries,
+    with our TV console and APIs used to provide broadcast graphics.
+
+    Fully integrated Raza scoring enables para championships to be scored easily,
+    and our medal table is a firm favourite for spectators hoping to see their club
+    top the standings.
+  url: https://data.opentrack.run/x/2026/GBR/wa-scjc/
+
+- name: University of Birmingham Track & Field Series
+  image: competitions/uobtf.jpg
+  blurb: |
+    The University of Birmingham's Track & Field Series has been a proving
+    ground for some of our best new features, working in close partnership
+    to deliver top tier open meetings.
+
+    Student-run, the university's athletics club uses OpenTrack's TV Console,
+    Wavelight pace display, live field recording, and national and world
+    ranking display to make their opens some of the best meetings in the UK.
+
+- name: Oxfordshire Cross Country League
+  image: competitions/natxc.jpg
+  blurb: |
+    Since the 2022-23 season, the Oxfordshire Cross Country League has relied
+    on OpenTrack to handle all of their entries and scoring needs.
+    
+    Team managers are able to upload their athletes and allocate season-long bib
+    numbers with ease, and when it comes to race day, our chip timing integration
+    is used to upload results for instantaneous match and season scoring.
+
+  url: https://data.opentrack.run/leagues/oxl/
+
+- name: World Athletics Continental Tour
+  image: competitions/not.jpg
+  blurb: |
+    OpenTrack is trusted by World Athletics Indoor Tour and Continental Tour meetings
+    across the UK and beyond to deliver an elevated athlete, spectator, and organiser
+    experience.
+
+    All of our staff are athletics fans, so we know how to take results management and
+    display to the next level. Since the first year of the Continental Tour, OpenTrack
+    has hosted tour-level meetings, including the Night of the 10,000m PBs, and a Mondo
+    Duplantis world record at the Belgrade Indoor Meeting in 2022.
+
+  url: https://data.opentrack.run/x/2024/GBR/not/

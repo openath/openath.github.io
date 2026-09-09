@@ -1,0 +1,26 @@
+{%- comment -%}
+In-page section nav with Bootstrap scrollspy. Opt in from a page by adding
+front matter:
+
+  section_nav:
+    - id: competition-management-introduction
+      title: Introduction
+    - id: competition-management-entries
+      title: Entries
+
+Each id must match a <section id="..."> on the page. The layout adds the
+matching data-spy attributes to <body> when section_nav is present.
+{%- endcomment -%}
+{%- if page.section_nav -%}
+<nav id="section-nav" class="section-nav d-none d-md-block" aria-label="On this page">
+  <div class="container-fluid">
+    <ul class="nav">
+      {%- for item in page.section_nav -%}
+      <li class="nav-item">
+        <a class="nav-link" href="#{{ item.id }}">{{ item.title }}</a>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</nav>
+{%- endif -%}

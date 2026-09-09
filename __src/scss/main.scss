@@ -296,19 +296,437 @@ button.navbar-toggler:focus {
     background-color: $track-black;
     background-color: rgba($track-black,0.9);
 }
-article.post,
-article.product section {
-  // max-width: 820px; //(9 cols)
+article.post {
   max-width: 728px; // (8 cols)
+  margin: 48px auto;
+}
 
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 48px;
-  margin-bottom: 48px;
+// Vertical rhythm between numbered sections comes from the .py-4 wrappers in
+// the page layout; the section itself only constrains measure + centres.
+// Adjacent sections sharing one wrapper still need a gap of their own.
+article.product section {
+  max-width: 728px; // (8 cols)
+  margin: 0 auto;
+}
+article.product section + section {
+  margin-top: 3rem;
 }
 article.product {
   margin-top: 2rem;
   margin-bottom: 0;
+}
+
+/* In-page section nav — see _includes/section-nav.html + main.js */
+html {
+  scroll-padding-top: 4rem; // clear the sticky .section-nav on anchor jumps
+}
+.has-section-nav .ot-navbar {
+  margin-bottom: 0; // let the sticky .section-nav sit flush under the navbar
+}
+.section-nav {
+  position: sticky;
+  top: 0;
+  z-index: $zindex-sticky;
+  background-color: $white;
+  border-bottom: 1px solid $gray-200;
+
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav {
+    flex-wrap: nowrap;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .nav-link {
+    white-space: nowrap;
+    padding: 0.75rem 1rem;
+    color: $gray-600;
+    border-bottom: 3px solid transparent;
+
+    &:hover,
+    &:focus {
+      color: $track-black;
+    }
+
+    &.active {
+      color: $track-red;
+      border-bottom-color: $track-red;
+    }
+  }
+}
+
+/* Click-to-enlarge screenshots on long-form product pages — see components/lightbox.js */
+.lightbox-trigger {
+  cursor: zoom-in;
+}
+.lightbox {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: $zindex-modal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1.5rem;
+  background-color: rgba($track-black, 0.9);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+
+  &.is-open {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+.lightbox__figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+}
+.lightbox__img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 92vw;
+  max-height: 78vh;
+  object-fit: contain;
+  background-color: $white;
+  box-shadow: 0 0.5rem 2rem rgba($black, 0.5);
+}
+.lightbox__caption {
+  max-width: 60ch;
+  margin-top: 1rem;
+  color: rgba($white, 0.85);
+  font-size: 0.875rem;
+  text-align: center;
+}
+.lightbox__close {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: $white;
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: rgba($white, 0.7);
+  }
+}
+
+/* FAQ accordion (Bootstrap collapse) — see competition-management/8.faq.md */
+.faq {
+  max-width: 44rem;
+  margin: 0 auto;
+  background-color: $white;
+  border-radius: $card-border-radius;
+  box-shadow: 0 2px 14px rgba($track-black, 0.08);
+  overflow: hidden; // keep item backgrounds within the rounded corners
+}
+.faq .faq-item + .faq-item {
+  border-top: 1px solid $gray-200;
+}
+.faq .faq-q-head {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+.faq .faq-q {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 1.25rem 3.75rem 1.25rem 1.5rem;
+  border: 0;
+  border-left: 3px solid transparent;
+  background: none;
+  font-family: inherit;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: $track-black;
+  text-align: left;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+
+  &:hover,
+  &:focus {
+    color: $track-red;
+  }
+
+  // no UA focus box on click; keep a branded ring for keyboard users
+  &:focus {
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $track-red;
+    outline-offset: -2px;
+  }
+
+  // round indicator, echoing the numbered section badges
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 1.5rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-top: -0.875rem;
+    border-radius: 50%;
+    background-color: $tint;
+    transition: background-color 0.2s ease;
+  }
+
+  // chevron
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 2.15rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: -0.4rem;
+    border-right: 2px solid $track-red;
+    border-bottom: 2px solid $track-red;
+    transform: rotate(45deg);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+  }
+
+  &[aria-expanded='true'] {
+    color: $track-red;
+    border-left-color: $track-red;
+    background-color: rgba($track-black, 0.02);
+
+    &::before {
+      background-color: $track-red;
+    }
+
+    &::after {
+      margin-top: -0.15rem;
+      border-color: $white;
+      transform: rotate(-135deg);
+    }
+  }
+}
+.faq .faq-a {
+  padding: 1.5rem 1.5rem 1.5rem calc(1.5rem + 3px);
+  color: $gray-700;
+  line-height: 1.6;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* "In Action" meeting grid + modal — see competition-management/8.in-action.md + components/competitions.js */
+.competition-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%; // fill the equal-height grid column
+  padding: 0;
+  border: 0;
+  border-radius: $card-border-radius;
+  overflow: hidden;
+  background-color: $white;
+  box-shadow: 0 2px 12px rgba($track-black, 0.08);
+  cursor: pointer;
+  transition: transform ease 0.2s, box-shadow ease 0.2s;
+
+  &:hover,
+  &:focus {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba($track-black, 0.14);
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $track-red;
+    outline-offset: 2px;
+  }
+}
+.competition-card__media {
+  flex: 0 0 auto;
+  display: block;
+  position: relative;
+  padding-top: 56.25%; // 16:9
+  background-color: $tint;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+// organiser/federation logo instead of a photo — show it whole, not cropped
+.competition-card__media--logo {
+  background-color: $white;
+
+  img {
+    object-fit: contain;
+    padding: 10% 14%;
+  }
+}
+// several images rotate in the tile — Bootstrap carousel, see components/competitions.js
+.competition-card__carousel {
+  &,
+  .carousel-inner,
+  .carousel-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+.competition-card__name {
+  flex: 1 1 auto; // fill the card's remaining height so bottoms align
+  display: block;
+  min-height: 3.75rem; // room for a two-line name, so short names match
+  padding: 0.625rem 0.875rem;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: $track-black;
+  text-align: left;
+}
+
+.competition-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: $zindex-modal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background-color: rgba($track-black, 0.9);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+
+  &.is-open {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+.competition-modal__panel {
+  position: relative;
+  width: 100%;
+  max-width: 40rem;
+  max-height: 90vh;
+  overflow-y: auto;
+  background-color: $white;
+  border-radius: $card-border-radius;
+  box-shadow: 0 0.5rem 2rem rgba($black, 0.5);
+}
+.competition-modal__media {
+  background-color: $tint;
+}
+.competition-modal__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: $tint;
+}
+.competition-modal__image--logo {
+  height: 40vh;
+  object-fit: contain;
+  padding: 2rem;
+  background-color: $white;
+}
+// several images rotate in the modal — Bootstrap carousel, see components/competitions.js
+.competition-modal__carousel .carousel-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.competition-modal__carousel--logo {
+  .carousel-item {
+    height: 40vh;
+  }
+
+  .carousel-item img {
+    height: 100%;
+    object-fit: contain;
+    padding: 2rem;
+    background-color: $white;
+  }
+}
+.competition-modal__body {
+  padding: 1.5rem;
+}
+.competition-modal .competition-modal__title {
+  margin: 0 0 0.75rem;
+  text-transform: none;
+  letter-spacing: normal;
+}
+.competition-modal__blurb {
+  margin-bottom: 1.25rem;
+  color: $gray-700;
+  line-height: 1.6;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+.competition-modal__link {
+  // the global .btn / .btn:hover rules force a black border (+ a -2px margin
+  // nudge); this button is a plain filled bar, so cancel both in every state
+  &,
+  &:hover,
+  &:focus,
+  &:active {
+    border: 0;
+    margin: 0;
+  }
+}
+.competition-modal__close {
+  position: absolute;
+  z-index: 1; // sit above the carousel's transform-induced stacking context
+  top: 0.5rem;
+  right: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: rgba($track-black, 0.5);
+  color: $white;
+  font-size: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: rgba($track-black, 0.75);
+  }
 }
 .mast-wrap .burger-bar {
   background-color: $white;
@@ -343,11 +761,6 @@ article.product {
     color: $white;
   }
 }
-.row-eq-height .card {
-  height:100%;
-
-}
-
 @include media-breakpoint-up(md) {
   .card.mh {
     height:100%;
@@ -480,13 +893,371 @@ svg.mid-right {
   }
 
   .card-title {
+    // article.product h3 sets margin + a red underline for long-form
+    // section headers; reset both here since these are just card titles.
+    margin: 0 0 0.75rem;
     text-transform: uppercase;
     font-size: 1.125rem;
   }
 
   .btn {
-    @extend .btn-outline-dark;
+    @extend .btn-outline-primary;
   }
+}
+
+// Kill the section-header underline on card titles regardless of the band
+// they sit in — the plain `.card-title span` reset loses on specificity to
+// `article.product .tinted h3 span` and friends.
+article.product .product-card .card-title,
+article.product .product-card .card-title span {
+  box-shadow: none;
+}
+
+/* Entries page — alternating icon / copy rows, see competition-management/2.entries.md */
+.entry-points {
+  margin: 1.5rem 0 2rem;
+}
+
+.entry-point {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  & + & {
+    margin-top: 2rem;
+  }
+
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  @include media-breakpoint-down(sm) {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+
+    &:nth-child(even) {
+      flex-direction: column;
+    }
+  }
+}
+
+.entry-point__icon {
+  flex: 0 0 auto;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: $soft-blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 40px;
+    max-height: 34px;
+  }
+}
+
+.entry-point__body {
+  flex: 1 1 auto;
+
+  h4 {
+    margin-top: 0;
+  }
+
+  :last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* Results & scoring — timing/photo-finish hub-and-spoke, see competition-management/5.results-scoring.md */
+.integrations {
+  --conn: 3.25rem; // gutter each side: column axis <-> hub
+  margin: 1.75rem auto 0.5rem;
+  padding: 1.75rem 0.5rem;
+}
+
+.integrations .diagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--conn);
+}
+
+.integrations .col {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+
+  // vertical bus: spans exactly first pill centre to last pill centre
+  // (pills are pinned to 2rem tall, so half-height is 1rem)
+  &::after {
+    content: "";
+    position: absolute;
+    top: 1rem;
+    bottom: 1rem;
+    width: 2px;
+    background: rgba($track-red, 0.35);
+  }
+
+  &--left {
+    align-items: flex-end;
+    &::after { right: calc(var(--conn) / -2); }
+  }
+  &--right {
+    align-items: flex-start;
+    &::after { left: calc(var(--conn) / -2); }
+  }
+
+  li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2rem;
+    padding: 0.2rem 1rem;
+    border: 2px solid $track-red;
+    border-radius: 2rem;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: $track-red;
+    background: $white;
+    white-space: nowrap;
+    transition: color 0.15s ease, background-color 0.15s ease, transform 0.15s ease;
+
+    // spoke: pill edge -> bus
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      width: calc(var(--conn) / 2);
+      height: 2px;
+      background: rgba($track-red, 0.35);
+      transition: background-color 0.15s ease;
+    }
+
+    // hover lights the pill and its wire to the hub
+    &:hover {
+      background: $track-red;
+      color: $white;
+
+      &::after { background: $track-red; }
+    }
+  }
+  &--left li::after { left: 100%; }
+  &--right li::after { right: 100%; }
+  &--left li:hover { transform: translateX(3px); }
+  &--right li:hover { transform: translateX(-3px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .integrations .col li,
+  .integrations .col li::after { transition: none; }
+  .integrations .col li:hover { transform: none; }
+}
+
+.integrations__hub {
+  position: relative;
+  flex: 0 0 auto;
+
+  // hub -> bus: a short segment on each side, never across the card
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: calc(var(--conn) / 2);
+    height: 2px;
+    background: rgba($track-red, 0.35);
+  }
+  &::before { right: 100%; }
+  &::after { left: 100%; }
+}
+
+.integrations__hub-inner {
+  display: grid;
+  place-items: center;
+  padding: 1rem 1.4rem;
+  background: $white;
+  border-radius: 0.75rem;
+  border-top: 4px solid $track-red;
+  box-shadow: 0 4px 18px rgba($track-black, 0.12);
+}
+
+.integrations__hub-mark {
+  display: block;
+  width: 120px;
+  height: auto;
+}
+
+// stack for tablet + phone: hub alone on top, all pills as one centred cluster
+@include media-breakpoint-down(md) {
+  .integrations {
+    --conn: 0rem;
+    padding: 1.25rem 0.25rem;
+  }
+  .integrations .diagram {
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+  }
+  .integrations .col {
+    display: contents;
+  }
+  .integrations .col li {
+    min-height: 1.7rem;
+    padding: 0.1rem 0.7rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.02em;
+
+    &::after { display: none; }
+    &:hover { transform: none; }
+  }
+  .integrations__hub {
+    order: -1;
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+
+    &::before,
+    &::after { display: none; }
+  }
+  .integrations__hub-inner { padding: 0.7rem 1rem; }
+  .integrations__hub-mark { width: 88px; }
+}
+
+/* Results & scoring — governing-body logo strip under "Rankings and records" */
+.ranking-bodies {
+  display: flex;
+  width: fit-content;
+  max-width: 100%;
+  align-items: stretch;
+  margin: 1.5rem auto 0;
+  border: 1px solid $gray-200;
+  border-radius: 0.5rem;
+  background: $white;
+  overflow: hidden;
+}
+
+.ranking-bodies__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9rem 1.4rem;
+
+  & + & {
+    border-left: 1px solid $gray-200;
+  }
+
+  img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+.ranking-bodies__item--wa img { height: 30px; }
+.ranking-bodies__item--ea img { height: 34px; }
+.ranking-bodies__item--po10 img { height: 24px; }
+
+// Tilastopaja has no logo, only a wordmark — set it in the site face
+.ranking-bodies__item--tp {
+  font-weight: 800;
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $track-black;
+  white-space: nowrap;
+}
+
+@include media-breakpoint-down(sm) {
+  .ranking-bodies {
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .ranking-bodies__item {
+    padding: 0.7rem 0.75rem;
+
+    & + & { border-left: 0; }
+    &:nth-child(even) { border-left: 1px solid $gray-200; }
+    &:nth-child(n + 3) { border-top: 1px solid $gray-200; }
+  }
+  .ranking-bodies__item--wa img { height: 22px; }
+  .ranking-bodies__item--ea img { height: 26px; }
+  .ranking-bodies__item--po10 img { height: 18px; }
+  .ranking-bodies__item--tp { font-size: 0.8rem; }
+}
+
+.system-flow {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 0 auto 2.5rem;
+
+  @include media-breakpoint-down(sm) {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+}
+
+.system-flow-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 8rem;
+
+  &:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 28px;
+    left: 100%;
+    width: 3rem;
+    height: 2px;
+    background-color: rgba($track-red, 0.4);
+
+    @include media-breakpoint-down(sm) {
+      top: 100%;
+      left: 50%;
+      width: 2px;
+      height: 1.5rem;
+      transform: translateX(-50%);
+    }
+  }
+
+  span {
+    margin-top: 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    color: $track-black;
+  }
+}
+
+.system-flow-icon {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: $white;
+  box-shadow: 0 2px 8px rgba($track-black, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 blockquote {
@@ -563,7 +1334,9 @@ article.product {
   overflow: hidden;
 
   h2 { // section titles
-    margin: 4rem 0 3rem;
+    // the .py-4 band wrappers add ~1.5rem on top of this; the old 4rem
+    // doubled up with section margins that no longer exist
+    margin: 2rem 0 2.5rem;
     //padding-left: 3.5rem;
     position: relative;
     strong {

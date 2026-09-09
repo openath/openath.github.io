@@ -77,6 +77,7 @@ var config = {
           // https://github.com/webpack-contrib/sass-loader
           loader: 'sass-loader',
           options: {
+            implementation: require('sass'),
             sourceMap: isDebug,
             includePaths: ["node_modules"]
           }

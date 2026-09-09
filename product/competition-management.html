@@ -2,6 +2,25 @@
 layout: fullbleed
 title: Competition Management
 permalink: /product/competition-management.html
+section_nav:
+  - id: competition-management-introduction
+    title: Introduction
+  - id: competition-management-entries
+    title: Entries
+  - id: competition-management-event-setup
+    title: Event setup
+  - id: competition-management-numbering-seeding
+    title: Numbering &amp; seeding
+  - id: competition-management-results-scoring
+    title: Results &amp; scoring
+  - id: competition-management-reports
+    title: Reports
+  - id: competition-management-communication
+    title: Communication
+  - id: competition-management-in-action
+    title: In action
+  - id: competition-management-faq
+    title: FAQ
 ---
 
 <div class="container-fluid pb-4">
@@ -13,40 +32,75 @@ permalink: /product/competition-management.html
 
 <div class="py-4 tinted">
   <div class="container-fluid">
-    <section id="competition-management-main">
-      {% capture my_include %}{% include_relative competition-management/2.comp-management.md %}{% endcapture %}
+    <section id="competition-management-entries">
+      {% capture my_include %}{% include_relative competition-management/2.entries.md %}{% endcapture %}
       {{ my_include | markdownify }}
     </section>
   </div>
 </div>
 
 <div class="container-fluid py-4">
-  <section id="competition-management-input">
-    {% capture my_include %}{% include_relative competition-management/3.input.md %}{% endcapture %}
+  <section id="competition-management-event-setup">
+    {% capture my_include %}{% include_relative competition-management/3.event-setup.md %}{% endcapture %}
     {{ my_include | markdownify }}
   </section>
 </div>
 
-<div class="bg-blue py-4">
+<div class="py-4 tinted">
   <div class="container-fluid">
-    <div class="siblings">
-      	<div class="row align-items-center justify-content-center" data-aos="fade-up">
+    <section id="competition-management-numbering-seeding">
+      {% capture my_include %}{% include_relative competition-management/4.numbering-seeding.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+    </section>
+  </div>
+</div>
 
-          <div class="col-sm">
-            <a href="/product/federation-admin.html" class="sibling-link sibling-left">
-              Read about our
-              	<h3>Federation Management</h3>
-              	{% octicon chevron-left %}
-              </a>
-          </div>
-          <div class="col-sm">
-            <a href="/product/open-reference-data.html" class="sibling-link sibling-right">
-              Read about our
-              	<h3>Open Reference Database</h3>
-              	{% octicon chevron-right %}
-              </a>
-          </div>
-        </div>
-      </div>
+<div class="container-fluid py-4">
+  <section id="competition-management-results-scoring">
+    {% capture my_include %}{% include_relative competition-management/5.results-scoring.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
+
+<div class="py-4 tinted">
+  <div class="container-fluid">
+    <section id="competition-management-reports">
+      {% capture my_include %}{% include_relative competition-management/6.reports.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+    </section>
+  </div>
+</div>
+
+<div class="container-fluid py-4">
+  <section id="competition-management-communication">
+    {% capture my_include %}{% include_relative competition-management/7.communication.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
+
+<div class="py-4 tinted">
+  <div class="container-fluid">
+    <section id="competition-management-in-action">
+      {% capture my_include %}{% include_relative competition-management/8.in-action.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+    </section>
+  </div>
+</div>
+
+<div class="container-fluid py-4">
+  <section id="competition-management-faq">
+    {% capture my_include %}{% include_relative competition-management/9.faq.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
+
+<div class="py-4 bg-steel">
+  <div class="container-fluid" data-aos="fade-up">
+    <p class="lead text-center mx-auto" style="max-width:800px">Competition Management is one of three connected systems. If you also need to license athletes and clubs or run a whole federation, take a look at our Federation Management System &mdash; and our Statistics &amp; Rankings module turns the results you capture here into national rankings and athlete progressions.</p>
+
+    <div class="row justify-content-center pt-3">
+      <div class="col-md-5 mb-4">{% include product-card/federation-management.html %}</div>
+      <div class="col-md-5 mb-4">{% include product-card/statistics-rankings.html %}</div>
+    </div>
   </div>
 </div>
