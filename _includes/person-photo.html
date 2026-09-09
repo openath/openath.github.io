@@ -1,0 +1,16 @@
+{%- comment -%}
+  Circular head-shot that slides to the athletics photo on hover.
+
+  Params:
+    person  (required) a _team/*.md object — uses .image, .athlete_pic, .title
+    class   (optional) extra classes for the outer element, e.g. "mb-3"
+
+  The hover/focus that triggers the slide lives on an ancestor: wire the
+  placement's selector into the `.person-photo__slide` rule in main.scss.
+{%- endcomment -%}
+<div class="person-photo{% if include.class %} {{ include.class }}{% endif %}">
+  <div class="person-photo__slide">
+    {% if include.person.image %}<img src="{{ include.person.image }}" alt="{{ include.person.title }}" width="184" height="184">{% endif %}
+    {% if include.person.athlete_pic %}<img src="{{ include.person.athlete_pic }}" alt="{{ include.person.title }} competing" width="184" height="184">{% endif %}
+  </div>
+</div>

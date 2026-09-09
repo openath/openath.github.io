@@ -7,6 +7,9 @@ image: /assets/img/team/gus.jpg
 athlete_pic: /assets/img/team/gus2.png
 # athlete_bio: gus-upton-athlete.md
 profile: professional
+contact_rank: 2
+contact_subject: Setting up a competition
+contact_blurb: Getting your competition set up, pricing, entries, and support as your event goes live.
 ---
 
 Gus graduated from the University of Bath with a degree in Sports Sciences.

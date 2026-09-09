@@ -7,6 +7,9 @@ image: /assets/img/team/james.jpg
 athlete_pic: /assets/img/team/james2.png
 athlete_bio: james-davis-athlete.md
 profile: professional
+contact_rank: 3
+contact_subject: Technical question
+contact_blurb: Technical questions, results capture, integrations, and on-site support.
 ---
 
 James is a graduate of the University of Birmingham in Sport & Exercise Sciences, and St Mary's University, Twickenham in Sports Journalism.

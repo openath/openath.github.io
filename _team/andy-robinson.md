@@ -7,6 +7,9 @@ image: /assets/img/team/andyr.jpg
 athlete_pic: /assets/img/team/andyr2.jpg
 athlete_bio: andy-robinson-athlete.md
 profile: professional
+contact_rank: 1
+contact_subject: Federation enquiry
+contact_blurb: Federations, partnerships and national contracts.
   	
 ---
 

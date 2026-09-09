@@ -17,17 +17,7 @@ tags: team
     <article class="team mb-3">
       <a class="player" href="#{{ player.title | slugify }}" data-toggle="modal" data-target="#{{ player.title | slugify }}">
 
-          <div class="team-image-box mb-3">
-            <div class="image-wrapper">
-            {% if player.image %}
-                <img src="{{ player.image }}" class="img-fluid" width="184" height="184">
-            {% endif %}
-
-            {% if player.athlete_pic %}
-                <img src="{{ player.athlete_pic }}" class="img-fluid" width="184" height="184">
-            {% endif %}
-            </div>
-        </div>
+          {% include person-photo.html person=player class="mb-3" %}
 
         <h3 class="team-member-name mb-0"><span>{{ player.title }}</span> {% octicon plus %}</h3>
         <p class="team-member-position">{{ player.position }}</p>
@@ -111,17 +101,7 @@ tags: team
     <article class="team mb-3">
       <a class="player" href="#{{ player.title | slugify }}" data-toggle="modal" data-target="#{{ player.title | slugify }}">
 
-          <div class="team-image-box mb-3">
-            <div class="image-wrapper">
-            {% if player.image %}
-                <img src="{{ player.image }}" class="img-fluid" width="184" height="184">
-            {% endif %}
-
-            {% if player.athlete_pic %}
-                <img src="{{ player.athlete_pic }}" class="img-fluid" width="184" height="184">
-            {% endif %}
-            </div>
-        </div>
+          {% include person-photo.html person=player class="mb-3" %}
 
         <h3 class="team-member-name mb-0"><span>{{ player.title }}</span> {% octicon plus %}</h3>
         <p class="team-member-position">{{ player.position }}</p>
