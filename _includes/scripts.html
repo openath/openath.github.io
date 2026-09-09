@@ -1,1 +1,1 @@
-<script src="{{ site.baseurl }}/dist/main.js"></script>
+<script src="{{ "/dist/main.js" | prepend: site.baseurl }}?{{ site.time | date: '%s%N' }}"></script>
