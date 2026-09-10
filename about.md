@@ -47,8 +47,4 @@ We aim to define and agree open standards for exchanging membership info, start 
 Where possible, we should share code and solutions across the sport, to make it easier for 
   anyone to build high quality athletics systems.  Events and leagues will probably 
   always need to build their own system, but they can all use common building blocks.
-  
-## Get involved
-  
-Check out our [call for volunteers](/about/volunteer.html), and help your sport! Or, at least, spread the word...
 
