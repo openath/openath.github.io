@@ -105,3 +105,10 @@ jspm_packages/
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
+
+# Local Ruby/Bundler install (this project vendors gems locally)
+vendor/
+.bundle/
+
+# npm lockfile (project uses yarn)
+package-lock.json
