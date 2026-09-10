@@ -110,6 +110,16 @@ defaults:
       path: "docs"
     values:
       sitemap: false
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
+  # blog posts are unindexed (no linked archive) — keep them out of the sitemap
+  - scope:
+      path: ""
+      type: posts
+    values:
+      sitemap: false
   # default social/OG image for pages that don't set their own
   - scope:
       path: ""
