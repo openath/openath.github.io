@@ -1,22 +1,7 @@
 - url: https://data.opentrack.run/x/
   title: Competitions
-- url: /
-  title: Products
-  pages:
-  - title: Results Capture
-    url: /product/results-capture.html
-  - title: Entry System
-    url: /product/entries-system.html
-  - title: Federation Management
-    url: /product/federation-admin.html
-  - title: Competition Management
-    url: /product/competition-management.html
-  - title: Virtual Racing
-    url: /product/virtual-racing.html    
-  - title: Open Reference Database
-    url: /product/open-reference-data.html
-  - title: Feature Matrix
-    url: /product/featurematrix.html
+- url: /product/
+  title: Product
 # - url: /results
 #   title: Results
 # - url: /pricing/
@@ -25,5 +10,3 @@
   title: The Team
 - url: https://opentrack.substack.com/
   title: News
-- url: /contact
-  title: Contact us
