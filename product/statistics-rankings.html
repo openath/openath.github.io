@@ -2,6 +2,19 @@
 layout: fullbleed
 title: Statistics & Rankings
 permalink: /product/statistics-rankings.html
+section_nav:
+  - id: statistics-rankings-introduction
+    title: Introduction
+  - id: statistics-rankings-performance-list
+    title: The performance list
+  - id: statistics-rankings-scoring
+    title: Comparable scoring
+  - id: statistics-rankings-data-sources
+    title: Data sources
+  - id: statistics-rankings-points-records
+    title: Points &amp; records
+  - id: statistics-rankings-data
+    title: Data &amp; access
 ---
 
 <div class="container-fluid pb-4">
@@ -11,26 +24,50 @@ permalink: /product/statistics-rankings.html
   </section>
 </div>
 
-<div class="bg-blue py-4">
+<div class="py-4 tinted">
   <div class="container-fluid">
-    <div class="siblings">
-      	<div class="row align-items-center justify-content-center" data-aos="fade-up">
+    <section id="statistics-rankings-performance-list">
+      {% capture my_include %}{% include_relative statistics-rankings/2.performance-list.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+    </section>
+  </div>
+</div>
+<div class="py-4 container-fluid">
+  <section id="statistics-rankings-scoring">
+    {% capture my_include %}{% include_relative statistics-rankings/3.comparable-scoring.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
+<div class="py-4 tinted">
+  <div class="container-fluid">
+    <section id="statistics-rankings-data-sources">
+      {% capture my_include %}{% include_relative statistics-rankings/4.data-sources.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+    </section>
+  </div>
+</div>
+<div class="py-4 container-fluid">
+  <section id="statistics-rankings-points-records">
+    {% capture my_include %}{% include_relative statistics-rankings/5.points-and-records.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
+<div class="py-4 tinted">
+  <div class="container-fluid">
+    <section id="statistics-rankings-data">
+      {% capture my_include %}{% include_relative statistics-rankings/6.data-access.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+    </section>
+  </div>
+</div>
 
-          <div class="col-sm">
-            <a href="/product/federation-admin.html" class="sibling-link sibling-left">
-              Read about our
-              	<h3>Federation Management</h3>
-              	{% octicon chevron-left %}
-              </a>
-          </div>
-          <div class="col-sm">
-            <a href="/product/open-reference-data.html" class="sibling-link sibling-right">
-              Read about our
-              	<h3>Open Reference Database</h3>
-              	{% octicon chevron-right %}
-              </a>
-          </div>
-        </div>
-      </div>
+<div class="py-4 bg-steel">
+  <div class="container-fluid" data-aos="fade-up">
+    <p class="lead text-center mx-auto" style="max-width:800px">Statistics &amp; Rankings is one of three connected systems. It builds on results captured in our Competition Management System and on the athletes, clubs, and venues maintained through Federation Management &mdash; so rankings and progressions stay accurate wherever OpenTrack is used.</p>
+
+    <div class="row justify-content-center pt-3">
+      <div class="col-md-5 mb-4">{% include product-card/competition-management.html %}</div>
+      <div class="col-md-5 mb-4">{% include product-card/federation-management.html %}</div>
+    </div>
   </div>
 </div>
