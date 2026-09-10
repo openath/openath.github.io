@@ -1,0 +1,24 @@
+# Author metadata for jekyll-seo-tag (twitter:creator, JSON-LD author).
+# Keys must match the `author:` string used in a post's front matter.
+# `twitter` is the brand account — we don't publish individual handles —
+# so twitter:creator lines up with twitter:site rather than emitting an
+# invalid "@First Last".
+
+Andy Robinson:
+  name: Andy Robinson
+  twitter: opentrack
+Andy Weir:
+  name: Andy Weir
+  twitter: opentrack
+Gus Upton:
+  name: Gus Upton
+  twitter: opentrack
+James Davis:
+  name: James Davis
+  twitter: opentrack
+Will Cockerell:
+  name: Will Cockerell
+  twitter: opentrack
+James Davis, Andy Robinson:
+  name: James Davis, Andy Robinson
+  twitter: opentrack

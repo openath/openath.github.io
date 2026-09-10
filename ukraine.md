@@ -4,7 +4,6 @@ title: Support Athletics in Ukraine
 permalink: /ukraine/
 cover_image: https://files.opentrack.run/live/custom_images/Screenshot_2022-03-17_at_20.03.18.png
 cover_image_caption: Yuriy Haharyn Stadium, Chernihiv
-author: Why you should consider donating to Ukraine's athletics federation..
 sitemap: false
 ---
 
