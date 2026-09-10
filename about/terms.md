@@ -1,6 +1,7 @@
 ---
 title:  Terms and Conditions
 layout: page
+description: 'The terms and conditions governing use of OpenTrack''s athletics management services and website.'
 ---
 
 Background

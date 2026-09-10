@@ -2,6 +2,7 @@
 layout: fullbleed
 title: Product
 permalink: /product/
+description: 'OpenTrack is three connected systems — Competition Management, Federation Management and Statistics & Rankings — covering entries, results, rankings and federation admin.'
 ---
 
 <div class="container-fluid pb-5">

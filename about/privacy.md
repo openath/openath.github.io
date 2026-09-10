@@ -1,6 +1,7 @@
-﻿---
+---
 layout: page
 title: Our Privacy Notice
+description: 'How OpenTrack collects, uses, shares and protects personal data on behalf of the federations, clubs and competition organisers we work for.'
 ---
 
 This notice has been produced in compliance with the European Union General Data Protection 

@@ -5,7 +5,7 @@ layout: default
 <div class="my-5">
   <main class="ot-content" role="main">
     <h1 class="ot-title"><span>{{ page.title | smartify }}</span></h1>
-    <p class="ot-lead">{{ page.description | smartify }}</p>
+    <p class="ot-lead">{{ page.lead | default: page.description | smartify }}</p>
     {{ content }}
   </main>
 </div>

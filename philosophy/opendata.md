@@ -2,6 +2,7 @@
 title:  Open Data policy
 layout: page
 tags: about
+description: 'OpenTrack''s open data policy: why we make non-personal athletics data — clubs, venues, competitions and results — free for anyone in the sport to use.'
 ---
 
 ## Goals

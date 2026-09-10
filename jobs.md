@@ -2,6 +2,7 @@
 layout: page
 title: Jobs
 permalink: /jobs/
+description: 'Open roles at OpenTrack, including Competition Support and Technical Intern positions for the summer season — home-based, part-time, athletics-focused.'
 ---
 
 # Open Roles at OpenTrack 

@@ -2,6 +2,7 @@
 layout: page
 title: 'Contact us'
 permalink: /contact/
+description: 'Get in touch with the OpenTrack team about competition management, federation systems, rankings, or arranging a demo for your organisation.'
 ---
 
 <p class="ot-lead">Tell us what you're trying to run and we'll get you to the right person.</p>

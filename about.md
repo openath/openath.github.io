@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+description: 'OpenTrack builds low-cost, open athletics software to save volunteers time and help the sport grow — from grassroots leagues to national federations.'
 ---
 
 ## OpenTrack: Open Data, Open Standards and Open Source in Athletics

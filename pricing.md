@@ -2,6 +2,7 @@
 layout: page
 title: Pricing
 permalink: /pricing/
+description: 'OpenTrack pricing: pay-as-you-go entries at 50p + 5%, full competition management from £1.00 per competitor, and optional premium support.'
 ---
 
 
