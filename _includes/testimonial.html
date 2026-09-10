@@ -1,0 +1,17 @@
+{%- comment -%}
+Testimonial card. Params:
+  quote   – the quote text, without surrounding quotation marks
+  name    – person's name
+  detail  – role and/or organisation, e.g. "General Secretary, Estonian Athletic Association"
+  flag    – optional path under assets/img/ for a country flag
+{%- endcomment -%}
+<figure class="testimonial">
+  <blockquote>{{ include.quote }}</blockquote>
+  <figcaption class="testimonial__by">
+    {%- if include.flag %}<img class="testimonial__flag" src="{{ site.baseurl }}/assets/img/{{ include.flag }}" alt="">{% endif -%}
+    <span>
+      <strong>{{ include.name }}</strong>
+      {%- if include.detail %}<span class="testimonial__role">{{ include.detail }}</span>{% endif -%}
+    </span>
+  </figcaption>
+</figure>

@@ -902,6 +902,9 @@ svg.mid-right {
 
   .btn {
     @extend .btn-outline-primary;
+    // Bootstrap's `.btn` forces `white-space: nowrap`; let the long labels
+    // wrap so they don't overflow a narrow card on mobile
+    white-space: normal;
   }
 }
 
@@ -970,6 +973,87 @@ article.product .product-card .card-title span {
 
   :last-child {
     margin-bottom: 0;
+  }
+}
+
+/* "Who can do what" persona columns — federation-management/1.introduction.md */
+.fms-roles {
+  margin: 1.5rem 0 2rem;
+
+  @include media-breakpoint-up(md) {
+    display: flex;
+    gap: 2.5rem;
+  }
+}
+
+.fms-role {
+  flex: 1 1 0;
+  text-align: center;
+
+  & + & {
+    margin-top: 2rem;
+  }
+
+  @include media-breakpoint-up(md) {
+    & + & {
+      margin-top: 0;
+    }
+  }
+
+  &__icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: $soft-blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+
+    img {
+      display: block;
+      width: auto;
+      height: auto;
+      max-width: 40px;
+      max-height: 34px;
+    }
+  }
+
+  h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  // list stays left-aligned for legibility, but the block is centred
+  // under the icon + heading
+  ul {
+    display: inline-block;
+    text-align: left;
+    list-style: none;
+    padding-left: 1.1rem;
+    margin-bottom: 0;
+  }
+
+  li {
+    position: relative;
+    line-height: 1.5;
+    margin-bottom: 0.4rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: -1.1rem;
+      top: 0.75em;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: $track-red;
+      transform: translateY(-50%);
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -1637,6 +1721,194 @@ h3.team-member-name {
     max-width: 20rem;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+// "Built for your federation" tabs on product/federation-management.html
+.fed-tabs {
+  margin-top: 2rem;
+
+  &__nav.nav-pills {
+    gap: 0.5rem;
+    margin-bottom: 2.5rem;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    @include media-breakpoint-up(md) {
+      flex-wrap: wrap;
+      overflow: visible;
+    }
+
+    .nav-item {
+      flex: 0 0 auto;
+    }
+
+    .nav-link {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      white-space: nowrap;
+      color: $track-black;
+      background-color: $white;
+      border: 1px solid $card-border-color;
+      font-weight: 700;
+      transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+
+      &:hover {
+        color: $track-black;
+        border-color: $gray-500;
+      }
+
+      &.active {
+        color: $white;
+        background-color: $track-red;
+        border-color: $track-red;
+      }
+    }
+  }
+
+  &__flag {
+    flex: 0 0 auto;
+    width: auto;
+    height: 16px;
+    object-fit: contain;
+    border-radius: 2px;
+    // hairline edge so the flag reads on both the white and the red pill
+    box-shadow: 0 0 0 1px rgba($track-black, 0.15);
+
+    .nav-link.active & {
+      box-shadow: 0 0 0 1px rgba($white, 0.4);
+    }
+  }
+
+  &__media {
+    margin-bottom: 2rem;
+
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__photo img {
+    border-radius: $card-border-radius;
+    box-shadow: 0 1.5rem 3rem rgba($track-black, 0.18);
+  }
+
+  &__body {
+    p {
+      max-width: 34rem;
+    }
+  }
+
+  // beat `article.product h3 { margin: 4rem 0 1rem }` — these panel
+  // headings are not long-form section headers
+  & &__body h3 {
+    margin: 0 0 1rem;
+  }
+
+  // full-width quote below the media + text row
+  .testimonial {
+    margin-top: 2rem;
+  }
+}
+
+// The global `.btn` rule hard-codes a black border that overrides the
+// Bootstrap outline variants. Restore the red outline for this CTA the
+// same way `.product-card .btn` does.
+.section-cta .btn {
+  @extend .btn-outline-primary;
+}
+
+/* Unified testimonial card — see _includes/testimonial.html */
+.testimonial {
+  margin: 2rem 0;
+  padding: 1.75rem 1.75rem 1.5rem;
+  background-color: $white;
+  border: 1px solid $card-border-color;
+  border-radius: $card-border-radius;
+
+  blockquote {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    color: $track-black;
+    text-indent: 0;
+
+    &::before {
+      content: "\201C";
+      display: block;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 2.5rem;
+      line-height: 0.6;
+      color: $track-red;
+      margin-bottom: 0.4rem;
+    }
+
+    p {
+      // neutralise the global blockquote p treatment
+      margin: 0;
+      font-size: inherit;
+      font-weight: inherit;
+      font-style: inherit;
+      text-indent: 0;
+    }
+  }
+}
+
+.testimonial__by {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+  font-size: 0.95rem;
+  line-height: 1.35;
+
+  strong {
+    display: block;
+    color: $track-black;
+  }
+}
+
+.testimonial__role {
+  color: $gray-600;
+}
+
+.testimonial__flag {
+  flex: 0 0 auto;
+  width: auto;
+  height: 28px;
+  object-fit: contain;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba($track-black, 0.12);
+
+  // undo the global `figure img` thumbnail framing
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.testimonials {
+  margin: 2rem 0;
+
+  @include media-breakpoint-up(md) {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+
+  .testimonial {
+    margin: 0;
+
+    & + .testimonial {
+      margin-top: 1.5rem;
+
+      @include media-breakpoint-up(md) {
+        margin-top: 0;
+      }
+    }
   }
 }
 @include media-breakpoint-up(md) {

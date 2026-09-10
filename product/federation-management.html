@@ -1,0 +1,83 @@
+---
+layout: fullbleed
+title: Federation Management
+permalink: /product/federation-management.html
+redirect_from:
+  - /product/federation-admin.html
+section_nav:
+  - id: federation-management-introduction
+    title: Introduction
+  - id: federation-management-validation
+    title: Validation &amp; assurance
+  - id: federation-management-managing-comps
+    title: Managing competitions
+  - id: federation-management-country-specific
+    title: Built for your federation
+  - id: federation-management-data
+    title: Data &amp; integrations
+  - id: federation-management-testimonials
+    title: Testimonials
+  - id: federation-management-next-steps
+    title: Next steps
+---
+
+<div class="container-fluid pb-4">
+  <section id="federation-management-introduction">
+    {% capture my_include %}{% include_relative federation-management/1.introduction.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
+
+<div class="py-4 tinted">
+  <div class="container-fluid">
+    <section id="federation-management-validation">
+      {% capture my_include %}{% include_relative federation-management/2.validation-and-assurance.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+    </section>
+  </div>
+</div>
+<div class="py-4 container-fluid">
+  <section id="federation-management-managing-comps">
+    {% capture my_include %}{% include_relative federation-management/3.managing-comps.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
+<div class="py-4 tinted">
+  <div class="container-fluid">
+    <section id="federation-management-country-specific">
+      {% capture my_include %}{% include_relative federation-management/4.country-specific.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+    </section>
+  </div>
+</div>
+<div class="py-4 container-fluid">
+  <section id="federation-management-data">
+    {% capture my_include %}{% include_relative federation-management/5.data-and-integrations.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
+<div class="py-4 tinted">
+  <div class="container-fluid">
+    <section id="federation-management-testimonials">
+      {% capture my_include %}{% include_relative federation-management/6.testimonials.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+    </section>
+  </div>
+</div>
+<div class="py-4 container-fluid">
+  <section id="federation-management-next-steps">
+    {% capture my_include %}{% include_relative federation-management/7.next-steps.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </section>
+</div>
+
+<div class="py-4 bg-steel">
+  <div class="container-fluid" data-aos="fade-up">
+    <p class="lead text-center mx-auto" style="max-width:800px">Federation Management is one of three connected systems. The licences you issue here are checked automatically when athletes enter events in our Competition Management System, and results from across your federation feed straight into national rankings and athlete profiles in Statistics &amp; Rankings.</p>
+
+    <div class="row justify-content-center pt-3">
+      <div class="col-md-5 mb-4">{% include product-card/competition-management.html %}</div>
+      <div class="col-md-5 mb-4">{% include product-card/statistics-rankings.html %}</div>
+    </div>
+  </div>
+</div>

@@ -150,6 +150,16 @@ figure > figcaption {
 
 }
 
+// 16:9 variant — pairs with _includes/icons/browser-dark-wide.svg
+// (viewBox 728x436 = 26px chrome bar + a 728x410 content window).
+.browser-demo--wide {
+  padding-top: 59.8901%; // 436 / 728
+
+  &:after {
+    padding-bottom: 59.8901%;
+  }
+}
+
 .side-image {
   max-width: 100%;
   margin-bottom: 2rem;

@@ -50,7 +50,7 @@ The Competition Management System goes beyond the combination of Entry System & 
 [![Reigate](https://files.opentrack.run/live/img/2018/10k_results.png)](https://files.opentrack.run/live/img/2018/10k_results.png)
 Immediate Results, Night of the 1,000m PBs, Highgate, 2018
 
-Finally, we have been working closely with various federations including Estonia, Cyprus, Malta & Belarus to create independent <a href="/product/federation-admin.html">Federation Management Systems.</a> These systems allow them to management of all athletes, clubs and competitions. We are working hard to bring more federations on board with these systems.
+Finally, we have been working closely with various federations including Estonia, Cyprus, Malta & Belarus to create independent <a href="/product/federation-management.html">Federation Management Systems.</a> These systems allow them to management of all athletes, clubs and competitions. We are working hard to bring more federations on board with these systems.
 
 ## _4_ Moving Forward
 

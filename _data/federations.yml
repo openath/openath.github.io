@@ -1,51 +1,97 @@
-# Federations and organisations shown in the homepage logo wall.
-# `logo` is a filename in assets/img/fedlogos/ — drop a real logo in with the
-# same filename to replace the placeholder, or add a new entry + file for
-# any federation not yet listed.
+# Country / body-specific work shown in the "Built for your federation"
+# tab section on product/federation-management.html
 #
-# `service` is informational only (not currently rendered): what OpenTrack
-# is contracted to provide them — competitions, federation admin, or both.
-- name: Scotland
-  logo: scotland.png
-  service: competitions
-- name: Wales
-  logo: wales.png
-  service: competitions
-- name: Northern Ireland
-  logo: northern-ireland.png
-  service: federation & competitions
-- name: Estonia
-  logo: estonia.svg
-  service: federation & competitions
-- name: Norway
-  logo: norway.png
-  service: competitions
-- name: Cyprus
-  logo: cyprus.png
-  service: federation & competitions
-- name: Malta
-  logo: malta.png
-  service: federation & competitions
-- name: Serbia
-  logo: serbia.svg
-  service: federation & competitions
-- name: Bosnia & Herzegovina
-  logo: bosnia-and-herzegovina.png
-  service: competitions
-- name: Bulgaria
-  logo: bulgaria.png
-  service: federation & competitions
-- name: North Macedonia
-  logo: north-macedonia.png
-  service: competitions
-- name: Saudi Arabia
-  logo: saudi-arabia.png
-  service: federation & competitions
-- name: Gibraltar
-  logo: gibraltar.svg
-- name: National Athletics League
-  logo: national-athletics-league.png
-- name: Forth Valley League
-  logo: forth-valley-league.png
-- name: Oxfordshire Cross Country League
-  logo: oxfordshire-cross-country-league.png
+#   country  – tab label (national federation, or a specialist body such as the BMC)
+#   code     – short code, used only to build the tab/anchor ids (keep unique)
+#   flag     – path under assets/img/  for the country flag (assets/img/flags/)
+#   headline – the specific capability, shown as the panel <h3>
+#   image    – path under assets/img/  for the feature screenshot / photo
+#   frame    – how the image is framed: browser (3:2) | browser-wide (16:9) | tablet | photo
+#   blurb    – what was built for this federation and why it mattered. Markdown:
+#              leave a blank line between paragraphs. Keep the `|`.
+#   quote    – optional pull quote (no surrounding quotation marks needed)
+#   cite     – optional attribution for the quote (Name, Role, Federation)
+#   url      – optional; shown as "See it live". Omit to hide the link.
+
+- country: Estonia
+  code: EST
+  flag: flags/estonia.svg
+  headline: Bulk team entries
+  image: screens/fm-estonia-team-entry.png
+  frame: tablet
+  blurb: |
+    The Estonian Athletic Association needed a way to allow their clubs' team
+    managers to enter many athletes at once, and so the Team Entries functionality
+    built into our Competition Management System was originally built as a custom
+    feature!
+
+    Now in use across our federation customers, clubs can enter their athletes in
+    bulk through, with licence status checked as they go to ensure full compliance.
+  quote: >-
+    We planned to run the new entry system in parallel with spreadsheets for a
+    new competition, but after one hour the clubs said they were not going back.
+  cite: Kristel Berendsen, Competition Manager, Estonian Athletic Association
+  url: https://estonia.opentrack.run/
+
+- country: Malta
+  code: MLT
+  flag: flags/malta.svg
+  headline: Licence issuing and approval, end-to-end
+  image: screens/fm-malta-licences.png
+  frame: tablet
+  blurb: |
+    Athletics Malta manages every athlete and club licence in OpenTrack —
+    issuing new licences, renewing existing ones, and clearing club requests
+    from a single approval queue.
+
+    Licence categories, fees and validity periods are configured to Malta's
+    rules, so what clubs can request and what officials approve stays
+    consistent from one season to the next.
+  url: https://malta.opentrack.run/
+
+- country: Cyprus
+  code: CYP
+  flag: flags/cyprus.svg
+  headline: Results and interface in Greek
+  image: product/fedmgmt/cyprus.png
+  frame: browser-wide
+  blurb: |
+    OpenTrack was built with translation in mind. The Amateur Athletic
+    Association of Cyprus runs the full federation interface and its public
+    results in Greek, with translations maintained by the federation itself.
+  quote: >-
+    One of our objectives was to have our results available in Greek.
+    OpenTrack's user-friendly system has allowed us to do this.
+  cite: Katia Evangelou, Administrator, Amateur Athletic Association of Cyprus
+  url: https://cyprus.opentrack.run/
+
+- country: Saudi Arabia
+  code: KSA
+  flag: flags/saudi-arabia.svg
+  headline: A national site with Statistics & Rankings built in
+  image: product/fedmgmt/saudi.png
+  frame: browser-wide
+  blurb: |
+    The Saudi Arabian Athletics Federation's public site has our built-in
+    Statistics & Rankings offering alongside our standard federation offering,
+    including club and athlete listings, entries, and live results. All-time
+    lists, national rankings, and per-athlete progressions are all kept up to
+    date automatically from competition results.
+  url: https://saaf.opentrack.run/
+
+- country: British Milers' Club
+  code: BMC
+  flag: flags/great-britain.svg
+  headline: Bespoke membership journey
+  image: product/fedmgmt/bmc.png
+  frame: browser-wide
+  blurb: |
+    In 2026, we delivered a fully bespoke and integrated replacement for the
+    British Milers' Club's membership system.
+    
+    With athletes able to link their
+    OpenTrack accounts to profiles on external statistics sites, our existing
+    integrations do the rest, checking membership eligibility and eliminating
+    hours of hand-checking.
+
+  url: https://bmc.opentrack.run/
