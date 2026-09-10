@@ -1,0 +1,48 @@
+# Open roles, rendered as cards on /jobs/ (jobs.md).
+# Delete an entry when a role closes; the page shows a "nothing open" note
+# when the list is empty.
+#
+#   title        – role name
+#   icon         – filename in assets/img/icons/
+#   type         – Internship | Part-time | Full-time | Contract …
+#   term         – when it runs, if fixed (e.g. "Summer 2026 season")
+#   location     – where it's based
+#   hours        – expected hours
+#   pay          – rate / salary
+#   summary      – a sentence or two on the role
+#   looking_for  – bullet list of what the person brings / does
+
+- title: Competition Support Intern
+  icon: icn-brain.svg
+  type: Internship
+  term: Flexible
+  location: Remote (UK), with potential for occasional travel to competitions
+  hours: Up to 25 hrs/week, including some weekends and evenings
+  pay: "£10.85–£12.71/hour, depending on experience"
+  summary: >-
+    Help our operations team support clubs, organisers, and national
+    federations across Europe and beyond through a busy competition season.
+    In a small team you'll pick up a wide range of skills fast.
+  looking_for:
+    - Passionate about athletics, with a strong grasp of how the sport runs
+    - Quick to learn a new system and get an in-depth knowledge of OpenTrack's products
+    - Comfortable with IT, and pragmatic about solving technical problems
+    - Confident leading training sessions for prospective and current clients
+    - Able to work some weekends and evenings, and travel to competitions when needed
+
+# - title: Technical Intern
+#   icon: icn-api.svg
+#   type: Internship
+#   term: Flexible
+#   location: Remote (UK)
+#   hours: Up to 25 hrs/week
+#   pay: "£10.85–£12.71/hour, depending on experience"
+#   summary: >-
+#     A more hands-on role for anyone with some coding or software-project
+#     experience, or keen to gain it. Good grounding for a career in software.
+#   looking_for:
+#     - Everything in the Competition Support role, plus more technical depth
+#     - Regular system checks and data-quality monitoring
+#     - Authoring product documentation with a text editor, version control, and a static site generator
+#     - Testing OpenTrack features, and triaging, reproducing and re-testing bug reports
+#     - Data loading, correction, and building data-quality monitoring tools

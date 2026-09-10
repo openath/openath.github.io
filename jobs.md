@@ -2,45 +2,46 @@
 layout: page
 title: Jobs
 permalink: /jobs/
-description: 'Open roles at OpenTrack, including Competition Support and Technical Intern positions for the summer season — home-based, part-time, athletics-focused.'
+description: 'Current openings at OpenTrack — join a small team building the athletics management platform used by clubs, organisers and national federations across Europe.'
 ---
 
-# Open Roles at OpenTrack 
+<div markdown="1" data-aos="fade-up">
+We're a small, busy team building the athletics management platform used by clubs, organisers, and national federations across Europe and beyond. If that sounds like something you'd like to be part of, we'd like to hear from you.
+</div>
 
-## Competition Support Interns
+{% if site.data.jobs and site.data.jobs.size > 0 %}
+<div class="jobs" data-aos="fade-up">
+  {% for job in site.data.jobs %}
+  <article class="job-card">
+    <div class="job-card__head">
+      {% if job.icon %}<div class="job-card__icon"><img src="{{ site.baseurl }}/assets/img/icons/{{ job.icon }}" alt=""></div>{% endif %}
+      <h3 class="job-card__title">{{ job.title }}</h3>
+    </div>
+    <p class="job-card__summary">{{ job.summary }}</p>
+    <dl class="job-card__facts">
+      {% if job.type %}<div><dt>Type</dt><dd>{{ job.type }}</dd></div>{% endif %}
+      {% if job.term %}<div><dt>When</dt><dd>{{ job.term }}</dd></div>{% endif %}
+      {% if job.location %}<div><dt>Location</dt><dd>{{ job.location }}</dd></div>{% endif %}
+      {% if job.hours %}<div><dt>Hours</dt><dd>{{ job.hours }}</dd></div>{% endif %}
+      {% if job.pay %}<div><dt>Pay</dt><dd>{{ job.pay }}</dd></div>{% endif %}
+    </dl>
+    {% if job.looking_for %}
+    <h4>What we're looking for</h4>
+    <ul class="job-card__list">
+      {% for item in job.looking_for %}<li>{{ item }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>
+{% else %}
+<div markdown="1" data-aos="fade-up">
+Nothing is open right now &mdash; but we're always glad to hear from people who could help OpenTrack grow.
+</div>
+{% endif %}
 
-OpenTrack is actively looking for individuals to work in a Support Intern role for the 2026 summer season. If you’re interested in athletics, and looking to gain varied experience in a small yet busy and progressing team then this is a great chance to develop a multitude of skills.
+<div markdown="1" data-aos="fade-up">
+## How to apply
 
-You will get solid experience working with an expert development team and experienced operations staff, helping us cope with the demands of supporting clubs, organisers, and national governing bodies across Europe and beyond.
-
-### Requirements
-
-The ideal candidate will be:
-- Passionate about athletics, with a strong understanding of how the sport operates
-- Capable and willing to learn a new system and gain an in-depth knowledge of OpenTrack’s products
-- Comfortable with IT systems, and able to come up with pragmatic solutions to technical problems
-- Comfortable leading training meetings to pass on product knowledge to prospective/current clients
-- Willing to work weekends and some evenings, where necessary
-- Willing to travel to competitions when required, schedule permitting
-
-## Technical Interns
-If you have any familiarity with coding or software projects, or wish to gain experience, we're also looking for people to take a more technical role. This could be shared with the above Competition Support role, or separately. This is ideal experience if you are looking at a career in software industries. Requirements are as above, plus more technical knowledge.
-
-Duties would include:
-- Regular system checks and data quality checking
-- Authoring product documentation (using a text editor, version control system, and static site generator)
-- Testing various OpenTrack features
-- Triaging bug reports, reproducing problems, and re-testing fixes
-- Data loading, correction and creating data quality monitoring tools
-
-### Details
-
-Successful applicants will be able to work from home, unless providing in-person support at a competition.
-
-Work will be a maximum of 25 hours each week, depending on the need for support from our customers — we are able to offer pay of £10-£12 per hour depending on skills and experience.
-
-### How to Apply
-
-If you're interested in this role, please send an email to [info@opentrack.run](mailto:info@opentrack.run) containing details of your relevant experience, your availability to work, and a CV, if you have one.
-
-If you don't feel like a perfect match for the criteria above, but still feel you have skills that would help OpenTrack to grow, we'd still be delighted to hear from you, so please get in touch.
+Email [info@opentrack.run](mailto:info@opentrack.run) with a note on your relevant experience, your availability, and a CV if you have one &mdash; whether you're applying for one of the roles above or just think you could help OpenTrack grow.
+</div>
