@@ -5,6 +5,7 @@ permalink: /ukraine/
 cover_image: https://files.opentrack.run/live/custom_images/Screenshot_2022-03-17_at_20.03.18.png
 cover_image_caption: Yuriy Haharyn Stadium, Chernihiv
 author: Why you should consider donating to Ukraine's athletics federation..
+sitemap: false
 ---
 
 
@@ -22,8 +23,8 @@ Competing under incredible pressure, Ukraine's top athletes shone this summer, t
 "We hear various statements from the International Olympic Committee on the possibility of the return of Russians and Belarusians, but you all have to understand that our position will remain unambiguous and unchanging: we support Ukraine and sanctions will continue! Yesterday we talked to Eugene Pronin and I assured FLAU that World and European Athletics will always be on the side of truth! " - Lord Sebastian Coe, Tallinn, 22 October 2022
 
 <figure>
-	<img src="https://assets.munich2022.com/default/0001/05/thumb_4739_default_xxl.jpeg">
-	<figcaption>Yaroslava Mahuchikh, European Champion</figcaption>
+  <img src="https://assets.munich2022.com/default/0001/05/thumb_4739_default_xxl.jpeg">
+  <figcaption>Yaroslava Mahuchikh, European Champion</figcaption>
 </figure>
 
 
@@ -35,8 +36,8 @@ some cost, even if it's just people paying for fuel and transport to move around
 
 
 <figure>
-	<img src="https://www.leparisien.fr/resizer/tLshlXZM56prCnEekJKRel1zc8E=/arc-anglerfish-eu-central-1-prod-leparisien/public/HBMK32JO3JCZRNC3RFPMDA4CAI.jpg">
-	<figcaption>Yevhen Pronin, Federation President, back at his day-job flying drones</figcaption>
+  <img src="https://www.leparisien.fr/resizer/tLshlXZM56prCnEekJKRel1zc8E=/arc-anglerfish-eu-central-1-prod-leparisien/public/HBMK32JO3JCZRNC3RFPMDA4CAI.jpg">
+  <figcaption>Yevhen Pronin, Federation President, back at his day-job flying drones</figcaption>
 </figure>
 
 
@@ -44,5 +45,5 @@ If you want to contribute more generally to the defence or reconstruction of Ukr
 
 
 
-	
+  
 

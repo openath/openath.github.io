@@ -83,3 +83,18 @@ exclude:
   - yarn.lock
   - "*.lock"
   - "*.log"
+  # section partials — pulled into their parent page via include_relative,
+  # never served on their own (kept out of the build so they don't get indexed)
+  - product/competition-management/
+  - product/federation-management/
+  - product/statistics-rankings/
+  - product/league-management/
+  - product/virtual-racing/
+  - style-guide/
+
+# Keep loose downloads (PDFs etc.) out of the XML sitemap
+defaults:
+  - scope:
+      path: "docs"
+    values:
+      sitemap: false
