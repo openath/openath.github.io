@@ -281,13 +281,10 @@ layout: home
 
 <div class="bg-blue py-4">
   <div class="container-fluid">
-    <div class="row blockquote-row" data-aos="fade-up">
-      <div class="col-sm-8 offset-sm-2">
-        <blockquote class="blockquote mt-3">
-          <h3 class="mb-0">“My paperwork has been <strong>cut by ninety percent</strong> &ndash; and I can <strong>do it all on holiday</strong>.”</h3>
-          <footer class="blockquote_footer">Nicola Fleet, Croydon Harriers</footer>
-        </blockquote>
-      </div>
+    <div class="testimonials" data-aos="fade-up">
+      {% include testimonial.html quote="My paperwork has been cut by ninety percent &ndash; and I can do it all on holiday." name="Nicola Fleet" detail="Croydon Harriers" %}
+      {% include testimonial.html quote="For every single fixture, the admin time has been cut from two hours to five minutes." name="Matthew Kiernan" %}
+      {% include testimonial.html quote="The work was covered seamlessly by your system." name="Andrew Stringer" detail="Fulham Running Club" %}
     </div>
   </div>
 </div>
@@ -311,17 +308,4 @@ layout: home
   <div class="col-4 col-md-2" data-aos="fade-up" data-aos-delay="500">
     <img src="{{ site.baseurl }}/assets/img/gallery/front_athlete_square1.jpg" class="img img-fluid" height="220">
   </div>
-</div>
-
-<div class="bg-blue py-4">
-	<div class="container-fluid">
-	  <div class="row blockquote-row" data-aos="fade-up">
-	    <div class="col-sm-8 offset-sm-2">
-        <blockquote class="blockquote mt-3">
-          <h3 class="mb-0">“For <strong>every single fixture</strong>, the admin time has been <strong>cut from two hours to five minutes</strong>.”</h3>
-          <footer class="blockquote_footer">Matthew Kiernan</footer>
-        </blockquote>
-	    </div>
-	  </div>
-	</div>
 </div>
