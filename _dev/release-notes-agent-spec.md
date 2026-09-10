@@ -37,7 +37,7 @@ months:
 
 - **Newest month first** within a file.
 - Months with no notable user-facing change: **omit entirely**. Do not pad.
-- Valid `product` slugs: `competition-management`, `federation-admin`,
+- Valid `product` slugs: `competition-management`, `federation-management`,
   `statistics-rankings`, `results-capture`, `entries-system`,
   `open-reference-data`, `league-management`, `virtual-racing`. Only add a link
   when the item is genuinely about that product area.
