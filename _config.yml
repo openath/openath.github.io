@@ -17,15 +17,27 @@ title: OpenTrack
 name: OpenTrack
 tagline: The complete athletics management suite
 email: info@opentrack.run
-author: OpenTrack
+author:
+  name: OpenTrack
+  twitter: opentrack
 description: >- # this means to ignore newlines until "baseurl:"
   OpenTrack is a cloud athletics management platform covering competition
   entries and results, national rankings, and federation administration — one
   open, integrated system for federations, organisers, clubs, and volunteers.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://opentrack.run" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: opentrack
 date_format: "%b %-d, %Y"
+
+# jekyll-seo-tag: Open Graph, Twitter cards, and Organization/WebSite JSON-LD
+twitter:
+  username: opentrack
+  card: summary_large_image
+social:
+  name: OpenTrack
+  links:
+    - https://twitter.com/opentrack
+    - https://opentrack.substack.com/
+logo: /assets/img/team/logo-square.png
 # Analytics: Plausible is loaded in _includes/header.html.
 # 
 # header_pages: 
@@ -98,3 +110,8 @@ defaults:
       path: "docs"
     values:
       sitemap: false
+  # default social/OG image for pages that don't set their own
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/team/logo-square.png
