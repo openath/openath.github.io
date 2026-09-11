@@ -37,7 +37,21 @@ social:
   links:
     - https://twitter.com/opentrack
     - https://opentrack.substack.com/
+    - https://uk.linkedin.com/company/opentrack-run
+    - https://www.facebook.com/openathletics/
 logo: /assets/img/team/logo-square.png
+
+# Organization structured data (_includes/organization-schema.html), per
+# https://developers.google.com/search/docs/appearance/structured-data/organization
+organization:
+  legalName: OpenTrack Limited
+  foundingDate: "2016-07-12"
+  address:
+    streetAddress: "Wimbletech (Zone 2), Wimbledon Reference Library, Wimbledon Hill Rd"
+    addressLocality: Wimbledon, London
+    postalCode: SW19 7NB
+    addressCountry: GB
+
 # Analytics: Plausible is loaded in _includes/header.html.
 # 
 # header_pages: 

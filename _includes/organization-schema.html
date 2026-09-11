@@ -1,0 +1,25 @@
+{%- comment -%}
+Organization structured data, for the logo/knowledge-panel rich result:
+https://developers.google.com/search/docs/appearance/structured-data/organization
+Separate from jekyll-seo-tag's per-page JSON-LD (WebSite/WebPage/BlogPosting).
+{%- endcomment -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": {{ site.title | jsonify }},
+  "legalName": {{ site.organization.legalName | jsonify }},
+  "foundingDate": {{ site.organization.foundingDate | jsonify }},
+  "url": {{ site.url | jsonify }},
+  "logo": {{ site.logo | absolute_url | jsonify }},
+  "email": {{ site.email | jsonify }},
+  "sameAs": {{ site.social.links | jsonify }},
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": {{ site.organization.address.streetAddress | jsonify }},
+    "addressLocality": {{ site.organization.address.addressLocality | jsonify }},
+    "postalCode": {{ site.organization.address.postalCode | jsonify }},
+    "addressCountry": {{ site.organization.address.addressCountry | jsonify }}
+  }
+}
+</script>

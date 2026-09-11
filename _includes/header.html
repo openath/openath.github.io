@@ -9,6 +9,7 @@
 
 
 {%- seo -%}
+{% if page.url == "/" %}{% include organization-schema.html %}{% endif %}
 <script defer data-domain="opentrack.run" src="https://plausible.io/js/script.js"></script>
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
